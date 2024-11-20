@@ -1,0 +1,1 @@
+# qua va il main da cui si chiamerà l'esecuzione dei vari file in ordine senza far eseguire comandi strani
