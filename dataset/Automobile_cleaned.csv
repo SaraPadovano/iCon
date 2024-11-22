@@ -1,835 +1,835 @@
-name,mpg,cylinders,displacement,horsepower,weight,acceleration,model_year,creator,price
-chevrolet chevelle malibu 1970,18,8,307,130.0,3504,12,1970,chevrolet,23000
-buick skylark 320 1970,15,8,350,165.0,3693,11,1970,buick,13000
-plymouth satellite 1970,18,8,318,150.0,3436,11,1970,plymouth,16000
-amc rebel sst 1970,16,8,304,150.0,3433,12,1970,amc,22400
-ford torino 1970,17,8,302,140.0,3449,10,1970,ford,45000
-ford galaxie 500 1970,15,8,429,198.0,4341,10,1970,ford,13000
-chevrolet impala 1970,14,8,454,220.0,4354,9,1970,chevrolet,20000
-plymouth fury iii 1970,14,8,440,215.0,4312,8,1970,plymouth,20000
-pontiac catalina 1970,14,8,455,225.0,4425,10,1970,pontiac,9500
-amc ambassador dpl 1970,15,8,390,190.0,3850,8,1970,amc,10000
-dodge challenger se 1970,15,8,383,170.0,3563,10,1970,dodge,52000
-plymouth cuda 340 1970,14,8,340,160.0,3609,8,1970,plymouth,40000
-chevrolet monte carlo 1970,15,8,400,150.0,3761,9,1970,chevrolet,30000
-buick estate wagon 1970,14,8,455,225.0,3086,10,1970,buick,13000
-toyota corona mark ii 1970,24,4,113,95.0,2372,15,1970,toyota,14000
-plymouth duster 1970,22,6,198,95.0,2833,15,1970,plymouth,10250
-amc hornet 1970,18,6,199,97.0,2774,15,1970,amc,11000
-ford maverick 1970,21,6,200,85.0,2587,16,1970,ford,9000
-datsun pl510 1970,27,4,97,88.0,2130,14,1970,datsun,21000
-peugeot 504 1970,25,4,110,87.0,2672,17,1970,peugeot,10000
-audi 100 ls 1970,24,4,107,90.0,2430,14,1970,audi,15000
-saab 99e 1970,25,4,104,95.0,2375,17,1970,saab,8000
-bmw 2002 1970,26,4,121,113.0,2234,12,1970,bmw,24000
-amc gremlin 1970,21,6,199,90.0,2648,15,1970,amc,15300
-ford f250 1970,10,8,360,215.0,4615,14,1970,ford,17500
-chevrolet c20 1970,10,8,307,200.0,4376,15,1970,chevrolet,17000
-dodge d200 1970,11,8,318,210.0,4382,13,1970,dodge,16000
-chevrolet vega 2300 1971,28,4,140,90.0,2264,15,1971,chevrolet,6470
-toyota corona 1971,25,4,113,95.0,2228,14,1971,toyota,10000
-plymouth satellite custom 1971,16,6,225,105.0,3439,15,1971,plymouth,5850
-amc matador 1971,18,6,232,100.0,3288,15,1971,amc,12500
-pontiac catalina brougham 1971,14,8,400,175.0,4464,11,1971,pontiac,12900
-dodge monaco 1971,12,8,383,180.0,4955,11,1971,dodge,25000
-ford country squire 1971,13,8,400,170.0,4746,12,1971,ford,24000
-pontiac safari 1971,13,8,400,175.0,5140,12,1971,pontiac,29000
-amc hornet sportabout 1971,18,6,258,110.0,2962,13,1971,amc,13500
-pontiac firebird 1971,19,6,250,100.0,3282,15,1971,pontiac,29000
-ford mustang 1971,18,6,250,88.0,3139,14,1971,ford,15000
-opel 1900 1971,28,4,116,90.0,2123,14,1971,opel,5000
-peugeot 304 1971,30,4,79,70.0,2074,19,1971,peugeot,4800
-fiat 124b 1971,30,4,88,76.0,2065,14,1971,fiat,6800
-toyota corolla 1200 1971,31,4,71,65.0,1773,19,1971,toyota,8200
-plymouth cricket 1971,26,4,91,70.0,1955,20,1971,plymouth,6000
-toyota corona hardtop 1972,24,4,113,95.0,2278,15,1972,toyota,7000
-dodge colt hardtop 1972,25,4,97,80.0,2126,17,1972,dodge,10700
-volkswagen type 3 1972,23,4,97,54.0,2254,23,1972,volkswagen,14300
-ford pinto runabout 1972,21,4,122,86.0,2226,16,1972,ford,9100
-amc ambassador sst 1972,17,8,304,150.0,3672,11,1972,amc,9300
-mercury marquis 1972,11,8,429,208.0,4633,11,1972,mercury,8000
-buick lesabre custom 1972,13,8,350,155.0,4502,13,1972,buick,15300
-oldsmobile delta 88 royale 1972,12,8,350,160.0,4456,13,1972,oldsmobile,9600
-chrysler newport royal 1972,13,8,400,190.0,4422,12,1972,chrysler,9800
-mazda rx2 coupe 1972,19,3,70,97.0,2330,13,1972,mazda,29200
-chevrolet chevelle concours 1972,13,8,307,130.0,4098,14,1972,chevrolet,14300
-volvo 145e 1972,18,4,121,112.0,2933,14,1972,volvo,5700
-volkswagen 411 1972,22,4,121,76.0,2511,18,1972,volkswagen,8000
-peugeot 504 1972,21,4,120,87.0,2979,19,1972,peugeot,18000
-renault 12 1972,26,4,96,69.0,2189,18,1972,renault,5000
-datsun 510 1972,28,4,97,92.0,2288,17,1972,datsun,20000
-buick century 350 1973,13,8,350,175.0,4100,13,1973,buick,18000
-dodge coronet custom 1973,15,8,318,150.0,3777,12,1973,dodge,6000
-mercury marquis brougham 1973,12,8,429,198.0,4952,11,1973,mercury,7000
-chevrolet caprice classic 1973,13,8,400,150.0,4464,12,1973,chevrolet,18000
-ford ltd 1973,13,8,351,158.0,4363,13,1973,ford,6300
-chrysler new yorker brougham 1973,13,8,440,215.0,4735,11,1973,chrysler,9000
-buick electra 225 custom 1973,12,8,455,225.0,4951,11,1973,buick,15000
-plymouth valiant 1973,18,6,225,105.0,3121,16,1973,plymouth,20000
-chevrolet nova custom 1973,16,6,250,100.0,3278,18,1973,chevrolet,18600
-volkswagen super beetle 1973,26,4,97,46.0,1950,21,1973,volkswagen,15000
-ford country 1973,12,8,400,167.0,4906,12,1973,ford,9500
-plymouth custom suburb 1973,13,8,360,170.0,4654,13,1973,plymouth,15250
-oldsmobile vista cruiser 1973,12,8,350,180.0,4499,12,1973,oldsmobile,22000
-amc gremlin 1973,18,6,232,100.0,2789,15,1973,amc,11900
-chevrolet vega 1973,21,4,140,72.0,2401,19,1973,chevrolet,5400
-datsun 610 1973,22,4,108,94.0,2379,16,1973,datsun,9000
-mazda rx3 1973,18,3,70,90.0,2124,13,1973,mazda,11000
-ford pinto 1973,19,4,122,85.0,2310,18,1973,ford,9400
-mercury capri v6 1973,21,6,155,107.0,2472,14,1973,mercury,12900
-fiat 124 sport coupe 1973,26,4,98,90.0,2265,15,1973,fiat,10000
-chevrolet monte carlo s 1973,15,8,350,145.0,4082,13,1973,chevrolet,15000
-pontiac grand prix 1973,16,8,400,230.0,4278,9,1973,pontiac,16300
-fiat 128 1973,29,4,68,49.0,1867,19,1973,fiat,12000
-opel manta 1973,24,4,116,75.0,2158,15,1973,opel,6000
-audi 100ls 1973,20,4,114,91.0,2582,14,1973,audi,13900
-volvo 144ea 1973,19,4,121,112.0,2868,15,1973,volvo,8000
-dodge dart custom 1973,15,8,318,150.0,3399,11,1973,dodge,8500
-saab 99le 1973,24,4,121,110.0,2660,14,1973,saab,6600
-oldsmobile omega 1973,11,8,350,180.0,3664,11,1973,oldsmobile,8500
-plymouth duster 1974,20,6,198,95.0,3102,16,1974,plymouth,13600
-amc hornet 1974,19,6,232,100.0,2901,16,1974,amc,10100
-chevrolet nova 1974,15,6,250,100.0,3336,17,1974,chevrolet,9000
-datsun b210 1974,31,4,79,67.0,1950,19,1974,datsun,10000
-ford pinto 1974,26,4,122,80.0,2451,16,1974,ford,11000
-toyota corolla 1200 1974,32,4,71,65.0,1836,21,1974,toyota,10000
-chevrolet vega 1974,25,4,140,75.0,2542,17,1974,chevrolet,8600
-chevrolet chevelle malibu classic 1974,16,6,250,100.0,3781,17,1974,chevrolet,9350
-amc matador 1974,16,6,258,110.0,3632,18,1974,amc,8500
-plymouth satellite sebring 1974,18,6,225,105.0,3613,16,1974,plymouth,9900
-ford gran torino 1974,16,8,302,140.0,4141,14,1974,ford,7500
-buick century luxus 1974,13,8,350,150.0,4699,14,1974,buick,7000
-dodge coronet custom 1974,14,8,318,150.0,4457,13,1974,dodge,11000
-audi fox 1974,29,4,98,83.0,2219,16,1974,audi,6000
-volkswagen dasher 1974,26,4,79,67.0,1963,15,1974,volkswagen,20000
-opel manta 1974,26,4,97,78.0,2300,14,1974,opel,5700
-toyota corona 1974,31,4,76,52.0,1649,16,1974,toyota,15300
-datsun 710 1974,32,4,83,61.0,2003,19,1974,datsun,12200
-dodge colt 1974,28,4,90,75.0,2125,14,1974,dodge,5000
-fiat 128 1974,24,4,90,75.0,2108,15,1974,fiat,9000
-fiat 124 tc 1974,26,4,116,75.0,2246,14,1974,fiat,12000
-honda civic 1974,24,4,120,97.0,2489,15,1974,honda,10000
-fiat x1.9 1974,31,4,79,67.0,2000,16,1974,fiat,11900
-plymouth valiant custom 1975,19,6,225,95.0,3264,16,1975,plymouth,4000
-chevrolet nova 1975,18,6,250,105.0,3459,16,1975,chevrolet,11000
-mercury monarch 1975,15,6,250,72.0,3432,21,1975,mercury,4000
-ford maverick 1975,15,6,250,72.0,3158,19,1975,ford,8000
-pontiac catalina 1975,16,8,400,170.0,4668,11,1975,pontiac,11500
-plymouth grand fury 1975,16,8,318,150.0,4498,14,1975,plymouth,6000
-ford ltd 1975,14,8,351,148.0,4657,13,1975,ford,11500
-buick century 1975,17,6,231,110.0,3907,21,1975,buick,5000
-plymouth fury 1975,18,6,225,95.0,3785,19,1975,plymouth,7500
-buick skyhawk 1975,21,6,231,110.0,3039,15,1975,buick,7500
-chevrolet monza 2+2 1975,20,8,262,110.0,3221,13,1975,chevrolet,11500
-toyota corolla 1975,29,4,97,75.0,2171,16,1975,toyota,9500
-ford pinto 1975,23,4,140,83.0,2639,17,1975,ford,5500
-amc gremlin 1975,20,6,232,100.0,2914,16,1975,amc,7500
-volkswagen dasher 1975,25,4,90,71.0,2223,16,1975,volkswagen,3000
-datsun 710 1975,24,4,119,97.0,2545,17,1975,datsun,4000
-volkswagen rabbit 1975,29,4,90,70.0,1937,14,1975,volkswagen,6000
-amc pacer 1975,19,6,232,90.0,3211,17,1975,amc,8000
-audi 100ls 1975,23,4,115,95.0,2694,15,1975,audi,11500
-peugeot 504 1975,23,4,120,88.0,2957,17,1975,peugeot,8000
-volvo 244dl 1975,22,4,121,98.0,2945,14,1975,volvo,7500
-saab 99le 1975,25,4,121,115.0,2671,13,1975,saab,5000
-honda civic cvcc 1975,33,4,91,53.0,1795,17,1975,honda,5000
-fiat 131 1976,28,4,107,86.0,2464,15,1976,fiat,7000
-opel 1900 1976,25,4,116,81.0,2220,17,1976,opel,6000
-ford capri ii 1976,25,4,140,92.0,2572,15,1976,ford,10800
-dodge colt 1976,26,4,98,79.0,2255,18,1976,dodge,3000
-renault 12tl 1976,27,4,101,83.0,2202,15,1976,renault,5600
-chevrolet chevelle malibu classic 1976,17,8,305,140.0,4215,13,1976,chevrolet,14200
-dodge coronet brougham 1976,16,8,318,150.0,4190,13,1976,dodge,5500
-amc matador 1976,15,8,304,120.0,3962,14,1976,amc,8000
-ford gran torino 1976,14,8,351,152.0,4215,13,1976,ford,12500
-plymouth valiant 1976,22,6,225,100.0,3233,15,1976,plymouth,7500
-chevrolet nova 1976,22,6,250,105.0,3353,14,1976,chevrolet,8700
-ford maverick 1976,24,6,200,81.0,3012,18,1976,ford,8000
-amc hornet 1976,22,6,232,90.0,3085,18,1976,amc,9800
-chevrolet chevette 1976,29,4,85,52.0,2035,22,1976,chevrolet,6000
-volkswagen rabbit 1976,29,4,90,70.0,1937,14,1976,volkswagen,5600
-honda civic 1976,33,4,91,53.0,1795,17,1976,honda,10000
-dodge aspen se 1976,20,6,225,100.0,3651,18,1976,dodge,7000
-ford granada ghia 1976,18,6,250,78.0,3574,21,1976,ford,6500
-pontiac ventura sj 1976,18,6,250,110.0,3645,16,1976,pontiac,7400
-amc pacer d/l 1976,17,6,258,95.0,3193,18,1976,amc,7000
-datsun b210 1976,32,4,85,70.0,1990,17,1976,datsun,6000
-toyota corolla 1976,28,4,97,75.0,2155,16,1976,toyota,5900
-ford pinto 1976,26,4,140,72.0,2565,14,1976,ford,4500
-volvo 245 1976,20,4,130,102.0,3150,16,1976,volvo,7000
-plymouth volare premier v8 1976,13,8,318,150.0,3940,13,1976,plymouth,7000
-peugeot 504 1976,19,4,120,88.0,3270,22,1976,peugeot,9000
-toyota mark ii 1976,19,6,156,108.0,2930,15,1976,toyota,5000
-mercedes-benz 280s 1976,16,6,168,120.0,3820,17,1976,mercedes,10000
-chevy c10 1976,13,8,350,145.0,4055,12,1976,chevrolet,19600
-dodge d100 1976,13,8,318,150.0,3755,14,1976,dodge,12000
-honda accord cvcc 1977,31,4,98,68.0,2045,18,1977,honda,9000
-datsun f10 hatchback 1977,33,4,85,70.0,1945,17,1977,datsun,5000
-chevrolet caprice classic 1977,17,8,305,145.0,3880,12,1977,chevrolet,9100
-oldsmobile cutlass supreme 1977,17,8,260,110.0,4060,19,1977,oldsmobile,14000
-dodge monaco brougham 1977,15,8,318,145.0,4140,14,1977,dodge,11500
-mercury cougar brougham 1977,15,8,302,130.0,4295,15,1977,mercury,10000
-chevrolet concours 1977,17,6,250,110.0,3520,16,1977,chevrolet,12000
-buick skylark 1977,20,6,231,105.0,3425,17,1977,buick,7000
-plymouth volare custom 1977,19,6,225,100.0,3630,18,1977,plymouth,7500
-ford granada 1977,18,6,250,98.0,3525,19,1977,ford,5000
-pontiac grand prix lj 1977,16,8,400,180.0,4220,11,1977,pontiac,12000
-chevrolet monte carlo landau 1977,15,8,350,170.0,4165,11,1977,chevrolet,12000
-chrysler cordoba 1977,15,8,400,190.0,4325,12,1977,chrysler,7000
-ford thunderbird 1977,16,8,351,149.0,4335,14,1977,ford,12000
-volkswagen rabbit custom 1977,29,4,97,78.0,1940,14,1977,volkswagen,4000
-pontiac sunbird coupe 1977,24,4,151,88.0,2740,16,1977,pontiac,4500
-toyota corolla liftback 1977,26,4,97,75.0,2265,18,1977,toyota,8000
-ford mustang ii 2+2 1977,25,4,140,89.0,2755,16,1977,ford,10000
-chevrolet chevette 1977,30,4,98,63.0,2051,17,1977,chevrolet,7500
-subaru dl 1977,30,4,97,67.0,1985,16,1977,subaru,4000
-volkswagen dasher 1977,30,4,97,78.0,2190,14,1977,volkswagen,8000
-datsun 810 1977,22,6,146,97.0,2815,14,1977,datsun,4000
-bmw 320i 1977,21,4,121,110.0,2600,13,1977,bmw,14200
-mazda rx-4 1977,21,3,80,110.0,2720,13,1977,mazda,12000
-volkswagen rabbit custom diesel 1978,43,4,90,48.0,1985,21,1978,volkswagen,7500
-ford fiesta 1978,36,4,98,66.0,1800,14,1978,ford,2000
-datsun b210 gx 1978,39,4,85,70.0,2070,19,1978,datsun,5000
-honda civic cvcc 1978,36,4,91,60.0,1800,16,1978,honda,6000
-oldsmobile cutlass salon brougham 1978,20,8,260,110.0,3365,15,1978,oldsmobile,6300
-dodge diplomat 1978,19,8,318,140.0,3735,13,1978,dodge,8000
-mercury monarch ghia 1978,20,8,302,139.0,3570,13,1978,mercury,7500
-pontiac phoenix lj 1978,19,6,231,105.0,3535,19,1978,pontiac,5000
-chevrolet malibu 1978,20,6,200,95.0,3155,18,1978,chevrolet,7000
-ford fairmont 1978,20,6,200,85.0,2965,16,1978,ford,5500
-plymouth volare 1978,20,6,225,100.0,3430,17,1978,plymouth,5500
-amc concord 1978,19,6,232,90.0,3210,17,1978,amc,5500
-mercury zephyr 1978,21,6,200,85.0,3070,17,1978,mercury,4000
-dodge aspen 1978,19,6,225,110.0,3620,19,1978,dodge,6000
-amc concord d/l 1978,18,6,258,120.0,3410,15,1978,amc,3100
-chevrolet monte carlo landau 1978,19,8,305,145.0,3425,13,1978,chevrolet,11500
-buick regal sport coupe turbo 1978,18,6,231,165.0,3445,13,1978,buick,5700
-ford futura 1978,18,8,302,139.0,3205,11,1978,ford,5500
-dodge magnum xe 1978,17,8,318,140.0,4080,14,1978,dodge,12000
-chevrolet chevette 1978,30,4,98,68.0,2155,16,1978,chevrolet,7500
-toyota corona 1978,27,4,134,95.0,2560,14,1978,toyota,4000
-datsun 510 1978,27,4,119,97.0,2300,15,1978,datsun,5000
-dodge omni 1978,31,4,105,75.0,2230,14,1978,dodge,3000
-toyota celica gt liftback 1978,21,4,134,95.0,2515,15,1978,toyota,9000
-plymouth sapporo 1978,23,4,156,105.0,2745,17,1978,plymouth,6100
-oldsmobile starfire sx 1978,24,4,151,85.0,2855,18,1978,oldsmobile,3000
-datsun 200-sx 1978,24,4,119,97.0,2405,15,1978,datsun,5500
-audi 5000 1978,20,5,131,103.0,2830,16,1978,audi,4400
-volvo 264 gl 1978,17,6,163,125.0,3140,14,1978,volvo,6500
-saab 99 gl 1978,22,4,121,115.0,2795,16,1978,saab,4400
-peugeot 604 sl 1978,16,6,163,133.0,3410,16,1978,peugeot,6000
-volkswagen scirocco 1978,31,4,89,71.0,1990,15,1978,volkswagen,8900
-honda accord lx 1978,29,4,98,68.0,2135,17,1978,honda,7000
-mercury zephyr 1979,20,6,200,85.0,2990,18,1979,mercury,6000
-ford fairmont 1979,22,4,140,88.0,2890,17,1979,ford,3000
-amc concord dl 1979,20,6,232,90.0,3265,18,1979,amc,4500
-dodge aspen 1979,21,6,225,110.0,3360,17,1979,dodge,4000
-chevrolet caprice classic 1979,17,8,305,130.0,3840,15,1979,chevrolet,6500
-ford ltd landau 1979,18,8,302,129.0,3725,13,1979,ford,6500
-mercury grand marquis 1979,16,8,351,138.0,3955,13,1979,mercury,7700
-dodge st.regis 1979,18,8,318,135.0,3830,15,1979,dodge,3000
-buick estate wagon 1979,17,8,350,155.0,4360,15,1979,buick,11900
-chevrolet malibu classic 1979,19,8,267,125.0,3605,15,1979,chevrolet,10000
-chrysler lebaron town & country 1979,18,8,360,150.0,3940,13,1979,chrysler,9600
-volkswagen rabbit custom 1979,32,4,89,71.0,1925,14,1979,volkswagen,8000
-amc spirit dl 1979,27,4,121,80.0,2670,15,1979,amc,6500
-mercedes benz 300d 1979,25,5,183,77.0,3530,20,1979,mercedes,12000
-peugeot 504 1979,27,4,141,71.0,3190,25,1979,peugeot,8500
-oldsmobile cutlass salon brougham 1979,24,8,260,90.0,3420,22,1979,oldsmobile,11500
-plymouth horizon 1979,34,4,105,70.0,2200,13,1979,plymouth,3000
-plymouth horizon tc3 1979,34,4,105,70.0,2150,15,1979,plymouth,3000
-datsun 210 1979,32,4,85,65.0,2020,19,1979,datsun,3000
-fiat strada custom 1979,37,4,91,69.0,2130,15,1979,fiat,5000
-buick skylark limited 1979,28,4,151,90.0,2670,16,1979,buick,9350
-chevrolet citation 1979,29,6,173,115.0,2595,11,1979,chevrolet,6000
-oldsmobile omega brougham 1979,27,6,173,115.0,2700,13,1979,oldsmobile,2500
-pontiac phoenix 1979,33,4,151,90.0,2556,13,1979,pontiac,5000
-volkswagen rabbit 1980,41,4,98,76.0,2144,15,1980,volkswagen,5500
-toyota corolla tercel 1980,38,4,89,60.0,1968,19,1980,toyota,4500
-chevrolet chevette 1980,32,4,98,70.0,2120,15,1980,chevrolet,4500
-datsun 310 1980,37,4,86,65.0,2019,16,1980,datsun,3500
-chevrolet citation 1980,28,4,151,90.0,2678,16,1980,chevrolet,5900
-ford fairmont 1980,26,4,140,88.0,2870,18,1980,ford,5500
-amc concord 1980,24,4,151,90.0,3003,20,1980,amc,5500
-dodge aspen 1980,19,6,225,90.0,3381,19,1980,dodge,5500
-audi 4000 1980,34,4,97,78.0,2188,16,1980,audi,7000
-toyota corona liftback 1980,30,4,134,90.0,2711,15,1980,toyota,6500
-mazda 626 1980,31,4,120,75.0,2542,17,1980,mazda,7000
-toyota corolla 1980,32,4,108,75.0,2265,15,1980,toyota,6500
-mazda glc 1980,47,4,86,65.0,2110,18,1980,mazda,6000
-dodge colt 1980,28,4,156,105.0,2800,14,1980,dodge,5900
-datsun 210 1980,41,4,85,65.0,2110,19,1980,datsun,5500
-volkswagen rabbit c 1980,44,4,90,48.0,2085,22,1980,volkswagen,5500
-volkswagen dasher 1980,43,4,90,48.0,2335,24,1980,volkswagen,5500
-audi 5000s 1980,36,5,121,67.0,2950,20,1980,audi,11000
-mercedes-benz 240d 1980,30,4,146,67.0,3250,22,1980,mercedes,15000
-honda civic 1500 gl 1980,45,4,91,67.0,1850,14,1980,honda,7500
-subaru dl 1980,34,4,97,67.0,2145,18,1980,subaru,7500
-volkswagen rabbit 1980,30,4,89,62.0,1845,15,1980,volkswagen,6500
-datsun 280-zx 1980,33,6,168,132.0,2910,11,1980,datsun,10000
-mazda rx-7 gs 1980,24,3,70,100.0,2420,12,1980,mazda,11000
-honda accord 1980,32,4,107,72.0,2290,17,1980,honda,5200
-buick skylark 1981,27,4,151,84.0,2635,16,1981,buick,5000
-dodge aries wagon 1981,26,4,156,92.0,2620,14,1981,dodge,5100
-toyota starlet 1981,39,4,79,58.0,1755,17,1981,toyota,4500
-honda civic 1300 1981,35,4,81,60.0,1760,16,1981,honda,5000
-datsun 210 mpg 1981,37,4,85,65.0,1975,19,1981,datsun,4000
-toyota tercel 1981,38,4,89,62.0,2050,17,1981,toyota,3000
-ford escort 4w 1981,34,4,98,65.0,2045,16,1981,ford,5500
-ford escort 2h 1981,30,4,98,65.0,2380,21,1981,ford,5800
-volkswagen jetta 1981,33,4,105,74.0,2190,14,1981,volkswagen,21900
-honda prelude 1981,34,4,107,75.0,2210,14,1981,honda,7500
-toyota corolla 1981,32,4,108,75.0,2350,17,1981,toyota,7500
-datsun 200sx 1981,33,4,119,100.0,2615,15,1981,datsun,10500
-mazda 626 1981,32,4,120,74.0,2635,18,1981,mazda,7000
-peugeot 505s turbo diesel 1981,28,4,141,80.0,3230,20,1981,peugeot,6000
-volvo 245 1981,31,6,145,76.0,3160,20,1981,volvo,10400
-toyota cressida 1981,25,6,168,116.0,2900,13,1981,toyota,8000
-datsun 810 maxima 1981,24,6,146,120.0,2930,14,1981,datsun,3500
-buick century 1981,22,6,231,110.0,3415,16,1981,buick,7650
-oldsmobile cutlass ls 1981,27,8,350,105.0,3725,19,1981,oldsmobile,8000
-ford granada gl 1981,20,6,200,88.0,3060,17,1981,ford,10500
-chrysler lebaron salon 1981,18,6,225,85.0,3465,17,1981,chrysler,4000
-chevrolet cavalier wagon 1982,27,4,112,88.0,2640,19,1982,chevrolet,2600
-chevrolet cavalier 2-door 1982,34,4,112,88.0,2395,18,1982,chevrolet,1150
-pontiac j2000 se hatchback 1982,31,4,112,85.0,2575,16,1982,pontiac,5000
-dodge aries se 1982,29,4,135,84.0,2525,16,1982,dodge,5000
-pontiac phoenix 1982,27,4,151,90.0,2735,18,1982,pontiac,8000
-ford fairmont futura 1982,24,4,140,92.0,2865,16,1982,ford,5700
-volkswagen rabbit l 1982,36,4,105,74.0,1980,15,1982,volkswagen,5900
-mazda glc custom 1982,31,4,91,68.0,1970,18,1982,mazda,5000
-mercury lynx l 1982,36,4,98,70.0,2125,17,1982,mercury,4000
-nissan stanza xe 1982,36,4,120,88.0,2160,14,1982,nissan,3000
-honda accord 1982,36,4,107,75.0,2205,14,1982,honda,4500
-toyota corolla 1982,34,4,108,70.0,2245,17,1982,toyota,9000
-honda civic 1982,38,4,91,67.0,1965,15,1982,honda,5500
-datsun 310 gx 1982,38,4,91,67.0,1995,16,1982,datsun,3500
-buick century limited 1982,25,6,181,110.0,2945,16,1982,buick,3300
-oldsmobile cutlass ciera 1982,38,6,262,85.0,3015,17,1982,oldsmobile,1600
-chrysler lebaron medallion 1982,26,4,156,92.0,2585,14,1982,chrysler,10900
-ford granada l 1982,22,6,232,112.0,2835,15,1982,ford,8900
-toyota celica gt-s 1982,32,4,144,96.0,2665,14,1982,toyota,10900
-chevrolet camaro 1982,27,4,151,90.0,2950,17,1982,chevrolet,18000
-ford mustang gl 1982,27,4,140,86.0,2790,16,1982,ford,7000
-volkswagen pickup 1982,44,4,97,52.0,2130,25,1982,volkswagen,10000
-dodge rampage 1982,32,4,135,84.0,2295,12,1982,dodge,3000
-chevy s10 1982,31,4,119,82.0,2720,19,1982,chevrolet,18500
-honda accord 1985,30,4,122,98.0,2410,13,1985,honda,2800
-ford mustang gt 1982,16,8,302,157.0,3122,8,1982,ford,17500
-bmw 325i 1987,21,6,152,168.0,2910,8,1987,bmw,14470
-chevrolet camaro iroc-z 1985,16,8,305,215.0,3400,7,1985,chevrolet,30000
-mercedes-benz 300e 1986,18,6,183,177.0,3360,8,1986,mercedes,7200
-porsche 944 1984,26,4,151,143.0,2866,8,1984,porsche,12500
-toyota celica gt 1983,32,4,116,96.0,2555,13,1983,toyota,9000
-audi 5000s 1985,23,5,151,102.0,2984,10,1985,audi,4250
-pontiac firebird trans am 1987,15,8,305,205.0,3333,8,1987,pontiac,21500
-volkswagen golf gti 1984,25,4,109,90.0,2400,10,1984,volkswagen,16500
-dodge daytona turbo z 1984,22,4,135,142.0,2615,8,1984,dodge,8600
-saab 900 turbo 1985,24,4,121,160.0,2825,8,1985,saab,11900
-ferrari mondial 1983,15,8,213,214.0,3373,7,1983,ferrari,42700
-buick grand national 1987,17,6,231,245.0,3545,6,1987,buick,48700
-ford taurus 1986,23,6,183,140.0,3120,11,1986,ford,3000
-mitsubishi starion 1985,19,4,156,188.0,3010,7,1985,mitsubishi,7600
-volvo 240 gl 1984,21,4,141,114.0,2910,11,1984,volvo,7900
-toyota camry 1998,24,4,134,133.0,2900,8,1998,toyota,7900
-bmw m3 2002,20,6,195,333.0,3400,5,2002,bmw,26100
-chevrolet corvette 1984,22,8,350,205.0,3200,6,1984,chevrolet,11100
-volkswagen golf 1997,27,4,121,115.0,2700,9,1997,volkswagen,10500
-subaru impreza wrx 2004,20,4,122,227.0,3200,5,2004,subaru,12000
-audi a4 2008,24,4,121,200.0,3400,6,2008,audi,7000
-ford f-150 2015,19,6,213,282.0,4500,7,2015,ford,8800
-nissan altima 2005,26,4,152,175.0,3200,7,2005,nissan,6500
-mercedes-benz c-class 2016,24,4,121,241.0,3500,6,2016,mercedes,22000
-dodge charger 2018,25,6,220,292.0,3900,6,2018,dodge,14000
-chevrolet camaro 1989,18,8,350,245.0,3200,6,1989,chevrolet,21500
-jeep grand cherokee 1999,19,6,242,190.0,3800,8,1999,jeep,4000
-honda cr-v 2005,27,4,144,160.0,3400,8,2005,honda,6500
-pontiac gto 2004,20,8,364,400.0,3700,5,2004,pontiac,17900
-nissan 350z 2003,20,6,213,287.0,3200,5,2003,nissan,17000
-mazda miata 1990,30,4,98,116.0,2200,7,1990,mazda,10400
-chrysler 300c 2005,20,8,345,340.0,3800,6,2005,chrysler,7000
-ford explorer 2000,18,6,244,210.0,4000,8,2000,ford,3500
-toyota supra 1993,20,6,183,276.0,3200,6,1993,toyota,65000
-dodge neon 1995,28,4,122,132.0,2500,8,1995,dodge,1000
-bmw z3 1996,26,6,169,193.0,2800,7,1996,bmw,11300
-volkswagen passat 2001,24,4,110,150.0,3200,8,2001,volkswagen,5100
-chevrolet silverado 1999,18,8,325,285.0,4500,7,1999,chevrolet,15500
-nissan pathfinder 2005,21,6,244,266.0,4500,7,2005,nissan,6000
-honda fit 2007,33,4,91,109.0,2600,8,2007,honda,1000
-ford explorer 1995,18,6,244,160.0,3500,8,1995,ford,4000
-subaru outback 2000,24,6,183,250.0,3500,7,2000,subaru,6000
-chevrolet s10 1994,22,4,134,120.0,2900,9,1994,chevrolet,6500
-toyota tacoma 2005,21,6,241,236.0,3600,7,2005,toyota,15000
-mercury grand marquis 2003,18,8,281,240.0,4000,8,2003,mercury,5000
-honda accord 2008,28,4,144,190.0,3200,8,2008,honda,6500
-nissan xterra 2001,19,6,201,180.0,3800,8,2001,nissan,15000
-ford mustang 1997,19,6,232,190.0,3200,8,1997,ford,4000
-chrysler sebring 2001,24,4,144,150.0,3300,8,2001,chrysler,5000
-honda civic 1995,30,4,97,106.0,2600,8,1995,honda,9200
-mazda 6 2003,28,4,140,160.0,3200,7,2003,mazda,3000
-volvo s60 2004,24,5,152,208.0,3400,7,2004,volvo,5000
-dodge ram 1500 2002,15,8,360,245.0,5000,8,2002,dodge,15000
-toyota land cruiser fzj80 1994,15,8,275,212.0,5500,8,1994,toyota,22900
-bmw 325i e36 1995,22,6,152,189.0,3175,7,1995,bmw,8000
-honda prelude si 1993,25,4,137,160.0,2840,7,1993,honda,11000
-ford bronco xlt 1996,15,8,351,210.0,4600,9,1996,ford,21100
-nissan 300zx twin turbo z32 1990,18,6,183,300.0,3500,5,1990,nissan,14500
-jeep grand cherokee laredo 1998,18,6,242,185.0,3800,9,1998,jeep,6000
-toyota celica gt-four st205 1994,22,4,122,255.0,3250,6,1994,toyota,17000
-chevrolet camaro z28 1998,19,8,350,305.0,3465,5,1998,chevrolet,14500
-mazda mx-5 miata 1994,28,4,110,128.0,2200,8,1994,mazda,10000
-subaru impreza wrx sti 2004,19,4,153,300.0,3263,5,2004,subaru,24700
-mercedes-benz e320 w210 1996,23,6,195,217.0,3600,7,1996,mercedes,8000
-ford taurus sho 1999,18,8,207,235.0,3500,7,1999,ford,5600
-mitsubishi 3000gt vr-4 1995,19,6,183,320.0,3800,5,1995,mitsubishi,45000
-volkswagen golf gti mk4 2002,24,4,110,180.0,2900,7,2002,volkswagen,5500
-chevrolet corvette c5 1998,18,8,350,345.0,3235,5,1998,chevrolet,21500
-toyota mr2 spyder 2000,25,4,110,138.0,2200,7,2000,toyota,10000
-dodge viper gts 1998,13,10,488,450.0,3460,4,1998,dodge,51900
-porsche 911 carrera 4s 2003,20,6,220,320.0,3300,5,2003,porsche,33000
-honda s2000 2006,20,4,132,237.0,2835,5,2006,honda,26000
-ferrari f355 berlinetta 1995,14,8,213,375.0,2975,5,1995,ferrari,118680
-ford mustang gt 1999,18,8,281,260.0,3300,5,1999,ford,18500
-bmw m5 e39 2000,17,8,300,394.0,4023,5,2000,bmw,33000
-toyota supra turbo mk4 1998,19,6,183,320.0,3450,5,1998,toyota,80000
-jaguar xj8 2003,18,8,244,290.0,3850,7,2003,jaguar,12500
-subaru outback h6 2001,21,6,183,212.0,3550,8,2001,subaru,17500
-chevrolet tahoe lt 2004,15,8,325,295.0,5300,8,2004,chevrolet,13000
-nissan maxima se 1997,21,6,183,190.0,3300,7,1997,nissan,5100
-audi tt quattro 2002,22,4,110,225.0,3197,6,2002,audi,8000
-ford focus zx3 2003,25,4,122,130.0,2600,9,2003,ford,4000
-volvo s60 t5 2004,23,5,146,247.0,3400,7,2004,volvo,6000
-chrysler 300c hemi 2005,17,8,345,340.0,4160,5,2005,chrysler,13000
-honda civic si 2004,27,4,122,160.0,2740,8,2004,honda,11000
-nissan altima 3.5 se 2003,21,6,213,245.0,3280,6,2003,nissan,3700
-saab 9-3 aero 2002,24,4,122,205.0,3100,7,2002,saab,4000
-pontiac gto 2006,17,8,364,400.0,3725,5,2006,pontiac,13000
-mercedes-benz sl500 r129 1999,18,8,302,302.0,4170,6,1999,mercedes,18000
-bmw z4 roadster e85 2006,22,6,183,255.0,3130,6,2006,bmw,16000
-mitsubishi lancer evolution ix 2006,20,4,122,286.0,3263,5,2006,mitsubishi,40000
-subaru impreza wrx sti 2005,19,4,153,300.0,3360,5,2005,subaru,24000
-dodge charger srt8 2006,15,8,372,425.0,4160,5,2006,dodge,22000
-volkswagen passat w8 2003,19,8,244,270.0,3700,6,2003,volkswagen,10000
-chevrolet trailblazer ss 2006,14,8,364,395.0,4600,5,2006,chevrolet,15000
-toyota camry solara se v6 2004,23,6,202,225.0,3490,7,2004,toyota,6000
-volvo v70 r 2006,20,5,153,300.0,3700,6,2006,volvo,16600
-ford mustang shelby gt500 2008,14,8,330,500.0,3920,4,2008,ford,35500
-audi a6 3.2 fsi quattro 2007,22,6,195,255.0,3814,7,2007,audi,10000
-mazda mx-5 miata 2006,26,4,122,170.0,2480,7,2006,mazda,13700
-chevrolet corvette z06 c6 2006,18,8,427,505.0,3132,4,2006,chevrolet,41300
-porsche 911 carrera s 997 2005,21,6,232,355.0,3241,5,2005,porsche,47500
-nissan 350z touring 2007,20,6,213,306.0,3439,5,2007,nissan,11100
-volkswagen golf gti 2009,24,4,122,200.0,3200,7,2009,volkswagen,7000
-honda s2000 2007,20,4,134,237.0,2835,5,2007,honda,31000
-dodge challenger r/t 2009,16,8,345,372.0,4041,5,2009,dodge,29500
-jeep grand cherokee srt8 2008,12,8,372,420.0,4800,5,2008,jeep,16000
-audi rs4 b7 2007,16,8,254,420.0,3957,5,2007,audi,25000
-bmw m3 e92 2008,14,8,244,414.0,3704,4,2008,bmw,25000
-ford f-150 svt raptor 2010,11,8,379,411.0,6000,7,2010,ford,24500
-chevrolet camaro ss 2010,16,8,376,426.0,3860,5,2010,chevrolet,28300
-volkswagen scirocco r 2011,27,4,122,261.0,3097,6,2011,volkswagen,13000
-ferrari 458 italia 2010,14,8,275,562.0,3042,3,2010,ferrari,200000
-lamborghini aventador lp700-4 2012,10,12,396,700.0,3472,3,2012,lamborghini,240900
-porsche panamera turbo 2014,18,8,293,520.0,4400,4,2014,porsche,45000
-jaguar f-type r 2015,18,8,305,550.0,3674,4,2015,jaguar,38500
-chevrolet corvette z06 c7 2015,16,8,376,650.0,3524,3,2015,chevrolet,75000
-audi rs7 sportback 2016,18,8,244,560.0,4475,4,2016,audi,55000
-ford focus rs 2016,22,4,140,350.0,3434,5,2016,ford,28000
-bmw m2 2016,23,6,183,365.0,3450,4,2016,bmw,33700
-mercedes-amg gt s 2016,19,8,244,503.0,3560,4,2016,mercedes,76900
-honda civic type r 2017,25,4,122,306.0,3117,6,2017,honda,32000
-chevrolet camaro zl1 2017,14,8,376,650.0,3885,3,2017,chevrolet,59000
-mazda cx-5 2017,28,4,152,187.0,3500,9,2017,mazda,18000
-audi r8 v10 plus 2017,14,10,317,610.0,3669,3,2017,audi,140000
-dodge charger hellcat 2018,13,8,376,707.0,4560,4,2018,dodge,50000
-bmw m5 2018,17,8,268,600.0,4382,3,2018,bmw,56900
-jeep wrangler rubicon 2018,18,6,220,285.0,4449,7,2018,jeep,37000
-ford mustang shelby gt350 2019,14,8,317,526.0,3791,4,2019,ford,59600
-toyota supra a90 2020,24,6,183,382.0,3397,4,2020,toyota,49700
-chevrolet corvette stingray c8 2020,15,8,376,490.0,3366,3,2020,chevrolet,65000
-mazda mx-5 miata rf 2020,26,4,122,181.0,2445,6,2020,mazda,23000
-porsche 911 carrera s 992 2020,21,6,183,443.0,3360,3,2020,porsche,95000
-bmw m8 competition 2020,17,8,268,617.0,4200,3,2020,bmw,100000
-ferrari f8 tributo 2020,15,8,238,710.0,3160,3,2020,ferrari,298000
-nissan gt-r nismo 2020,16,6,231,600.0,3935,3,2020,nissan,210000
-audi rs q8 2021,15,8,244,591.0,5291,4,2021,audi,93400
-ford bronco wildtrak 2021,20,6,164,330.0,4940,7,2021,ford,52000
-toyota gr yaris 2021,29,3,98,268.0,2822,5,2021,toyota,38000
-jeep grand cherokee l summit reverse 2021,19,8,345,357.0,5290,6,2021,jeep,62000
-volkswagen golf gti 2021,28,4,122,241.0,3252,5,2021,volkswagen,27000
-chevrolet monte carlo ss 1987,15,8,305,180.0,3456,8,1987,chevrolet,23000
-toyota celica gt-four 1994,20,4,122,252.0,3170,6,1994,toyota,16800
-bmw z3 roadster 1996,24,4,116,138.0,2756,8,1996,bmw,10200
-dodge viper srt-10 2008,13,10,512,600.0,3450,3,2008,dodge,76200
-mercedes-benz 190e 2.5-16 evolution ii 1990,18,4,153,235.0,2830,7,1990,mercedes,45000
-toyota mr2 turbo 1995,24,4,122,200.0,2700,6,1995,toyota,29400
-honda civic type r ek9 1997,27,4,98,182.0,2425,7,1997,honda,20000
-chevrolet corvette z06 c5 2002,19,8,350,405.0,3118,4,2002,chevrolet,28000
-ford mustang svt cobra 1993,17,8,302,235.0,3270,6,1993,ford,53200
-toyota supra turbo mk4 1994,18,6,183,320.0,3450,5,1994,toyota,60000
-ferrari 360 modena 1999,15,8,219,395.0,3197,4,1999,ferrari,98900
-mitsubishi lancer evolution viii 2003,20,4,122,271.0,3263,5,2003,mitsubishi,23000
-nissan skyline gt-r r34 1999,18,6,160,276.0,3660,5,1999,nissan,147000
-bmw m3 e46 2001,17,6,195,333.0,3415,5,2001,bmw,27800
-lamborghini diablo sv 1995,10,12,348,510.0,3625,4,1995,lamborghini,250000
-audi s4 b5 2000,17,6,165,250.0,3549,6,2000,audi,10000
-volkswagen golf r32 mk4 2003,21,6,195,237.0,3330,6,2003,volkswagen,17000
-porsche 911 carrera s 997 2004,19,6,232,355.0,3175,4,2004,porsche,46000
-chevrolet impala ss 1996,17,8,350,260.0,4041,7,1996,chevrolet,22500
-mazda mx-5 miata nb 1999,25,4,110,140.0,2380,8,1999,mazda,8000
-jaguar xj220 1992,13,6,213,542.0,3020,3,1992,jaguar,351100
-bmw z8 2000,15,8,299,400.0,3494,4,2000,bmw,140000
-subaru legacy gt spec b 2007,18,4,153,243.0,3435,6,2007,subaru,13000
-saab 9-3 viggen 1999,19,4,140,230.0,3120,6,1999,saab,7500
-ford gt 2005,14,8,330,550.0,3485,3,2005,ford,350000
-honda nsx 1991,21,6,183,270.0,3170,5,1991,honda,78100
-plymouth prowler 1997,17,6,213,214.0,2883,6,1997,plymouth,32000
-volkswagen corrado vr6 1995,22,6,178,190.0,2855,7,1995,volkswagen,12300
-volvo 850 t-5r 1995,21,5,140,240.0,3360,7,1995,volvo,10000
-chevrolet camaro ss 1998,19,8,350,320.0,3410,5,1998,chevrolet,18000
-ferrari 550 maranello 1996,11,12,335,485.0,3725,4,1996,ferrari,94900
-mitsubishi lancer evolution vi 1999,20,4,122,280.0,2954,5,1999,mitsubishi,33400
-ford mustang svt cobra r 2000,15,8,330,385.0,3570,4,2000,ford,120000
-subaru impreza wrx sti 2004,18,4,153,300.0,3263,5,2004,subaru,24600
-ferrari f355 1995,12,8,213,375.0,2976,5,1995,ferrari,150000
-bmw m5 e39 1998,19,8,299,394.0,4023,5,1998,bmw,20000
-honda s2000 1999,24,4,122,240.0,2809,5,1999,honda,30000
-mercedes-benz slr mclaren 2003,13,8,330,617.0,3897,4,2003,mercedes,350000
-dodge viper gts 1996,12,10,488,450.0,3386,4,1996,dodge,50000
-toyota supra mk4 1993,18,6,183,320.0,3450,5,1993,toyota,45000
-audi rs2 avant 1994,17,5,134,311.0,3594,5,1994,audi,59700
-pontiac firebird trans am 1985,15,8,305,210.0,3260,8,1985,pontiac,10000
-chevrolet corvette zr-1 c4 1990,17,8,350,375.0,3460,4,1990,chevrolet,35000
-porsche 928 gts 1992,15,8,330,345.0,3649,5,1992,porsche,73550
-dodge stealth r/t twin turbo 1991,18,6,183,300.0,3790,5,1991,dodge,15000
-ford thunderbird super coupe 1989,17,6,232,210.0,3667,7,1989,ford,12000
-mercedes-benz 500e 1991,16,8,302,322.0,4000,5,1991,mercedes,35000
-jaguar xjr 1997,18,8,244,370.0,4095,6,1997,jaguar,8000
-toyota mr2 turbo 1991,24,4,122,200.0,2809,6,1991,toyota,18100
-chevrolet lumina z34 1991,19,6,207,210.0,3240,7,1991,chevrolet,9000
-volkswagen corrado vr6 1992,21,6,177,178.0,2866,6,1992,volkswagen,18700
-buick regal gs 1997,18,6,231,240.0,3500,7,1997,buick,5500
-toyota supra turbo 1987,20,6,183,230.0,3450,6,1987,toyota,27400
-porsche 911 carrera 964 1989,17,6,219,247.0,3000,5,1989,porsche,59990
-bmw z3 m roadster 1997,20,6,195,240.0,3175,5,1997,bmw,20000
-mitsubishi 3000gt vr-4 1991,18,6,183,300.0,3760,5,1991,mitsubishi,20200
-chevrolet camaro z28 1985,16,8,305,215.0,3270,7,1985,chevrolet,22310
-ferrari testarossa 1984,11,12,302,390.0,3660,5,1984,ferrari,145000
-honda prelude si 1987,24,4,122,135.0,2660,9,1987,honda,13000
-ford taurus sho 1989,19,6,183,220.0,3235,7,1989,ford,10000
-ford mustang svo 1984,21,4,140,205.0,3088,7,1984,ford,14000
-bmw m5 e28 1985,16,6,210,282.0,3483,6,1985,bmw,40000
-toyota celica all-trac turbo 1988,20,4,122,190.0,3240,7,1988,toyota,21500
-dodge viper rt/10 1992,12,10,488,400.0,3400,5,1992,dodge,57000
-subaru svx 1992,17,6,202,230.0,3590,7,1992,subaru,6000
-nissan pulsar gti-r 1990,20,4,122,227.0,2750,5,1990,nissan,22200
-pontiac fiero gt 1986,19,6,173,140.0,2700,8,1986,pontiac,11000
-pontiac bonneville ssei 1992,17,6,231,205.0,3600,8,1992,pontiac,5000
-pontiac grand prix gtp 1997,18,6,231,240.0,3534,7,1997,pontiac,14000
-pontiac firebird formula 1998,18,8,350,305.0,3386,5,1998,pontiac,15000
-pontiac grand am se 1985,22,4,151,92.0,2600,10,1985,pontiac,7300
-pontiac sunbird gt turbo 1987,24,4,110,165.0,2650,8,1987,pontiac,7000
-pontiac bonneville sse 1988,19,6,231,150.0,3300,9,1988,pontiac,8000
-pontiac trans sport 1990,18,6,191,120.0,3700,11,1990,pontiac,3000
-pontiac aztek 2001,19,6,207,185.0,3764,10,2001,pontiac,3500
-pontiac solstice 2006,20,4,145,177.0,2860,7,2006,pontiac,9000
-peugeot 205 gti 1984,28,4,97,105.0,2116,9,1984,peugeot,23200
-peugeot 505 turbo 1986,22,4,134,142.0,3050,8,1986,peugeot,10000
-peugeot 405 mi16 1988,24,4,116,160.0,2646,8,1988,peugeot,9750
-peugeot 306 s16 1993,25,4,122,155.0,2535,8,1993,peugeot,7000
-peugeot 309 gti 1989,27,4,116,130.0,2237,8,1989,peugeot,18500
-peugeot 406 coupe v6 1997,21,6,183,194.0,3195,8,1997,peugeot,7000
-peugeot 206 gti 1999,30,4,122,138.0,2380,8,1999,peugeot,2600
-peugeot 406 coupe 1997,23,6,183,194.0,3285,8,1997,peugeot,6000
-peugeot 607 v6 2000,20,6,183,210.0,3582,8,2000,peugeot,5500
-peugeot 307 cc 2003,27,4,122,138.0,3060,10,2003,peugeot,3000
-peugeot 307 hdi 2001,47,4,122,110.0,2860,11,2001,peugeot,1500
-peugeot 407 hdi 2004,38,4,122,138.0,3461,11,2004,peugeot,2500
-saab 900 turbo 1984,22,4,122,160.0,2775,8,1984,saab,10200
-saab 9000 turbo 1986,20,4,122,160.0,3070,8,1986,saab,14000
-saab 900 convertible 1987,21,4,122,135.0,2940,9,1987,saab,16000
-saab 9000 cd 1991,24,4,140,200.0,3270,7,1991,saab,3000
-saab 900 se turbo 1994,23,4,122,185.0,3000,7,1994,saab,12000
-saab 9-5 aero 2002,20,4,140,250.0,3400,6,2002,saab,2500
-saab 9-3 sport sedan 2003,24,4,122,210.0,3300,7,2003,saab,5000
-opel manta gsi 1983,25,4,110,115.0,2430,9,1983,opel,10000
-opel kadett gsi 1984,27,4,110,115.0,2150,9,1984,opel,10000
-opel calibra 16v 1990,24,4,122,150.0,2710,8,1990,opel,2400
-opel astra gsi 1993,26,4,122,150.0,2600,8,1993,opel,5000
-opel zafira a opc 2001,21,4,122,192.0,3280,8,2001,opel,4000
-opel speedster 2003,29,4,134,147.0,2070,6,2003,opel,28000
-opel monza gse 1984,20,6,183,180.0,3100,8,1984,opel,30000
-opel senator 3.0i 24v 1987,19,6,183,204.0,3420,8,1987,opel,4500
-opel kadett gsi 16v 1988,28,4,122,156.0,2375,8,1988,opel,10000
-opel astra f gsi 16v 1991,25,4,122,150.0,2510,8,1991,opel,6000
-opel vectra a turbo 4x4 1992,22,4,122,204.0,3130,7,1992,opel,7000
-opel corsa b gsi 1993,32,4,97,109.0,2200,9,1993,opel,5000
-opel calibra turbo 4x4 1995,23,4,122,204.0,3110,7,1995,opel,9000
-opel astra h opc 2005,24,4,122,240.0,3300,6,2005,opel,12000
-fiat panda 1000 clx 1991,30,4,61,45.0,1540,16,1991,fiat,4000
-fiat punto gt 1993,24,4,85,133.0,2210,8,1993,fiat,6000
-fiat coupe 2.0 20v turbo 1996,22,5,122,220.0,2900,6,1996,fiat,12000
-fiat bravo hgt 1997,23,5,122,147.0,2720,8,1997,fiat,3000
-fiat multipla 1.9 jtd 1999,35,4,116,110.0,3200,12,1999,fiat,2000
-oldsmobile cutlass supreme brougham 1983,20,6,231,110.0,3300,13,1983,oldsmobile,10000
-oldsmobile toronado brougham 1984,18,8,307,140.0,3750,10,1984,oldsmobile,10000
-oldsmobile cutlass supreme international 1988,21,6,173,130.0,2900,9,1988,oldsmobile,11500
-oldsmobile toronado trofeo 1989,20,6,231,165.0,3450,9,1989,oldsmobile,7000
-oldsmobile bravada 1991,17,6,262,160.0,4150,10,1991,oldsmobile,8000
-oldsmobile aurora 1995,20,8,244,250.0,3900,7,1995,oldsmobile,3500
-chrysler fifth avenue 1984,18,8,318,140.0,3800,12,1984,chrysler,3200
-chrysler new yorker 1988,19,4,153,100.0,3000,11,1988,chrysler,2600
-chrysler tc by maserati 1989,21,4,135,160.0,3050,8,1989,chrysler,9000
-chrysler lebaron gtc 1990,20,4,153,150.0,3100,9,1990,chrysler,9000
-chrysler concorde 1993,18,6,201,153.0,3400,10,1993,chrysler,2500
-chrysler lhs 1994,19,6,215,214.0,3600,9,1994,chrysler,3500
-chrysler sebring convertible 1996,21,6,152,168.0,3200,9,1996,chrysler,4000
-renault alliance 1983,30,4,85,64.0,1900,13,1983,renault,3000
-renault fuego 1984,24,4,134,103.0,2600,10,1984,renault,5500
-renault 5 turbo 1985,20,4,85,160.0,2150,7,1985,renault,40000
-renault medallion 1987,22,4,134,110.0,2750,11,1987,renault,4000
-renault espace 1988,21,4,122,110.0,3100,12,1988,renault,3000
-renault 21 1989,25,4,104,90.0,2400,12,1989,renault,5000
-renault clio 1990,35,4,73,55.0,1800,14,1990,renault,1500
-renault safrane 1992,23,6,183,170.0,3400,9,1992,renault,5000
-renault 9 1983,30,4,85,59.0,1830,15,1983,renault,1000
-renault 25 v6 turbo 1985,20,6,152,182.0,3200,8,1985,renault,4500
-renault 11 turbo 1984,25,4,85,105.0,2000,9,1984,renault,5000
-renault gta 1986,22,4,122,95.0,2700,10,1986,renault,2500
-renault alpine gta v6 turbo 1987,18,6,152,200.0,2900,7,1987,renault,18000
-renault 19 16v 1990,28,4,110,137.0,2400,8,1990,renault,3000
-renault 19 1988,30,4,85,80.0,2200,12,1988,renault,2500
-renault clio williams 1993,25,4,122,150.0,2325,8,1993,renault,6500
-renault 21 turbo 1989,25,4,122,175.0,2900,7,1989,renault,7000
-renault twingo 1993,39,4,73,55.0,1800,14,1993,renault,1000
-renault laguna 1994,26,4,110,115.0,2900,11,1994,renault,2000
-renault spider 1996,24,4,122,148.0,2100,7,1996,renault,35000
-renault megane coupe 1995,28,4,122,140.0,2600,9,1995,renault,4000
-subaru xt coupe 1985,28,4,110,97.0,2200,12,1985,subaru,3000
-subaru legacy 1990,23,4,134,130.0,3000,10,1990,subaru,4000
-subaru impreza wrx 1994,21,4,122,240.0,2800,5,1994,subaru,16000
-subaru outback 1995,22,4,153,165.0,3200,9,1995,subaru,6000
-subaru forester 1997,24,4,153,165.0,3100,9,1997,subaru,9500
-subaru baja 2003,21,4,153,165.0,3400,10,2003,subaru,5600
-lamborghini jalpa 1984,13,8,213,255.0,3300,6,1984,lamborghini,80000
-lamborghini countach 5000 qv 1985,9,12,316,455.0,3300,5,1985,lamborghini,550000
-lamborghini lm002 1986,8,12,316,444.0,5900,8,1986,lamborghini,400000
-lamborghini diablo 1990,11,12,348,485.0,3560,4,1990,lamborghini,300000
-lamborghini diablo vt 1993,10,12,348,492.0,3760,4,1993,lamborghini,300000
-lamborghini murcielago 2001,8,12,378,572.0,3638,4,2001,lamborghini,275000
-lamborghini gallardo 2003,12,10,305,493.0,3439,4,2003,lamborghini,95000
-lamborghini murcielago lp640 2006,9,12,397,631.0,3670,3,2006,lamborghini,245000
-lamborghini diablo vt roadster 1996,9,12,348,492.0,3858,4,1996,lamborghini,400000
-lamborghini diablo gt 1999,8,12,366,575.0,3197,4,1999,lamborghini,500000
-lamborghini murcielago roadster 2004,9,12,378,580.0,3638,4,2004,lamborghini,300000
-lamborghini gallardo spyder 2005,12,10,305,520.0,3483,4,2005,lamborghini,80000
-lamborghini huracan lp610-4 2014,14,10,317,610.0,3139,3,2014,lamborghini,230000
-jaguar xj-s v12 he 1983,15,12,326,295.0,4015,8,1983,jaguar,18000
-jaguar xj6 series iii 1984,17,6,256,176.0,3990,9,1984,jaguar,7000
-jaguar xj-sc 1986,16,12,326,263.0,4100,8,1986,jaguar,15000
-jaguar xk8 1996,18,8,244,290.0,3726,6,1996,jaguar,9000
-jaguar s-type 1999,20,6,183,240.0,3700,7,1999,jaguar,7000
-jaguar xkr 2000,17,8,244,370.0,3780,5,2000,jaguar,25000
-jagaur x-type 2001,21,6,152,194.0,3483,8,2001,jaguar,4500
-jaguar xj6 xj40 1987,18,6,219,221.0,3950,9,1987,jaguar,8000
-jaguar xjr 1995,16,6,244,322.0,4200,6,1995,jaguar,13000
-jaguar xj8 1997,17,8,244,290.0,4080,7,1997,jaguar,8000
-jaguar xk x100 1997,18,8,244,290.0,3780,6,1997,jaguar,10000
-jaguar x-type estate 2004,21,6,183,227.0,3665,7,2004,jaguar,3000
-jaguar xkr x150 2006,17,8,256,420.0,3880,5,2006,jaguar,18000
-jaguar xf 2008,18,8,256,300.0,3960,6,2008,jaguar,10000
-jaguar xj x351 2010,19,8,305,385.0,4095,6,2010,jaguar,20000
-jeep cherokee xj 1984,20,4,150,105.0,3100,14,1984,jeep,5000
-jeep wrangler yj 1987,18,4,150,117.0,2900,13,1987,jeep,6000
-jeep grand cherokee zj 1993,16,6,242,190.0,3600,9,1993,jeep,6500
-jeep wrangler tj 1997,16,6,242,181.0,3310,9,1997,jeep,10000
-jeep liberty kj 2002,18,6,226,210.0,4021,10,2002,jeep,6000
-jeep commander xk 2006,15,8,287,235.0,4650,8,2006,jeep,5000
-jeep wrangler jk 2007,16,6,231,202.0,3760,10,2007,jeep,15000
-jeep grand cherokee wk2 2011,17,6,220,290.0,4650,7,2011,jeep,10000
-jeep wagoneer 1984,15,6,258,112.0,3770,14,1984,jeep,6000
-jeep wrangler sahara yj 1992,16,6,242,180.0,3070,10,1992,jeep,12000
-jeep grand cherokee limited 1998,14,8,318,220.0,4070,9,1998,jeep,5000
-jeep liberty kj 2005,17,6,226,210.0,4020,10,2005,jeep,4000
-jeep patriot 2007,23,4,144,172.0,3280,9,2007,jeep,4500
-jeep compass 2011,22,4,144,172.0,3200,10,2011,jeep,6900
-jeep wrangler rubicon jk 2013,16,6,220,285.0,4295,8,2013,jeep,23000
-mitsubishi starion 1983,20,4,156,145.0,2900,8,1983,mitsubishi,10000
-mitsubishi galant vr-4 1988,18,4,122,195.0,3260,7,1988,mitsubishi,9000
-mitsubishi eclipse gsx 1995,20,4,122,210.0,3150,6,1995,mitsubishi,10000
-mitsubishi 3000gt vr-4 1999,18,6,183,320.0,3760,5,1999,mitsubishi,31000
-mitsubishi outlander 2003,22,4,146,160.0,3300,10,2003,mitsubishi,3000
-mitsubishi lancer evolution x 2015,17,4,122,303.0,3500,5,2015,mitsubishi,36500
-mitsubishi galant 1987,23,4,122,110.0,2500,10,1987,mitsubishi,4500
-mitsubishi pajero 1991,18,6,183,150.0,4200,11,1991,mitsubishi,2500
-mitsubishi eclipse rs 2000,22,4,146,154.0,2930,8,2000,mitsubishi,4000
-mitsubishi montero sport 2002,16,6,213,197.0,4200,10,2002,mitsubishi,6000
-mitsubishi outlander 2010,21,4,146,168.0,3400,9,2010,mitsubishi,6500
-mitsubishi asx 2013,26,4,122,148.0,3040,10,2013,mitsubishi,10000
-mitsubishi l200 2015,29,4,146,181.0,4300,11,2015,mitsubishi,17000
-mitsubishi mirage 2018,37,3,73,78.0,2050,13,2018,mitsubishi,7000
-ferrari 512 tr 1991,10,12,300,428.0,3219,5,1991,ferrari,200000
-ferrari 348 tb 1989,12,8,207,300.0,3200,6,1989,ferrari,75000
-ferrari 456 gt 1992,10,12,335,442.0,3725,5,1992,ferrari,79000
-ferrari 575m maranello 2002,9,12,350,508.0,3726,4,2002,ferrari,115000
-ferrari f430 2004,12,8,262,483.0,3197,4,2004,ferrari,140000
-ferrari california 2008,13,8,262,454.0,3725,4,2008,ferrari,115000
-ferrari 612 scaglietti 2004,11,12,350,533.0,4080,4,2004,ferrari,75000
-ferrari 599 gtb fiorano 2006,9,12,366,612.0,3722,3,2006,ferrari,199000
-ferrari 458 spider 2011,14,8,274,562.0,3274,3,2011,ferrari,190000
-ferrari f12 berlinetta 2012,12,12,384,730.0,3593,3,2012,ferrari,250000
-ferrari ff 2013,11,12,384,651.0,4145,4,2013,ferrari,150000
-ferrari 488 gtb 2015,15,8,238,661.0,3250,3,2015,ferrari,200000
-ferrari gtc4lusso 2016,12,12,384,680.0,4299,3,2016,ferrari,220000
-ferrari portofino 2018,16,8,238,591.0,3725,3,2018,ferrari,210000
-porsche 968 1992,19,4,183,236.0,3197,6,1992,porsche,30000
-porsche boxster 1996,20,6,153,201.0,2778,7,1996,porsche,15000
-porsche 911 gt3 1999,16,6,219,355.0,3075,4,1999,porsche,55000
-porsche cayenne 2002,15,8,274,340.0,5225,7,2002,porsche,13000
-porsche panamera 2009,18,8,293,400.0,3968,5,2009,porsche,32000
-porsche 911 turbo 930 1985,15,6,201,300.0,2954,5,1985,porsche,115000
-porsche 928 s4 1987,14,8,302,316.0,3571,6,1987,porsche,39500
-porsche 911 carrera rs 964 1992,17,6,219,260.0,2855,5,1992,porsche,165000
-porsche 911 gt2 993 1995,14,6,219,430.0,2850,4,1995,porsche,300000
-porsche 911 carrera 4 996 1998,18,6,207,300.0,3240,5,1998,porsche,30000
-porsche 911 turbo 996 2000,15,6,219,420.0,3400,4,2000,porsche,35000
-porsche cayman s 2006,20,6,207,295.0,2998,5,2006,porsche,25000
-nissan 300zx 1984,19,6,183,160.0,3000,7,1984,nissan,15000
-nissan pathfinder 1987,15,6,183,140.0,3900,10,1987,nissan,5000
-nissan 240sx 1991,22,4,146,155.0,2700,8,1991,nissan,8000
-nissan altima 1998,23,4,146,150.0,2950,9,1998,nissan,4500
-nissan xterra 2000,16,6,202,170.0,4100,10,2000,nissan,4300
-nissan gt-r 2009,16,6,231,480.0,3829,3,2009,nissan,84000
-subaru gl wagon 1985,25,4,110,82.0,2350,13,1985,subaru,2000
-subaru brz 2012,25,4,122,200.0,2762,6,2012,subaru,20000
-mercedes-benz 190e 1984,22,4,140,130.0,2850,10,1984,mercedes,3500
-mercedes-benz 560sl 1989,15,8,341,227.0,3760,7,1989,mercedes,25000
-mercedes-benz e320 1994,19,6,195,217.0,3500,7,1994,mercedes,5900
-mercedes-benz c230 kompressor 2000,23,4,140,185.0,3120,8,2000,mercedes,4000
-mercedes-benz sl55 amg 2003,14,8,332,493.0,4400,4,2003,mercedes,20500
-mercedes-benz cls500 2006,17,8,305,302.0,4025,6,2006,mercedes,7500
-mercedes-benz s550 2010,15,8,336,382.0,4485,5,2010,mercedes,15000
-mercedes-benz 300d 1985,23,5,183,123.0,3450,13,1985,mercedes,7900
-mercedes-benz 560sel 1989,14,8,341,238.0,4160,7,1989,mercedes,15500
-mercedes-benz e320 cabriolet 1994,20,6,195,217.0,3945,8,1994,mercedes,15000
-mercedes-benz s320 1997,19,6,195,228.0,4300,9,1997,mercedes,7900
-mercedes-benz slk230 1999,22,4,140,185.0,3020,7,1999,mercedes,6000
-mercedes-benz ml320 2001,17,6,195,215.0,4485,8,2001,mercedes,4250
-mercedes-benz e55 amg 2003,14,8,332,469.0,4145,4,2003,mercedes,18000
-mercedes-benz g55 amg 2006,11,8,332,469.0,5550,5,2006,mercedes,40000
-chevrolet monte carlo sport coupe 1970,14,8,350,165.0,3470,8,1970,chevrolet,20000
-chevrolet corvette c3 stingray 1970,14,8,350,300.0,3100,7,1970,chevrolet,35000
-chevrolet chevelle ss 396 1970,12,8,396,350.0,3500,7,1970,chevrolet,60000
-chevrolet camaro z28 1970,12,8,350,360.0,3000,7,1970,chevrolet,40000
-chevrolet impala ss 427 1970,12,8,427,385.0,3700,6,1970,chevrolet,38000
-chevrolet nova ss 350 1970,13,8,350,300.0,3100,7,1970,chevrolet,22000
-buick skylark custom convertible 1970,13,8,350,230.0,3550,9,1970,buick,26000
-buick gs stage 1 1970,10,8,455,360.0,3874,6,1970,buick,79000
-buick electra 225 custom 1970,11,8,455,370.0,4460,8,1970,buick,9700
-buick riviera gs 1970,11,8,455,370.0,4210,8,1970,buick,20000
-buick wildcat custom 4-door hardtop 1970,12,8,455,370.0,4120,8,1970,buick,5800
-buick lesabre custom coupe 1970,13,8,350,260.0,3750,9,1970,buick,6200
-buick sportwagon 400 1970,12,8,400,325.0,4090,8,1970,buick,12000
-plymouth barracuda 1970,14,8,383,330.0,3550,12,1970,plymouth,54000
-plymouth gtx 1970,15,8,440,375.0,3900,13,1970,plymouth,65000
-plymouth road runner 1970,13,8,383,335.0,3600,12,1970,plymouth,42000
-plymouth fury iii 1970,14,8,360,290.0,4000,14,1970,plymouth,21000
-plymouth valiant 6 1970,19,6,225,105.0,2700,19,1970,plymouth,11500
-amc javelin sst 1970,14,8,304,210.0,2900,7,1970,amc,34500
-amc javelin amx 1970,13,8,390,325.0,3150,7,1970,amc,30000
-amc rebel machine 1970,12,8,390,340.0,3500,6,1970,amc,74000
-amc ambassador sst 1970,14,8,360,290.0,3500,8,1970,amc,11500
-amc matador 1970,13,8,290,200.0,3200,8,1970,amc,13000
-amc rebel 1970,13,8,290,220.0,3000,8,1970,amc,12500
-amc hornet sc/360 1970,12,8,360,245.0,2800,7,1970,amc,15000
-amc pacer 1970,18,6,232,145.0,2400,10,1970,amc,12000
-ford mustang boss 302 1970,14,8,302,290.0,3100,7,1970,ford,91000
-ford mustang mach 1 1970,15,8,351,330.0,3500,7,1970,ford,50000
-ford torino gt 1970,14,8,302,220.0,3250,8,1970,ford,35000
-ford torino cobra 1970,12,8,429,370.0,3750,6,1970,ford,60000
-ford falcon futura 1970,18,6,200,120.0,2400,10,1970,ford,7000
-ford falcon sports coupe 1970,16,8,302,220.0,2800,8,1970,ford,8000
-ford mustang 428 cobra jet 1970,12,8,428,335.0,3500,6,1970,ford,50000
-ford mustang grande 1970,14,8,302,210.0,3300,8,1970,ford,15000
-ford torino gt 429 1970,13,8,429,360.0,3700,6,1970,ford,40000
-pontiac gto judge 1970,10,8,400,370.0,3720,6,1970,pontiac,60000
-pontiac firebird trans am 1970,10,8,400,345.0,3780,6,1970,pontiac,49000
-pontiac bonneville 1970,9,8,455,370.0,4200,8,1970,pontiac,12000
-pontiac lemans sport 1970,10,8,350,255.0,3500,7,1970,pontiac,10500
-pontiac grand prix sj 1970,10,8,455,370.0,4140,7,1970,pontiac,13000
-pontiac catalina sedan 1970,11,8,400,290.0,4200,8,1970,pontiac,7000
-pontiac tempest t-37 1970,14,6,250,155.0,3400,9,1970,pontiac,15000
-pontiac ventura ii 1970,15,6,250,155.0,3200,10,1970,pontiac,8000
-pontiac executive 1970,9,8,428,360.0,4300,8,1970,pontiac,17000
-dodge charger 500 1970,14,8,440,375.0,3500,6,1970,dodge,88500
-dodge charger r/t 1970,12,8,426,425.0,3100,6,1970,dodge,42000
-dodge dart swinger 340 1970,15,8,340,275.0,2800,7,1970,dodge,33000
-dodge coronet super bee 1970,13,8,426,425.0,3200,6,1970,dodge,94900
-dodge polara 500 1970,12,8,383,290.0,3500,8,1970,dodge,16000
-toyota corolla 1600 1970,28,4,97,90.0,1830,13,1970,toyota,16500
-toyota celica 1600 gt 1970,25,4,97,110.0,1870,10,1970,toyota,17000
-toyota land cruiser 40 series 1970,17,6,151,130.0,3300,18,1970,toyota,27500
-toyota stout 1970,20,4,112,105.0,2500,15,1970,toyota,10000
-toyota corona rt43 1970,22,4,112,95.0,2280,14,1970,toyota,10000
-toyota carina 1970,24,4,114,90.0,2430,14,1970,toyota,2500
-datsun 240z 1970,24,6,147,151.0,2340,8,1970,datsun,13500
-datsun 510 1970,30,4,97,96.0,2110,11,1970,datsun,17500
-datsun 1600 1970,25,4,97,94.0,2040,12,1970,datsun,21500
-datsun 1200 1970,35,4,73,69.0,1790,14,1970,datsun,20000
-datsun 510 wagon 1970,28,4,97,96.0,2200,12,1970,datsun,28000
-datsun 1200 coupe 1970,32,4,73,69.0,1740,14,1970,datsun,12000
-datsun 2000 roadster 1970,24,4,122,135.0,2040,8,1970,datsun,25000
-datsun 1600 roadster 1970,27,4,97,96.0,1910,11,1970,datsun,15500
-peugeot 404 1970,23,4,108,88.0,2100,15,1970,peugeot,7000
-peugeot 504 coupe 1970,24,4,120,97.0,2400,12,1970,peugeot,10000
-peugeot 204 break 1970,27,4,113,65.0,2050,17,1970,peugeot,6800
-peugeot 204 cabriolet 1970,26,4,113,70.0,2150,15,1970,peugeot,12500
-peugeot 403 1970,22,4,146,65.0,2350,18,1970,peugeot,6000
-peugeot 203 1970,21,4,129,60.0,2300,19,1970,peugeot,6000
-peugeot 404 cabriolet 1970,23,4,108,88.0,2350,14,1970,peugeot,35000
-peugeot 504 station wagon 1970,24,4,120,90.0,2500,13,1970,peugeot,11500
-peugeot 204 berlina 1970,28,4,113,65.0,2050,17,1970,peugeot,5000
-peugeot j7 van 1970,18,4,162,70.0,3400,22,1970,peugeot,5950
-audi 100 1970,22,4,104,83.0,2410,12,1970,audi,4000
-audi 60 1970,19,4,91,75.0,2360,13,1970,audi,7000
-audi 1600 1970,18,4,98,75.0,2220,14,1970,audi,4500
-audi 1800 1970,20,4,110,90.0,2450,11,1970,audi,15000
-audi 200 1970,18,4,118,100.0,2550,10,1970,audi,10000
-audi 100 gl 1970,21,4,110,90.0,2550,11,1970,audi,5000
-audi 1500 1970,19,4,91,72.0,2300,13,1970,audi,9500
-saab 99 1970,25,4,121,87.0,2420,14,1970,saab,9000
-saab 96 v4 1970,22,4,93,65.0,2210,15,1970,saab,7000
-saab sonett iii 1970,25,4,170,65.0,1940,13,1970,saab,10000
-saab 95 wagon 1970,22,3,91,68.0,2310,16,1970,saab,9900
-bmw 2800 1970,17,6,168,170.0,3070,9,1970,bmw,43000
-bmw 3.0cs 1970,15,6,183,200.0,3080,8,1970,bmw,59900
-bmw 1600 1970,25,4,98,85.0,1950,11,1970,bmw,15500
-bmw 1600-2 1970,26,4,98,90.0,2000,11,1970,bmw,24000
-bmw 2000cs 1970,20,4,121,120.0,2500,9,1970,bmw,23400
-bmw 2800cs 1970,16,6,168,170.0,3100,8,1970,bmw,38000
-bmw 3.0csl 1970,14,6,183,200.0,2800,8,1970,bmw,210000
-bmw 2002 ti 1970,21,4,121,130.0,2200,8,1970,bmw,29000
-bmw 3.0s 1970,16,6,183,160.0,3000,8,1970,bmw,19000
-opel gt 1970,25,4,116,102.0,2150,10,1970,opel,16000
-opel rekord 1970,20,6,158,115.0,2800,11,1970,opel,7500
-opel kadett 1970,22,4,67,60.0,2100,14,1970,opel,12000
-opel manta 1970,20,4,116,90.0,2500,11,1970,opel,6000
-opel olympia 1970,18,4,92,75.0,2300,12,1970,opel,10000
-opel admiral 1970,14,6,170,130.0,3300,10,1970,opel,18000
-opel rekord b 1970,19,4,103,80.0,2500,13,1970,opel,13000
-opel commodore a 1970,17,6,151,110.0,2700,11,1970,opel,19000
-opel kadett c 1970,22,4,61,60.0,2000,14,1970,opel,12000
-opel kadett l 1970,20,4,79,75.0,2200,13,1970,opel,10000
-opel ascona a 1970,18,4,98,80.0,2300,12,1970,opel,3350
-opel diplomat b 1970,14,8,329,160.0,3700,9,1970,opel,8000
-opel gt j 1970,23,4,116,90.0,2300,10,1970,opel,18000
-fiat 124 sedan 1970,22,4,85,75.0,2010,15,1970,fiat,4000
-fiat 850 sport spider 1970,28,4,55,52.0,1620,18,1970,fiat,7000
-fiat 128 1970,25,4,67,60.0,1920,15,1970,fiat,4000
-fiat 1100d 1970,20,4,67,55.0,2015,20,1970,fiat,1500
-fiat 124 spider 1970,21,4,85,90.0,2080,14,1970,fiat,12000
-fiat 1300 1970,18,4,79,75.0,2360,15,1970,fiat,5800
-fiat 500l 1970,28,2,30,24.0,1500,26,1970,fiat,13500
-fiat 850 coupe 1970,25,4,55,52.0,1710,19,1970,fiat,6500
-fiat 1100 1970,19,4,67,55.0,2150,20,1970,fiat,4000
-fiat 125 1970,19,4,98,90.0,2250,14,1970,fiat,5600
+name,mpg,cylinders,displacement,horsepower,weight,acceleration,model_year,creator,price,Recent
+chevrolet chevelle malibu 1970,18,8,307,130.0,3504,12,1970,chevrolet,23000,False
+buick skylark 320 1970,15,8,350,165.0,3693,11,1970,buick,13000,False
+plymouth satellite 1970,18,8,318,150.0,3436,11,1970,plymouth,16000,False
+amc rebel sst 1970,16,8,304,150.0,3433,12,1970,amc,22400,False
+ford torino 1970,17,8,302,140.0,3449,10,1970,ford,45000,False
+ford galaxie 500 1970,15,8,429,198.0,4341,10,1970,ford,13000,False
+chevrolet impala 1970,14,8,454,220.0,4354,9,1970,chevrolet,20000,False
+plymouth fury iii 1970,14,8,440,215.0,4312,8,1970,plymouth,20000,False
+pontiac catalina 1970,14,8,455,225.0,4425,10,1970,pontiac,9500,False
+amc ambassador dpl 1970,15,8,390,190.0,3850,8,1970,amc,10000,False
+dodge challenger se 1970,15,8,383,170.0,3563,10,1970,dodge,52000,False
+plymouth cuda 340 1970,14,8,340,160.0,3609,8,1970,plymouth,40000,False
+chevrolet monte carlo 1970,15,8,400,150.0,3761,9,1970,chevrolet,30000,False
+buick estate wagon 1970,14,8,455,225.0,3086,10,1970,buick,13000,False
+toyota corona mark ii 1970,24,4,113,95.0,2372,15,1970,toyota,14000,False
+plymouth duster 1970,22,6,198,95.0,2833,15,1970,plymouth,10250,False
+amc hornet 1970,18,6,199,97.0,2774,15,1970,amc,11000,False
+ford maverick 1970,21,6,200,85.0,2587,16,1970,ford,9000,False
+datsun pl510 1970,27,4,97,88.0,2130,14,1970,datsun,21000,False
+peugeot 504 1970,25,4,110,87.0,2672,17,1970,peugeot,10000,False
+audi 100 ls 1970,24,4,107,90.0,2430,14,1970,audi,15000,False
+saab 99e 1970,25,4,104,95.0,2375,17,1970,saab,8000,False
+bmw 2002 1970,26,4,121,113.0,2234,12,1970,bmw,24000,False
+amc gremlin 1970,21,6,199,90.0,2648,15,1970,amc,15300,False
+ford f250 1970,10,8,360,215.0,4615,14,1970,ford,17500,False
+chevrolet c20 1970,10,8,307,200.0,4376,15,1970,chevrolet,17000,False
+dodge d200 1970,11,8,318,210.0,4382,13,1970,dodge,16000,False
+chevrolet vega 2300 1971,28,4,140,90.0,2264,15,1971,chevrolet,6470,False
+toyota corona 1971,25,4,113,95.0,2228,14,1971,toyota,10000,False
+plymouth satellite custom 1971,16,6,225,105.0,3439,15,1971,plymouth,5850,False
+amc matador 1971,18,6,232,100.0,3288,15,1971,amc,12500,False
+pontiac catalina brougham 1971,14,8,400,175.0,4464,11,1971,pontiac,12900,False
+dodge monaco 1971,12,8,383,180.0,4955,11,1971,dodge,25000,False
+ford country squire 1971,13,8,400,170.0,4746,12,1971,ford,24000,False
+pontiac safari 1971,13,8,400,175.0,5140,12,1971,pontiac,29000,False
+amc hornet sportabout 1971,18,6,258,110.0,2962,13,1971,amc,13500,False
+pontiac firebird 1971,19,6,250,100.0,3282,15,1971,pontiac,29000,False
+ford mustang 1971,18,6,250,88.0,3139,14,1971,ford,15000,False
+opel 1900 1971,28,4,116,90.0,2123,14,1971,opel,5000,False
+peugeot 304 1971,30,4,79,70.0,2074,19,1971,peugeot,4800,False
+fiat 124b 1971,30,4,88,76.0,2065,14,1971,fiat,6800,False
+toyota corolla 1200 1971,31,4,71,65.0,1773,19,1971,toyota,8200,False
+plymouth cricket 1971,26,4,91,70.0,1955,20,1971,plymouth,6000,False
+toyota corona hardtop 1972,24,4,113,95.0,2278,15,1972,toyota,7000,False
+dodge colt hardtop 1972,25,4,97,80.0,2126,17,1972,dodge,10700,False
+volkswagen type 3 1972,23,4,97,54.0,2254,23,1972,volkswagen,14300,False
+ford pinto runabout 1972,21,4,122,86.0,2226,16,1972,ford,9100,False
+amc ambassador sst 1972,17,8,304,150.0,3672,11,1972,amc,9300,False
+mercury marquis 1972,11,8,429,208.0,4633,11,1972,mercury,8000,False
+buick lesabre custom 1972,13,8,350,155.0,4502,13,1972,buick,15300,False
+oldsmobile delta 88 royale 1972,12,8,350,160.0,4456,13,1972,oldsmobile,9600,False
+chrysler newport royal 1972,13,8,400,190.0,4422,12,1972,chrysler,9800,False
+mazda rx2 coupe 1972,19,3,70,97.0,2330,13,1972,mazda,29200,False
+chevrolet chevelle concours 1972,13,8,307,130.0,4098,14,1972,chevrolet,14300,False
+volvo 145e 1972,18,4,121,112.0,2933,14,1972,volvo,5700,False
+volkswagen 411 1972,22,4,121,76.0,2511,18,1972,volkswagen,8000,False
+peugeot 504 1972,21,4,120,87.0,2979,19,1972,peugeot,18000,False
+renault 12 1972,26,4,96,69.0,2189,18,1972,renault,5000,False
+datsun 510 1972,28,4,97,92.0,2288,17,1972,datsun,20000,False
+buick century 350 1973,13,8,350,175.0,4100,13,1973,buick,18000,False
+dodge coronet custom 1973,15,8,318,150.0,3777,12,1973,dodge,6000,False
+mercury marquis brougham 1973,12,8,429,198.0,4952,11,1973,mercury,7000,False
+chevrolet caprice classic 1973,13,8,400,150.0,4464,12,1973,chevrolet,18000,False
+ford ltd 1973,13,8,351,158.0,4363,13,1973,ford,6300,False
+chrysler new yorker brougham 1973,13,8,440,215.0,4735,11,1973,chrysler,9000,False
+buick electra 225 custom 1973,12,8,455,225.0,4951,11,1973,buick,15000,False
+plymouth valiant 1973,18,6,225,105.0,3121,16,1973,plymouth,20000,False
+chevrolet nova custom 1973,16,6,250,100.0,3278,18,1973,chevrolet,18600,False
+volkswagen super beetle 1973,26,4,97,46.0,1950,21,1973,volkswagen,15000,False
+ford country 1973,12,8,400,167.0,4906,12,1973,ford,9500,False
+plymouth custom suburb 1973,13,8,360,170.0,4654,13,1973,plymouth,15250,False
+oldsmobile vista cruiser 1973,12,8,350,180.0,4499,12,1973,oldsmobile,22000,False
+amc gremlin 1973,18,6,232,100.0,2789,15,1973,amc,11900,False
+chevrolet vega 1973,21,4,140,72.0,2401,19,1973,chevrolet,5400,False
+datsun 610 1973,22,4,108,94.0,2379,16,1973,datsun,9000,False
+mazda rx3 1973,18,3,70,90.0,2124,13,1973,mazda,11000,False
+ford pinto 1973,19,4,122,85.0,2310,18,1973,ford,9400,False
+mercury capri v6 1973,21,6,155,107.0,2472,14,1973,mercury,12900,False
+fiat 124 sport coupe 1973,26,4,98,90.0,2265,15,1973,fiat,10000,False
+chevrolet monte carlo s 1973,15,8,350,145.0,4082,13,1973,chevrolet,15000,False
+pontiac grand prix 1973,16,8,400,230.0,4278,9,1973,pontiac,16300,False
+fiat 128 1973,29,4,68,49.0,1867,19,1973,fiat,12000,False
+opel manta 1973,24,4,116,75.0,2158,15,1973,opel,6000,False
+audi 100ls 1973,20,4,114,91.0,2582,14,1973,audi,13900,False
+volvo 144ea 1973,19,4,121,112.0,2868,15,1973,volvo,8000,False
+dodge dart custom 1973,15,8,318,150.0,3399,11,1973,dodge,8500,False
+saab 99le 1973,24,4,121,110.0,2660,14,1973,saab,6600,False
+oldsmobile omega 1973,11,8,350,180.0,3664,11,1973,oldsmobile,8500,False
+plymouth duster 1974,20,6,198,95.0,3102,16,1974,plymouth,13600,False
+amc hornet 1974,19,6,232,100.0,2901,16,1974,amc,10100,False
+chevrolet nova 1974,15,6,250,100.0,3336,17,1974,chevrolet,9000,False
+datsun b210 1974,31,4,79,67.0,1950,19,1974,datsun,10000,False
+ford pinto 1974,26,4,122,80.0,2451,16,1974,ford,11000,False
+toyota corolla 1200 1974,32,4,71,65.0,1836,21,1974,toyota,10000,False
+chevrolet vega 1974,25,4,140,75.0,2542,17,1974,chevrolet,8600,False
+chevrolet chevelle malibu classic 1974,16,6,250,100.0,3781,17,1974,chevrolet,9350,False
+amc matador 1974,16,6,258,110.0,3632,18,1974,amc,8500,False
+plymouth satellite sebring 1974,18,6,225,105.0,3613,16,1974,plymouth,9900,False
+ford gran torino 1974,16,8,302,140.0,4141,14,1974,ford,7500,False
+buick century luxus 1974,13,8,350,150.0,4699,14,1974,buick,7000,False
+dodge coronet custom 1974,14,8,318,150.0,4457,13,1974,dodge,11000,False
+audi fox 1974,29,4,98,83.0,2219,16,1974,audi,6000,False
+volkswagen dasher 1974,26,4,79,67.0,1963,15,1974,volkswagen,20000,False
+opel manta 1974,26,4,97,78.0,2300,14,1974,opel,5700,False
+toyota corona 1974,31,4,76,52.0,1649,16,1974,toyota,15300,False
+datsun 710 1974,32,4,83,61.0,2003,19,1974,datsun,12200,False
+dodge colt 1974,28,4,90,75.0,2125,14,1974,dodge,5000,False
+fiat 128 1974,24,4,90,75.0,2108,15,1974,fiat,9000,False
+fiat 124 tc 1974,26,4,116,75.0,2246,14,1974,fiat,12000,False
+honda civic 1974,24,4,120,97.0,2489,15,1974,honda,10000,False
+fiat x1.9 1974,31,4,79,67.0,2000,16,1974,fiat,11900,False
+plymouth valiant custom 1975,19,6,225,95.0,3264,16,1975,plymouth,4000,False
+chevrolet nova 1975,18,6,250,105.0,3459,16,1975,chevrolet,11000,False
+mercury monarch 1975,15,6,250,72.0,3432,21,1975,mercury,4000,False
+ford maverick 1975,15,6,250,72.0,3158,19,1975,ford,8000,False
+pontiac catalina 1975,16,8,400,170.0,4668,11,1975,pontiac,11500,False
+plymouth grand fury 1975,16,8,318,150.0,4498,14,1975,plymouth,6000,False
+ford ltd 1975,14,8,351,148.0,4657,13,1975,ford,11500,False
+buick century 1975,17,6,231,110.0,3907,21,1975,buick,5000,False
+plymouth fury 1975,18,6,225,95.0,3785,19,1975,plymouth,7500,False
+buick skyhawk 1975,21,6,231,110.0,3039,15,1975,buick,7500,False
+chevrolet monza 2+2 1975,20,8,262,110.0,3221,13,1975,chevrolet,11500,False
+toyota corolla 1975,29,4,97,75.0,2171,16,1975,toyota,9500,False
+ford pinto 1975,23,4,140,83.0,2639,17,1975,ford,5500,False
+amc gremlin 1975,20,6,232,100.0,2914,16,1975,amc,7500,False
+volkswagen dasher 1975,25,4,90,71.0,2223,16,1975,volkswagen,3000,False
+datsun 710 1975,24,4,119,97.0,2545,17,1975,datsun,4000,False
+volkswagen rabbit 1975,29,4,90,70.0,1937,14,1975,volkswagen,6000,False
+amc pacer 1975,19,6,232,90.0,3211,17,1975,amc,8000,False
+audi 100ls 1975,23,4,115,95.0,2694,15,1975,audi,11500,False
+peugeot 504 1975,23,4,120,88.0,2957,17,1975,peugeot,8000,False
+volvo 244dl 1975,22,4,121,98.0,2945,14,1975,volvo,7500,False
+saab 99le 1975,25,4,121,115.0,2671,13,1975,saab,5000,False
+honda civic cvcc 1975,33,4,91,53.0,1795,17,1975,honda,5000,False
+fiat 131 1976,28,4,107,86.0,2464,15,1976,fiat,7000,False
+opel 1900 1976,25,4,116,81.0,2220,17,1976,opel,6000,False
+ford capri ii 1976,25,4,140,92.0,2572,15,1976,ford,10800,False
+dodge colt 1976,26,4,98,79.0,2255,18,1976,dodge,3000,False
+renault 12tl 1976,27,4,101,83.0,2202,15,1976,renault,5600,False
+chevrolet chevelle malibu classic 1976,17,8,305,140.0,4215,13,1976,chevrolet,14200,False
+dodge coronet brougham 1976,16,8,318,150.0,4190,13,1976,dodge,5500,False
+amc matador 1976,15,8,304,120.0,3962,14,1976,amc,8000,False
+ford gran torino 1976,14,8,351,152.0,4215,13,1976,ford,12500,False
+plymouth valiant 1976,22,6,225,100.0,3233,15,1976,plymouth,7500,False
+chevrolet nova 1976,22,6,250,105.0,3353,14,1976,chevrolet,8700,False
+ford maverick 1976,24,6,200,81.0,3012,18,1976,ford,8000,False
+amc hornet 1976,22,6,232,90.0,3085,18,1976,amc,9800,False
+chevrolet chevette 1976,29,4,85,52.0,2035,22,1976,chevrolet,6000,False
+volkswagen rabbit 1976,29,4,90,70.0,1937,14,1976,volkswagen,5600,False
+honda civic 1976,33,4,91,53.0,1795,17,1976,honda,10000,False
+dodge aspen se 1976,20,6,225,100.0,3651,18,1976,dodge,7000,False
+ford granada ghia 1976,18,6,250,78.0,3574,21,1976,ford,6500,False
+pontiac ventura sj 1976,18,6,250,110.0,3645,16,1976,pontiac,7400,False
+amc pacer d/l 1976,17,6,258,95.0,3193,18,1976,amc,7000,False
+datsun b210 1976,32,4,85,70.0,1990,17,1976,datsun,6000,False
+toyota corolla 1976,28,4,97,75.0,2155,16,1976,toyota,5900,False
+ford pinto 1976,26,4,140,72.0,2565,14,1976,ford,4500,False
+volvo 245 1976,20,4,130,102.0,3150,16,1976,volvo,7000,False
+plymouth volare premier v8 1976,13,8,318,150.0,3940,13,1976,plymouth,7000,False
+peugeot 504 1976,19,4,120,88.0,3270,22,1976,peugeot,9000,False
+toyota mark ii 1976,19,6,156,108.0,2930,15,1976,toyota,5000,False
+mercedes-benz 280s 1976,16,6,168,120.0,3820,17,1976,mercedes,10000,False
+chevy c10 1976,13,8,350,145.0,4055,12,1976,chevrolet,19600,False
+dodge d100 1976,13,8,318,150.0,3755,14,1976,dodge,12000,False
+honda accord cvcc 1977,31,4,98,68.0,2045,18,1977,honda,9000,False
+datsun f10 hatchback 1977,33,4,85,70.0,1945,17,1977,datsun,5000,False
+chevrolet caprice classic 1977,17,8,305,145.0,3880,12,1977,chevrolet,9100,False
+oldsmobile cutlass supreme 1977,17,8,260,110.0,4060,19,1977,oldsmobile,14000,False
+dodge monaco brougham 1977,15,8,318,145.0,4140,14,1977,dodge,11500,False
+mercury cougar brougham 1977,15,8,302,130.0,4295,15,1977,mercury,10000,False
+chevrolet concours 1977,17,6,250,110.0,3520,16,1977,chevrolet,12000,False
+buick skylark 1977,20,6,231,105.0,3425,17,1977,buick,7000,False
+plymouth volare custom 1977,19,6,225,100.0,3630,18,1977,plymouth,7500,False
+ford granada 1977,18,6,250,98.0,3525,19,1977,ford,5000,False
+pontiac grand prix lj 1977,16,8,400,180.0,4220,11,1977,pontiac,12000,False
+chevrolet monte carlo landau 1977,15,8,350,170.0,4165,11,1977,chevrolet,12000,False
+chrysler cordoba 1977,15,8,400,190.0,4325,12,1977,chrysler,7000,False
+ford thunderbird 1977,16,8,351,149.0,4335,14,1977,ford,12000,False
+volkswagen rabbit custom 1977,29,4,97,78.0,1940,14,1977,volkswagen,4000,False
+pontiac sunbird coupe 1977,24,4,151,88.0,2740,16,1977,pontiac,4500,False
+toyota corolla liftback 1977,26,4,97,75.0,2265,18,1977,toyota,8000,False
+ford mustang ii 2+2 1977,25,4,140,89.0,2755,16,1977,ford,10000,False
+chevrolet chevette 1977,30,4,98,63.0,2051,17,1977,chevrolet,7500,False
+subaru dl 1977,30,4,97,67.0,1985,16,1977,subaru,4000,False
+volkswagen dasher 1977,30,4,97,78.0,2190,14,1977,volkswagen,8000,False
+datsun 810 1977,22,6,146,97.0,2815,14,1977,datsun,4000,False
+bmw 320i 1977,21,4,121,110.0,2600,13,1977,bmw,14200,False
+mazda rx-4 1977,21,3,80,110.0,2720,13,1977,mazda,12000,False
+volkswagen rabbit custom diesel 1978,43,4,90,48.0,1985,21,1978,volkswagen,7500,False
+ford fiesta 1978,36,4,98,66.0,1800,14,1978,ford,2000,False
+datsun b210 gx 1978,39,4,85,70.0,2070,19,1978,datsun,5000,False
+honda civic cvcc 1978,36,4,91,60.0,1800,16,1978,honda,6000,False
+oldsmobile cutlass salon brougham 1978,20,8,260,110.0,3365,15,1978,oldsmobile,6300,False
+dodge diplomat 1978,19,8,318,140.0,3735,13,1978,dodge,8000,False
+mercury monarch ghia 1978,20,8,302,139.0,3570,13,1978,mercury,7500,False
+pontiac phoenix lj 1978,19,6,231,105.0,3535,19,1978,pontiac,5000,False
+chevrolet malibu 1978,20,6,200,95.0,3155,18,1978,chevrolet,7000,False
+ford fairmont 1978,20,6,200,85.0,2965,16,1978,ford,5500,False
+plymouth volare 1978,20,6,225,100.0,3430,17,1978,plymouth,5500,False
+amc concord 1978,19,6,232,90.0,3210,17,1978,amc,5500,False
+mercury zephyr 1978,21,6,200,85.0,3070,17,1978,mercury,4000,False
+dodge aspen 1978,19,6,225,110.0,3620,19,1978,dodge,6000,False
+amc concord d/l 1978,18,6,258,120.0,3410,15,1978,amc,3100,False
+chevrolet monte carlo landau 1978,19,8,305,145.0,3425,13,1978,chevrolet,11500,False
+buick regal sport coupe turbo 1978,18,6,231,165.0,3445,13,1978,buick,5700,False
+ford futura 1978,18,8,302,139.0,3205,11,1978,ford,5500,False
+dodge magnum xe 1978,17,8,318,140.0,4080,14,1978,dodge,12000,False
+chevrolet chevette 1978,30,4,98,68.0,2155,16,1978,chevrolet,7500,False
+toyota corona 1978,27,4,134,95.0,2560,14,1978,toyota,4000,False
+datsun 510 1978,27,4,119,97.0,2300,15,1978,datsun,5000,False
+dodge omni 1978,31,4,105,75.0,2230,14,1978,dodge,3000,False
+toyota celica gt liftback 1978,21,4,134,95.0,2515,15,1978,toyota,9000,False
+plymouth sapporo 1978,23,4,156,105.0,2745,17,1978,plymouth,6100,False
+oldsmobile starfire sx 1978,24,4,151,85.0,2855,18,1978,oldsmobile,3000,False
+datsun 200-sx 1978,24,4,119,97.0,2405,15,1978,datsun,5500,False
+audi 5000 1978,20,5,131,103.0,2830,16,1978,audi,4400,False
+volvo 264 gl 1978,17,6,163,125.0,3140,14,1978,volvo,6500,False
+saab 99 gl 1978,22,4,121,115.0,2795,16,1978,saab,4400,False
+peugeot 604 sl 1978,16,6,163,133.0,3410,16,1978,peugeot,6000,False
+volkswagen scirocco 1978,31,4,89,71.0,1990,15,1978,volkswagen,8900,False
+honda accord lx 1978,29,4,98,68.0,2135,17,1978,honda,7000,False
+mercury zephyr 1979,20,6,200,85.0,2990,18,1979,mercury,6000,False
+ford fairmont 1979,22,4,140,88.0,2890,17,1979,ford,3000,False
+amc concord dl 1979,20,6,232,90.0,3265,18,1979,amc,4500,False
+dodge aspen 1979,21,6,225,110.0,3360,17,1979,dodge,4000,False
+chevrolet caprice classic 1979,17,8,305,130.0,3840,15,1979,chevrolet,6500,False
+ford ltd landau 1979,18,8,302,129.0,3725,13,1979,ford,6500,False
+mercury grand marquis 1979,16,8,351,138.0,3955,13,1979,mercury,7700,False
+dodge st.regis 1979,18,8,318,135.0,3830,15,1979,dodge,3000,False
+buick estate wagon 1979,17,8,350,155.0,4360,15,1979,buick,11900,False
+chevrolet malibu classic 1979,19,8,267,125.0,3605,15,1979,chevrolet,10000,False
+chrysler lebaron town & country 1979,18,8,360,150.0,3940,13,1979,chrysler,9600,False
+volkswagen rabbit custom 1979,32,4,89,71.0,1925,14,1979,volkswagen,8000,False
+amc spirit dl 1979,27,4,121,80.0,2670,15,1979,amc,6500,False
+mercedes benz 300d 1979,25,5,183,77.0,3530,20,1979,mercedes,12000,False
+peugeot 504 1979,27,4,141,71.0,3190,25,1979,peugeot,8500,False
+oldsmobile cutlass salon brougham 1979,24,8,260,90.0,3420,22,1979,oldsmobile,11500,False
+plymouth horizon 1979,34,4,105,70.0,2200,13,1979,plymouth,3000,False
+plymouth horizon tc3 1979,34,4,105,70.0,2150,15,1979,plymouth,3000,False
+datsun 210 1979,32,4,85,65.0,2020,19,1979,datsun,3000,False
+fiat strada custom 1979,37,4,91,69.0,2130,15,1979,fiat,5000,False
+buick skylark limited 1979,28,4,151,90.0,2670,16,1979,buick,9350,False
+chevrolet citation 1979,29,6,173,115.0,2595,11,1979,chevrolet,6000,False
+oldsmobile omega brougham 1979,27,6,173,115.0,2700,13,1979,oldsmobile,2500,False
+pontiac phoenix 1979,33,4,151,90.0,2556,13,1979,pontiac,5000,False
+volkswagen rabbit 1980,41,4,98,76.0,2144,15,1980,volkswagen,5500,False
+toyota corolla tercel 1980,38,4,89,60.0,1968,19,1980,toyota,4500,False
+chevrolet chevette 1980,32,4,98,70.0,2120,15,1980,chevrolet,4500,False
+datsun 310 1980,37,4,86,65.0,2019,16,1980,datsun,3500,False
+chevrolet citation 1980,28,4,151,90.0,2678,16,1980,chevrolet,5900,False
+ford fairmont 1980,26,4,140,88.0,2870,18,1980,ford,5500,False
+amc concord 1980,24,4,151,90.0,3003,20,1980,amc,5500,False
+dodge aspen 1980,19,6,225,90.0,3381,19,1980,dodge,5500,False
+audi 4000 1980,34,4,97,78.0,2188,16,1980,audi,7000,False
+toyota corona liftback 1980,30,4,134,90.0,2711,15,1980,toyota,6500,False
+mazda 626 1980,31,4,120,75.0,2542,17,1980,mazda,7000,False
+toyota corolla 1980,32,4,108,75.0,2265,15,1980,toyota,6500,False
+mazda glc 1980,47,4,86,65.0,2110,18,1980,mazda,6000,False
+dodge colt 1980,28,4,156,105.0,2800,14,1980,dodge,5900,False
+datsun 210 1980,41,4,85,65.0,2110,19,1980,datsun,5500,False
+volkswagen rabbit c 1980,44,4,90,48.0,2085,22,1980,volkswagen,5500,False
+volkswagen dasher 1980,43,4,90,48.0,2335,24,1980,volkswagen,5500,False
+audi 5000s 1980,36,5,121,67.0,2950,20,1980,audi,11000,False
+mercedes-benz 240d 1980,30,4,146,67.0,3250,22,1980,mercedes,15000,False
+honda civic 1500 gl 1980,45,4,91,67.0,1850,14,1980,honda,7500,False
+subaru dl 1980,34,4,97,67.0,2145,18,1980,subaru,7500,False
+volkswagen rabbit 1980,30,4,89,62.0,1845,15,1980,volkswagen,6500,False
+datsun 280-zx 1980,33,6,168,132.0,2910,11,1980,datsun,10000,False
+mazda rx-7 gs 1980,24,3,70,100.0,2420,12,1980,mazda,11000,False
+honda accord 1980,32,4,107,72.0,2290,17,1980,honda,5200,False
+buick skylark 1981,27,4,151,84.0,2635,16,1981,buick,5000,False
+dodge aries wagon 1981,26,4,156,92.0,2620,14,1981,dodge,5100,False
+toyota starlet 1981,39,4,79,58.0,1755,17,1981,toyota,4500,False
+honda civic 1300 1981,35,4,81,60.0,1760,16,1981,honda,5000,False
+datsun 210 mpg 1981,37,4,85,65.0,1975,19,1981,datsun,4000,False
+toyota tercel 1981,38,4,89,62.0,2050,17,1981,toyota,3000,False
+ford escort 4w 1981,34,4,98,65.0,2045,16,1981,ford,5500,False
+ford escort 2h 1981,30,4,98,65.0,2380,21,1981,ford,5800,False
+volkswagen jetta 1981,33,4,105,74.0,2190,14,1981,volkswagen,21900,False
+honda prelude 1981,34,4,107,75.0,2210,14,1981,honda,7500,False
+toyota corolla 1981,32,4,108,75.0,2350,17,1981,toyota,7500,False
+datsun 200sx 1981,33,4,119,100.0,2615,15,1981,datsun,10500,False
+mazda 626 1981,32,4,120,74.0,2635,18,1981,mazda,7000,False
+peugeot 505s turbo diesel 1981,28,4,141,80.0,3230,20,1981,peugeot,6000,False
+volvo 245 1981,31,6,145,76.0,3160,20,1981,volvo,10400,False
+toyota cressida 1981,25,6,168,116.0,2900,13,1981,toyota,8000,False
+datsun 810 maxima 1981,24,6,146,120.0,2930,14,1981,datsun,3500,False
+buick century 1981,22,6,231,110.0,3415,16,1981,buick,7650,False
+oldsmobile cutlass ls 1981,27,8,350,105.0,3725,19,1981,oldsmobile,8000,False
+ford granada gl 1981,20,6,200,88.0,3060,17,1981,ford,10500,False
+chrysler lebaron salon 1981,18,6,225,85.0,3465,17,1981,chrysler,4000,False
+chevrolet cavalier wagon 1982,27,4,112,88.0,2640,19,1982,chevrolet,2600,False
+chevrolet cavalier 2-door 1982,34,4,112,88.0,2395,18,1982,chevrolet,1150,False
+pontiac j2000 se hatchback 1982,31,4,112,85.0,2575,16,1982,pontiac,5000,False
+dodge aries se 1982,29,4,135,84.0,2525,16,1982,dodge,5000,False
+pontiac phoenix 1982,27,4,151,90.0,2735,18,1982,pontiac,8000,False
+ford fairmont futura 1982,24,4,140,92.0,2865,16,1982,ford,5700,False
+volkswagen rabbit l 1982,36,4,105,74.0,1980,15,1982,volkswagen,5900,False
+mazda glc custom 1982,31,4,91,68.0,1970,18,1982,mazda,5000,False
+mercury lynx l 1982,36,4,98,70.0,2125,17,1982,mercury,4000,False
+nissan stanza xe 1982,36,4,120,88.0,2160,14,1982,nissan,3000,False
+honda accord 1982,36,4,107,75.0,2205,14,1982,honda,4500,False
+toyota corolla 1982,34,4,108,70.0,2245,17,1982,toyota,9000,False
+honda civic 1982,38,4,91,67.0,1965,15,1982,honda,5500,False
+datsun 310 gx 1982,38,4,91,67.0,1995,16,1982,datsun,3500,False
+buick century limited 1982,25,6,181,110.0,2945,16,1982,buick,3300,False
+oldsmobile cutlass ciera 1982,38,6,262,85.0,3015,17,1982,oldsmobile,1600,False
+chrysler lebaron medallion 1982,26,4,156,92.0,2585,14,1982,chrysler,10900,False
+ford granada l 1982,22,6,232,112.0,2835,15,1982,ford,8900,False
+toyota celica gt-s 1982,32,4,144,96.0,2665,14,1982,toyota,10900,False
+chevrolet camaro 1982,27,4,151,90.0,2950,17,1982,chevrolet,18000,False
+ford mustang gl 1982,27,4,140,86.0,2790,16,1982,ford,7000,False
+volkswagen pickup 1982,44,4,97,52.0,2130,25,1982,volkswagen,10000,False
+dodge rampage 1982,32,4,135,84.0,2295,12,1982,dodge,3000,False
+chevy s10 1982,31,4,119,82.0,2720,19,1982,chevrolet,18500,False
+honda accord 1985,30,4,122,98.0,2410,13,1985,honda,2800,False
+ford mustang gt 1982,16,8,302,157.0,3122,8,1982,ford,17500,False
+bmw 325i 1987,21,6,152,168.0,2910,8,1987,bmw,14470,False
+chevrolet camaro iroc-z 1985,16,8,305,215.0,3400,7,1985,chevrolet,30000,False
+mercedes-benz 300e 1986,18,6,183,177.0,3360,8,1986,mercedes,7200,False
+porsche 944 1984,26,4,151,143.0,2866,8,1984,porsche,12500,False
+toyota celica gt 1983,32,4,116,96.0,2555,13,1983,toyota,9000,False
+audi 5000s 1985,23,5,151,102.0,2984,10,1985,audi,4250,False
+pontiac firebird trans am 1987,15,8,305,205.0,3333,8,1987,pontiac,21500,False
+volkswagen golf gti 1984,25,4,109,90.0,2400,10,1984,volkswagen,16500,False
+dodge daytona turbo z 1984,22,4,135,142.0,2615,8,1984,dodge,8600,False
+saab 900 turbo 1985,24,4,121,160.0,2825,8,1985,saab,11900,False
+ferrari mondial 1983,15,8,213,214.0,3373,7,1983,ferrari,42700,False
+buick grand national 1987,17,6,231,245.0,3545,6,1987,buick,48700,False
+ford taurus 1986,23,6,183,140.0,3120,11,1986,ford,3000,False
+mitsubishi starion 1985,19,4,156,188.0,3010,7,1985,mitsubishi,7600,False
+volvo 240 gl 1984,21,4,141,114.0,2910,11,1984,volvo,7900,False
+toyota camry 1998,24,4,134,133.0,2900,8,1998,toyota,7900,False
+bmw m3 2002,20,6,195,333.0,3400,5,2002,bmw,26100,False
+chevrolet corvette 1984,22,8,350,205.0,3200,6,1984,chevrolet,11100,False
+volkswagen golf 1997,27,4,121,115.0,2700,9,1997,volkswagen,10500,False
+subaru impreza wrx 2004,20,4,122,227.0,3200,5,2004,subaru,12000,False
+audi a4 2008,24,4,121,200.0,3400,6,2008,audi,7000,False
+ford f-150 2015,19,6,213,282.0,4500,7,2015,ford,8800,True
+nissan altima 2005,26,4,152,175.0,3200,7,2005,nissan,6500,False
+mercedes-benz c-class 2016,24,4,121,241.0,3500,6,2016,mercedes,22000,True
+dodge charger 2018,25,6,220,292.0,3900,6,2018,dodge,14000,True
+chevrolet camaro 1989,18,8,350,245.0,3200,6,1989,chevrolet,21500,False
+jeep grand cherokee 1999,19,6,242,190.0,3800,8,1999,jeep,4000,False
+honda cr-v 2005,27,4,144,160.0,3400,8,2005,honda,6500,False
+pontiac gto 2004,20,8,364,400.0,3700,5,2004,pontiac,17900,False
+nissan 350z 2003,20,6,213,287.0,3200,5,2003,nissan,17000,False
+mazda miata 1990,30,4,98,116.0,2200,7,1990,mazda,10400,False
+chrysler 300c 2005,20,8,345,340.0,3800,6,2005,chrysler,7000,False
+ford explorer 2000,18,6,244,210.0,4000,8,2000,ford,3500,False
+toyota supra 1993,20,6,183,276.0,3200,6,1993,toyota,65000,False
+dodge neon 1995,28,4,122,132.0,2500,8,1995,dodge,1000,False
+bmw z3 1996,26,6,169,193.0,2800,7,1996,bmw,11300,False
+volkswagen passat 2001,24,4,110,150.0,3200,8,2001,volkswagen,5100,False
+chevrolet silverado 1999,18,8,325,285.0,4500,7,1999,chevrolet,15500,False
+nissan pathfinder 2005,21,6,244,266.0,4500,7,2005,nissan,6000,False
+honda fit 2007,33,4,91,109.0,2600,8,2007,honda,1000,False
+ford explorer 1995,18,6,244,160.0,3500,8,1995,ford,4000,False
+subaru outback 2000,24,6,183,250.0,3500,7,2000,subaru,6000,False
+chevrolet s10 1994,22,4,134,120.0,2900,9,1994,chevrolet,6500,False
+toyota tacoma 2005,21,6,241,236.0,3600,7,2005,toyota,15000,False
+mercury grand marquis 2003,18,8,281,240.0,4000,8,2003,mercury,5000,False
+honda accord 2008,28,4,144,190.0,3200,8,2008,honda,6500,False
+nissan xterra 2001,19,6,201,180.0,3800,8,2001,nissan,15000,False
+ford mustang 1997,19,6,232,190.0,3200,8,1997,ford,4000,False
+chrysler sebring 2001,24,4,144,150.0,3300,8,2001,chrysler,5000,False
+honda civic 1995,30,4,97,106.0,2600,8,1995,honda,9200,False
+mazda 6 2003,28,4,140,160.0,3200,7,2003,mazda,3000,False
+volvo s60 2004,24,5,152,208.0,3400,7,2004,volvo,5000,False
+dodge ram 1500 2002,15,8,360,245.0,5000,8,2002,dodge,15000,False
+toyota land cruiser fzj80 1994,15,8,275,212.0,5500,8,1994,toyota,22900,False
+bmw 325i e36 1995,22,6,152,189.0,3175,7,1995,bmw,8000,False
+honda prelude si 1993,25,4,137,160.0,2840,7,1993,honda,11000,False
+ford bronco xlt 1996,15,8,351,210.0,4600,9,1996,ford,21100,False
+nissan 300zx twin turbo z32 1990,18,6,183,300.0,3500,5,1990,nissan,14500,False
+jeep grand cherokee laredo 1998,18,6,242,185.0,3800,9,1998,jeep,6000,False
+toyota celica gt-four st205 1994,22,4,122,255.0,3250,6,1994,toyota,17000,False
+chevrolet camaro z28 1998,19,8,350,305.0,3465,5,1998,chevrolet,14500,False
+mazda mx-5 miata 1994,28,4,110,128.0,2200,8,1994,mazda,10000,False
+subaru impreza wrx sti 2004,19,4,153,300.0,3263,5,2004,subaru,24700,False
+mercedes-benz e320 w210 1996,23,6,195,217.0,3600,7,1996,mercedes,8000,False
+ford taurus sho 1999,18,8,207,235.0,3500,7,1999,ford,5600,False
+mitsubishi 3000gt vr-4 1995,19,6,183,320.0,3800,5,1995,mitsubishi,45000,False
+volkswagen golf gti mk4 2002,24,4,110,180.0,2900,7,2002,volkswagen,5500,False
+chevrolet corvette c5 1998,18,8,350,345.0,3235,5,1998,chevrolet,21500,False
+toyota mr2 spyder 2000,25,4,110,138.0,2200,7,2000,toyota,10000,False
+dodge viper gts 1998,13,10,488,450.0,3460,4,1998,dodge,51900,False
+porsche 911 carrera 4s 2003,20,6,220,320.0,3300,5,2003,porsche,33000,False
+honda s2000 2006,20,4,132,237.0,2835,5,2006,honda,26000,False
+ferrari f355 berlinetta 1995,14,8,213,375.0,2975,5,1995,ferrari,118680,False
+ford mustang gt 1999,18,8,281,260.0,3300,5,1999,ford,18500,False
+bmw m5 e39 2000,17,8,300,394.0,4023,5,2000,bmw,33000,False
+toyota supra turbo mk4 1998,19,6,183,320.0,3450,5,1998,toyota,80000,False
+jaguar xj8 2003,18,8,244,290.0,3850,7,2003,jaguar,12500,False
+subaru outback h6 2001,21,6,183,212.0,3550,8,2001,subaru,17500,False
+chevrolet tahoe lt 2004,15,8,325,295.0,5300,8,2004,chevrolet,13000,False
+nissan maxima se 1997,21,6,183,190.0,3300,7,1997,nissan,5100,False
+audi tt quattro 2002,22,4,110,225.0,3197,6,2002,audi,8000,False
+ford focus zx3 2003,25,4,122,130.0,2600,9,2003,ford,4000,False
+volvo s60 t5 2004,23,5,146,247.0,3400,7,2004,volvo,6000,False
+chrysler 300c hemi 2005,17,8,345,340.0,4160,5,2005,chrysler,13000,False
+honda civic si 2004,27,4,122,160.0,2740,8,2004,honda,11000,False
+nissan altima 3.5 se 2003,21,6,213,245.0,3280,6,2003,nissan,3700,False
+saab 9-3 aero 2002,24,4,122,205.0,3100,7,2002,saab,4000,False
+pontiac gto 2006,17,8,364,400.0,3725,5,2006,pontiac,13000,False
+mercedes-benz sl500 r129 1999,18,8,302,302.0,4170,6,1999,mercedes,18000,False
+bmw z4 roadster e85 2006,22,6,183,255.0,3130,6,2006,bmw,16000,False
+mitsubishi lancer evolution ix 2006,20,4,122,286.0,3263,5,2006,mitsubishi,40000,False
+subaru impreza wrx sti 2005,19,4,153,300.0,3360,5,2005,subaru,24000,False
+dodge charger srt8 2006,15,8,372,425.0,4160,5,2006,dodge,22000,False
+volkswagen passat w8 2003,19,8,244,270.0,3700,6,2003,volkswagen,10000,False
+chevrolet trailblazer ss 2006,14,8,364,395.0,4600,5,2006,chevrolet,15000,False
+toyota camry solara se v6 2004,23,6,202,225.0,3490,7,2004,toyota,6000,False
+volvo v70 r 2006,20,5,153,300.0,3700,6,2006,volvo,16600,False
+ford mustang shelby gt500 2008,14,8,330,500.0,3920,4,2008,ford,35500,False
+audi a6 3.2 fsi quattro 2007,22,6,195,255.0,3814,7,2007,audi,10000,False
+mazda mx-5 miata 2006,26,4,122,170.0,2480,7,2006,mazda,13700,False
+chevrolet corvette z06 c6 2006,18,8,427,505.0,3132,4,2006,chevrolet,41300,False
+porsche 911 carrera s 997 2005,21,6,232,355.0,3241,5,2005,porsche,47500,False
+nissan 350z touring 2007,20,6,213,306.0,3439,5,2007,nissan,11100,False
+volkswagen golf gti 2009,24,4,122,200.0,3200,7,2009,volkswagen,7000,False
+honda s2000 2007,20,4,134,237.0,2835,5,2007,honda,31000,False
+dodge challenger r/t 2009,16,8,345,372.0,4041,5,2009,dodge,29500,False
+jeep grand cherokee srt8 2008,12,8,372,420.0,4800,5,2008,jeep,16000,False
+audi rs4 b7 2007,16,8,254,420.0,3957,5,2007,audi,25000,False
+bmw m3 e92 2008,14,8,244,414.0,3704,4,2008,bmw,25000,False
+ford f-150 svt raptor 2010,11,8,379,411.0,6000,7,2010,ford,24500,False
+chevrolet camaro ss 2010,16,8,376,426.0,3860,5,2010,chevrolet,28300,False
+volkswagen scirocco r 2011,27,4,122,261.0,3097,6,2011,volkswagen,13000,False
+ferrari 458 italia 2010,14,8,275,562.0,3042,3,2010,ferrari,200000,False
+lamborghini aventador lp700-4 2012,10,12,396,700.0,3472,3,2012,lamborghini,240900,False
+porsche panamera turbo 2014,18,8,293,520.0,4400,4,2014,porsche,45000,False
+jaguar f-type r 2015,18,8,305,550.0,3674,4,2015,jaguar,38500,True
+chevrolet corvette z06 c7 2015,16,8,376,650.0,3524,3,2015,chevrolet,75000,True
+audi rs7 sportback 2016,18,8,244,560.0,4475,4,2016,audi,55000,True
+ford focus rs 2016,22,4,140,350.0,3434,5,2016,ford,28000,True
+bmw m2 2016,23,6,183,365.0,3450,4,2016,bmw,33700,True
+mercedes-amg gt s 2016,19,8,244,503.0,3560,4,2016,mercedes,76900,True
+honda civic type r 2017,25,4,122,306.0,3117,6,2017,honda,32000,True
+chevrolet camaro zl1 2017,14,8,376,650.0,3885,3,2017,chevrolet,59000,True
+mazda cx-5 2017,28,4,152,187.0,3500,9,2017,mazda,18000,True
+audi r8 v10 plus 2017,14,10,317,610.0,3669,3,2017,audi,140000,True
+dodge charger hellcat 2018,13,8,376,707.0,4560,4,2018,dodge,50000,True
+bmw m5 2018,17,8,268,600.0,4382,3,2018,bmw,56900,True
+jeep wrangler rubicon 2018,18,6,220,285.0,4449,7,2018,jeep,37000,True
+ford mustang shelby gt350 2019,14,8,317,526.0,3791,4,2019,ford,59600,True
+toyota supra a90 2020,24,6,183,382.0,3397,4,2020,toyota,49700,True
+chevrolet corvette stingray c8 2020,15,8,376,490.0,3366,3,2020,chevrolet,65000,True
+mazda mx-5 miata rf 2020,26,4,122,181.0,2445,6,2020,mazda,23000,True
+porsche 911 carrera s 992 2020,21,6,183,443.0,3360,3,2020,porsche,95000,True
+bmw m8 competition 2020,17,8,268,617.0,4200,3,2020,bmw,100000,True
+ferrari f8 tributo 2020,15,8,238,710.0,3160,3,2020,ferrari,298000,True
+nissan gt-r nismo 2020,16,6,231,600.0,3935,3,2020,nissan,210000,True
+audi rs q8 2021,15,8,244,591.0,5291,4,2021,audi,93400,True
+ford bronco wildtrak 2021,20,6,164,330.0,4940,7,2021,ford,52000,True
+toyota gr yaris 2021,29,3,98,268.0,2822,5,2021,toyota,38000,True
+jeep grand cherokee l summit reverse 2021,19,8,345,357.0,5290,6,2021,jeep,62000,True
+volkswagen golf gti 2021,28,4,122,241.0,3252,5,2021,volkswagen,27000,True
+chevrolet monte carlo ss 1987,15,8,305,180.0,3456,8,1987,chevrolet,23000,False
+toyota celica gt-four 1994,20,4,122,252.0,3170,6,1994,toyota,16800,False
+bmw z3 roadster 1996,24,4,116,138.0,2756,8,1996,bmw,10200,False
+dodge viper srt-10 2008,13,10,512,600.0,3450,3,2008,dodge,76200,False
+mercedes-benz 190e 2.5-16 evolution ii 1990,18,4,153,235.0,2830,7,1990,mercedes,45000,False
+toyota mr2 turbo 1995,24,4,122,200.0,2700,6,1995,toyota,29400,False
+honda civic type r ek9 1997,27,4,98,182.0,2425,7,1997,honda,20000,False
+chevrolet corvette z06 c5 2002,19,8,350,405.0,3118,4,2002,chevrolet,28000,False
+ford mustang svt cobra 1993,17,8,302,235.0,3270,6,1993,ford,53200,False
+toyota supra turbo mk4 1994,18,6,183,320.0,3450,5,1994,toyota,60000,False
+ferrari 360 modena 1999,15,8,219,395.0,3197,4,1999,ferrari,98900,False
+mitsubishi lancer evolution viii 2003,20,4,122,271.0,3263,5,2003,mitsubishi,23000,False
+nissan skyline gt-r r34 1999,18,6,160,276.0,3660,5,1999,nissan,147000,False
+bmw m3 e46 2001,17,6,195,333.0,3415,5,2001,bmw,27800,False
+lamborghini diablo sv 1995,10,12,348,510.0,3625,4,1995,lamborghini,250000,False
+audi s4 b5 2000,17,6,165,250.0,3549,6,2000,audi,10000,False
+volkswagen golf r32 mk4 2003,21,6,195,237.0,3330,6,2003,volkswagen,17000,False
+porsche 911 carrera s 997 2004,19,6,232,355.0,3175,4,2004,porsche,46000,False
+chevrolet impala ss 1996,17,8,350,260.0,4041,7,1996,chevrolet,22500,False
+mazda mx-5 miata nb 1999,25,4,110,140.0,2380,8,1999,mazda,8000,False
+jaguar xj220 1992,13,6,213,542.0,3020,3,1992,jaguar,351100,False
+bmw z8 2000,15,8,299,400.0,3494,4,2000,bmw,140000,False
+subaru legacy gt spec b 2007,18,4,153,243.0,3435,6,2007,subaru,13000,False
+saab 9-3 viggen 1999,19,4,140,230.0,3120,6,1999,saab,7500,False
+ford gt 2005,14,8,330,550.0,3485,3,2005,ford,350000,False
+honda nsx 1991,21,6,183,270.0,3170,5,1991,honda,78100,False
+plymouth prowler 1997,17,6,213,214.0,2883,6,1997,plymouth,32000,False
+volkswagen corrado vr6 1995,22,6,178,190.0,2855,7,1995,volkswagen,12300,False
+volvo 850 t-5r 1995,21,5,140,240.0,3360,7,1995,volvo,10000,False
+chevrolet camaro ss 1998,19,8,350,320.0,3410,5,1998,chevrolet,18000,False
+ferrari 550 maranello 1996,11,12,335,485.0,3725,4,1996,ferrari,94900,False
+mitsubishi lancer evolution vi 1999,20,4,122,280.0,2954,5,1999,mitsubishi,33400,False
+ford mustang svt cobra r 2000,15,8,330,385.0,3570,4,2000,ford,120000,False
+subaru impreza wrx sti 2004,18,4,153,300.0,3263,5,2004,subaru,24600,False
+ferrari f355 1995,12,8,213,375.0,2976,5,1995,ferrari,150000,False
+bmw m5 e39 1998,19,8,299,394.0,4023,5,1998,bmw,20000,False
+honda s2000 1999,24,4,122,240.0,2809,5,1999,honda,30000,False
+mercedes-benz slr mclaren 2003,13,8,330,617.0,3897,4,2003,mercedes,350000,False
+dodge viper gts 1996,12,10,488,450.0,3386,4,1996,dodge,50000,False
+toyota supra mk4 1993,18,6,183,320.0,3450,5,1993,toyota,45000,False
+audi rs2 avant 1994,17,5,134,311.0,3594,5,1994,audi,59700,False
+pontiac firebird trans am 1985,15,8,305,210.0,3260,8,1985,pontiac,10000,False
+chevrolet corvette zr-1 c4 1990,17,8,350,375.0,3460,4,1990,chevrolet,35000,False
+porsche 928 gts 1992,15,8,330,345.0,3649,5,1992,porsche,73550,False
+dodge stealth r/t twin turbo 1991,18,6,183,300.0,3790,5,1991,dodge,15000,False
+ford thunderbird super coupe 1989,17,6,232,210.0,3667,7,1989,ford,12000,False
+mercedes-benz 500e 1991,16,8,302,322.0,4000,5,1991,mercedes,35000,False
+jaguar xjr 1997,18,8,244,370.0,4095,6,1997,jaguar,8000,False
+toyota mr2 turbo 1991,24,4,122,200.0,2809,6,1991,toyota,18100,False
+chevrolet lumina z34 1991,19,6,207,210.0,3240,7,1991,chevrolet,9000,False
+volkswagen corrado vr6 1992,21,6,177,178.0,2866,6,1992,volkswagen,18700,False
+buick regal gs 1997,18,6,231,240.0,3500,7,1997,buick,5500,False
+toyota supra turbo 1987,20,6,183,230.0,3450,6,1987,toyota,27400,False
+porsche 911 carrera 964 1989,17,6,219,247.0,3000,5,1989,porsche,59990,False
+bmw z3 m roadster 1997,20,6,195,240.0,3175,5,1997,bmw,20000,False
+mitsubishi 3000gt vr-4 1991,18,6,183,300.0,3760,5,1991,mitsubishi,20200,False
+chevrolet camaro z28 1985,16,8,305,215.0,3270,7,1985,chevrolet,22310,False
+ferrari testarossa 1984,11,12,302,390.0,3660,5,1984,ferrari,145000,False
+honda prelude si 1987,24,4,122,135.0,2660,9,1987,honda,13000,False
+ford taurus sho 1989,19,6,183,220.0,3235,7,1989,ford,10000,False
+ford mustang svo 1984,21,4,140,205.0,3088,7,1984,ford,14000,False
+bmw m5 e28 1985,16,6,210,282.0,3483,6,1985,bmw,40000,False
+toyota celica all-trac turbo 1988,20,4,122,190.0,3240,7,1988,toyota,21500,False
+dodge viper rt/10 1992,12,10,488,400.0,3400,5,1992,dodge,57000,False
+subaru svx 1992,17,6,202,230.0,3590,7,1992,subaru,6000,False
+nissan pulsar gti-r 1990,20,4,122,227.0,2750,5,1990,nissan,22200,False
+pontiac fiero gt 1986,19,6,173,140.0,2700,8,1986,pontiac,11000,False
+pontiac bonneville ssei 1992,17,6,231,205.0,3600,8,1992,pontiac,5000,False
+pontiac grand prix gtp 1997,18,6,231,240.0,3534,7,1997,pontiac,14000,False
+pontiac firebird formula 1998,18,8,350,305.0,3386,5,1998,pontiac,15000,False
+pontiac grand am se 1985,22,4,151,92.0,2600,10,1985,pontiac,7300,False
+pontiac sunbird gt turbo 1987,24,4,110,165.0,2650,8,1987,pontiac,7000,False
+pontiac bonneville sse 1988,19,6,231,150.0,3300,9,1988,pontiac,8000,False
+pontiac trans sport 1990,18,6,191,120.0,3700,11,1990,pontiac,3000,False
+pontiac aztek 2001,19,6,207,185.0,3764,10,2001,pontiac,3500,False
+pontiac solstice 2006,20,4,145,177.0,2860,7,2006,pontiac,9000,False
+peugeot 205 gti 1984,28,4,97,105.0,2116,9,1984,peugeot,23200,False
+peugeot 505 turbo 1986,22,4,134,142.0,3050,8,1986,peugeot,10000,False
+peugeot 405 mi16 1988,24,4,116,160.0,2646,8,1988,peugeot,9750,False
+peugeot 306 s16 1993,25,4,122,155.0,2535,8,1993,peugeot,7000,False
+peugeot 309 gti 1989,27,4,116,130.0,2237,8,1989,peugeot,18500,False
+peugeot 406 coupe v6 1997,21,6,183,194.0,3195,8,1997,peugeot,7000,False
+peugeot 206 gti 1999,30,4,122,138.0,2380,8,1999,peugeot,2600,False
+peugeot 406 coupe 1997,23,6,183,194.0,3285,8,1997,peugeot,6000,False
+peugeot 607 v6 2000,20,6,183,210.0,3582,8,2000,peugeot,5500,False
+peugeot 307 cc 2003,27,4,122,138.0,3060,10,2003,peugeot,3000,False
+peugeot 307 hdi 2001,47,4,122,110.0,2860,11,2001,peugeot,1500,False
+peugeot 407 hdi 2004,38,4,122,138.0,3461,11,2004,peugeot,2500,False
+saab 900 turbo 1984,22,4,122,160.0,2775,8,1984,saab,10200,False
+saab 9000 turbo 1986,20,4,122,160.0,3070,8,1986,saab,14000,False
+saab 900 convertible 1987,21,4,122,135.0,2940,9,1987,saab,16000,False
+saab 9000 cd 1991,24,4,140,200.0,3270,7,1991,saab,3000,False
+saab 900 se turbo 1994,23,4,122,185.0,3000,7,1994,saab,12000,False
+saab 9-5 aero 2002,20,4,140,250.0,3400,6,2002,saab,2500,False
+saab 9-3 sport sedan 2003,24,4,122,210.0,3300,7,2003,saab,5000,False
+opel manta gsi 1983,25,4,110,115.0,2430,9,1983,opel,10000,False
+opel kadett gsi 1984,27,4,110,115.0,2150,9,1984,opel,10000,False
+opel calibra 16v 1990,24,4,122,150.0,2710,8,1990,opel,2400,False
+opel astra gsi 1993,26,4,122,150.0,2600,8,1993,opel,5000,False
+opel zafira a opc 2001,21,4,122,192.0,3280,8,2001,opel,4000,False
+opel speedster 2003,29,4,134,147.0,2070,6,2003,opel,28000,False
+opel monza gse 1984,20,6,183,180.0,3100,8,1984,opel,30000,False
+opel senator 3.0i 24v 1987,19,6,183,204.0,3420,8,1987,opel,4500,False
+opel kadett gsi 16v 1988,28,4,122,156.0,2375,8,1988,opel,10000,False
+opel astra f gsi 16v 1991,25,4,122,150.0,2510,8,1991,opel,6000,False
+opel vectra a turbo 4x4 1992,22,4,122,204.0,3130,7,1992,opel,7000,False
+opel corsa b gsi 1993,32,4,97,109.0,2200,9,1993,opel,5000,False
+opel calibra turbo 4x4 1995,23,4,122,204.0,3110,7,1995,opel,9000,False
+opel astra h opc 2005,24,4,122,240.0,3300,6,2005,opel,12000,False
+fiat panda 1000 clx 1991,30,4,61,45.0,1540,16,1991,fiat,4000,False
+fiat punto gt 1993,24,4,85,133.0,2210,8,1993,fiat,6000,False
+fiat coupe 2.0 20v turbo 1996,22,5,122,220.0,2900,6,1996,fiat,12000,False
+fiat bravo hgt 1997,23,5,122,147.0,2720,8,1997,fiat,3000,False
+fiat multipla 1.9 jtd 1999,35,4,116,110.0,3200,12,1999,fiat,2000,False
+oldsmobile cutlass supreme brougham 1983,20,6,231,110.0,3300,13,1983,oldsmobile,10000,False
+oldsmobile toronado brougham 1984,18,8,307,140.0,3750,10,1984,oldsmobile,10000,False
+oldsmobile cutlass supreme international 1988,21,6,173,130.0,2900,9,1988,oldsmobile,11500,False
+oldsmobile toronado trofeo 1989,20,6,231,165.0,3450,9,1989,oldsmobile,7000,False
+oldsmobile bravada 1991,17,6,262,160.0,4150,10,1991,oldsmobile,8000,False
+oldsmobile aurora 1995,20,8,244,250.0,3900,7,1995,oldsmobile,3500,False
+chrysler fifth avenue 1984,18,8,318,140.0,3800,12,1984,chrysler,3200,False
+chrysler new yorker 1988,19,4,153,100.0,3000,11,1988,chrysler,2600,False
+chrysler tc by maserati 1989,21,4,135,160.0,3050,8,1989,chrysler,9000,False
+chrysler lebaron gtc 1990,20,4,153,150.0,3100,9,1990,chrysler,9000,False
+chrysler concorde 1993,18,6,201,153.0,3400,10,1993,chrysler,2500,False
+chrysler lhs 1994,19,6,215,214.0,3600,9,1994,chrysler,3500,False
+chrysler sebring convertible 1996,21,6,152,168.0,3200,9,1996,chrysler,4000,False
+renault alliance 1983,30,4,85,64.0,1900,13,1983,renault,3000,False
+renault fuego 1984,24,4,134,103.0,2600,10,1984,renault,5500,False
+renault 5 turbo 1985,20,4,85,160.0,2150,7,1985,renault,40000,False
+renault medallion 1987,22,4,134,110.0,2750,11,1987,renault,4000,False
+renault espace 1988,21,4,122,110.0,3100,12,1988,renault,3000,False
+renault 21 1989,25,4,104,90.0,2400,12,1989,renault,5000,False
+renault clio 1990,35,4,73,55.0,1800,14,1990,renault,1500,False
+renault safrane 1992,23,6,183,170.0,3400,9,1992,renault,5000,False
+renault 9 1983,30,4,85,59.0,1830,15,1983,renault,1000,False
+renault 25 v6 turbo 1985,20,6,152,182.0,3200,8,1985,renault,4500,False
+renault 11 turbo 1984,25,4,85,105.0,2000,9,1984,renault,5000,False
+renault gta 1986,22,4,122,95.0,2700,10,1986,renault,2500,False
+renault alpine gta v6 turbo 1987,18,6,152,200.0,2900,7,1987,renault,18000,False
+renault 19 16v 1990,28,4,110,137.0,2400,8,1990,renault,3000,False
+renault 19 1988,30,4,85,80.0,2200,12,1988,renault,2500,False
+renault clio williams 1993,25,4,122,150.0,2325,8,1993,renault,6500,False
+renault 21 turbo 1989,25,4,122,175.0,2900,7,1989,renault,7000,False
+renault twingo 1993,39,4,73,55.0,1800,14,1993,renault,1000,False
+renault laguna 1994,26,4,110,115.0,2900,11,1994,renault,2000,False
+renault spider 1996,24,4,122,148.0,2100,7,1996,renault,35000,False
+renault megane coupe 1995,28,4,122,140.0,2600,9,1995,renault,4000,False
+subaru xt coupe 1985,28,4,110,97.0,2200,12,1985,subaru,3000,False
+subaru legacy 1990,23,4,134,130.0,3000,10,1990,subaru,4000,False
+subaru impreza wrx 1994,21,4,122,240.0,2800,5,1994,subaru,16000,False
+subaru outback 1995,22,4,153,165.0,3200,9,1995,subaru,6000,False
+subaru forester 1997,24,4,153,165.0,3100,9,1997,subaru,9500,False
+subaru baja 2003,21,4,153,165.0,3400,10,2003,subaru,5600,False
+lamborghini jalpa 1984,13,8,213,255.0,3300,6,1984,lamborghini,80000,False
+lamborghini countach 5000 qv 1985,9,12,316,455.0,3300,5,1985,lamborghini,550000,False
+lamborghini lm002 1986,8,12,316,444.0,5900,8,1986,lamborghini,400000,False
+lamborghini diablo 1990,11,12,348,485.0,3560,4,1990,lamborghini,300000,False
+lamborghini diablo vt 1993,10,12,348,492.0,3760,4,1993,lamborghini,300000,False
+lamborghini murcielago 2001,8,12,378,572.0,3638,4,2001,lamborghini,275000,False
+lamborghini gallardo 2003,12,10,305,493.0,3439,4,2003,lamborghini,95000,False
+lamborghini murcielago lp640 2006,9,12,397,631.0,3670,3,2006,lamborghini,245000,False
+lamborghini diablo vt roadster 1996,9,12,348,492.0,3858,4,1996,lamborghini,400000,False
+lamborghini diablo gt 1999,8,12,366,575.0,3197,4,1999,lamborghini,500000,False
+lamborghini murcielago roadster 2004,9,12,378,580.0,3638,4,2004,lamborghini,300000,False
+lamborghini gallardo spyder 2005,12,10,305,520.0,3483,4,2005,lamborghini,80000,False
+lamborghini huracan lp610-4 2014,14,10,317,610.0,3139,3,2014,lamborghini,230000,False
+jaguar xj-s v12 he 1983,15,12,326,295.0,4015,8,1983,jaguar,18000,False
+jaguar xj6 series iii 1984,17,6,256,176.0,3990,9,1984,jaguar,7000,False
+jaguar xj-sc 1986,16,12,326,263.0,4100,8,1986,jaguar,15000,False
+jaguar xk8 1996,18,8,244,290.0,3726,6,1996,jaguar,9000,False
+jaguar s-type 1999,20,6,183,240.0,3700,7,1999,jaguar,7000,False
+jaguar xkr 2000,17,8,244,370.0,3780,5,2000,jaguar,25000,False
+jagaur x-type 2001,21,6,152,194.0,3483,8,2001,jaguar,4500,False
+jaguar xj6 xj40 1987,18,6,219,221.0,3950,9,1987,jaguar,8000,False
+jaguar xjr 1995,16,6,244,322.0,4200,6,1995,jaguar,13000,False
+jaguar xj8 1997,17,8,244,290.0,4080,7,1997,jaguar,8000,False
+jaguar xk x100 1997,18,8,244,290.0,3780,6,1997,jaguar,10000,False
+jaguar x-type estate 2004,21,6,183,227.0,3665,7,2004,jaguar,3000,False
+jaguar xkr x150 2006,17,8,256,420.0,3880,5,2006,jaguar,18000,False
+jaguar xf 2008,18,8,256,300.0,3960,6,2008,jaguar,10000,False
+jaguar xj x351 2010,19,8,305,385.0,4095,6,2010,jaguar,20000,False
+jeep cherokee xj 1984,20,4,150,105.0,3100,14,1984,jeep,5000,False
+jeep wrangler yj 1987,18,4,150,117.0,2900,13,1987,jeep,6000,False
+jeep grand cherokee zj 1993,16,6,242,190.0,3600,9,1993,jeep,6500,False
+jeep wrangler tj 1997,16,6,242,181.0,3310,9,1997,jeep,10000,False
+jeep liberty kj 2002,18,6,226,210.0,4021,10,2002,jeep,6000,False
+jeep commander xk 2006,15,8,287,235.0,4650,8,2006,jeep,5000,False
+jeep wrangler jk 2007,16,6,231,202.0,3760,10,2007,jeep,15000,False
+jeep grand cherokee wk2 2011,17,6,220,290.0,4650,7,2011,jeep,10000,False
+jeep wagoneer 1984,15,6,258,112.0,3770,14,1984,jeep,6000,False
+jeep wrangler sahara yj 1992,16,6,242,180.0,3070,10,1992,jeep,12000,False
+jeep grand cherokee limited 1998,14,8,318,220.0,4070,9,1998,jeep,5000,False
+jeep liberty kj 2005,17,6,226,210.0,4020,10,2005,jeep,4000,False
+jeep patriot 2007,23,4,144,172.0,3280,9,2007,jeep,4500,False
+jeep compass 2011,22,4,144,172.0,3200,10,2011,jeep,6900,False
+jeep wrangler rubicon jk 2013,16,6,220,285.0,4295,8,2013,jeep,23000,False
+mitsubishi starion 1983,20,4,156,145.0,2900,8,1983,mitsubishi,10000,False
+mitsubishi galant vr-4 1988,18,4,122,195.0,3260,7,1988,mitsubishi,9000,False
+mitsubishi eclipse gsx 1995,20,4,122,210.0,3150,6,1995,mitsubishi,10000,False
+mitsubishi 3000gt vr-4 1999,18,6,183,320.0,3760,5,1999,mitsubishi,31000,False
+mitsubishi outlander 2003,22,4,146,160.0,3300,10,2003,mitsubishi,3000,False
+mitsubishi lancer evolution x 2015,17,4,122,303.0,3500,5,2015,mitsubishi,36500,True
+mitsubishi galant 1987,23,4,122,110.0,2500,10,1987,mitsubishi,4500,False
+mitsubishi pajero 1991,18,6,183,150.0,4200,11,1991,mitsubishi,2500,False
+mitsubishi eclipse rs 2000,22,4,146,154.0,2930,8,2000,mitsubishi,4000,False
+mitsubishi montero sport 2002,16,6,213,197.0,4200,10,2002,mitsubishi,6000,False
+mitsubishi outlander 2010,21,4,146,168.0,3400,9,2010,mitsubishi,6500,False
+mitsubishi asx 2013,26,4,122,148.0,3040,10,2013,mitsubishi,10000,False
+mitsubishi l200 2015,29,4,146,181.0,4300,11,2015,mitsubishi,17000,True
+mitsubishi mirage 2018,37,3,73,78.0,2050,13,2018,mitsubishi,7000,True
+ferrari 512 tr 1991,10,12,300,428.0,3219,5,1991,ferrari,200000,False
+ferrari 348 tb 1989,12,8,207,300.0,3200,6,1989,ferrari,75000,False
+ferrari 456 gt 1992,10,12,335,442.0,3725,5,1992,ferrari,79000,False
+ferrari 575m maranello 2002,9,12,350,508.0,3726,4,2002,ferrari,115000,False
+ferrari f430 2004,12,8,262,483.0,3197,4,2004,ferrari,140000,False
+ferrari california 2008,13,8,262,454.0,3725,4,2008,ferrari,115000,False
+ferrari 612 scaglietti 2004,11,12,350,533.0,4080,4,2004,ferrari,75000,False
+ferrari 599 gtb fiorano 2006,9,12,366,612.0,3722,3,2006,ferrari,199000,False
+ferrari 458 spider 2011,14,8,274,562.0,3274,3,2011,ferrari,190000,False
+ferrari f12 berlinetta 2012,12,12,384,730.0,3593,3,2012,ferrari,250000,False
+ferrari ff 2013,11,12,384,651.0,4145,4,2013,ferrari,150000,False
+ferrari 488 gtb 2015,15,8,238,661.0,3250,3,2015,ferrari,200000,True
+ferrari gtc4lusso 2016,12,12,384,680.0,4299,3,2016,ferrari,220000,True
+ferrari portofino 2018,16,8,238,591.0,3725,3,2018,ferrari,210000,True
+porsche 968 1992,19,4,183,236.0,3197,6,1992,porsche,30000,False
+porsche boxster 1996,20,6,153,201.0,2778,7,1996,porsche,15000,False
+porsche 911 gt3 1999,16,6,219,355.0,3075,4,1999,porsche,55000,False
+porsche cayenne 2002,15,8,274,340.0,5225,7,2002,porsche,13000,False
+porsche panamera 2009,18,8,293,400.0,3968,5,2009,porsche,32000,False
+porsche 911 turbo 930 1985,15,6,201,300.0,2954,5,1985,porsche,115000,False
+porsche 928 s4 1987,14,8,302,316.0,3571,6,1987,porsche,39500,False
+porsche 911 carrera rs 964 1992,17,6,219,260.0,2855,5,1992,porsche,165000,False
+porsche 911 gt2 993 1995,14,6,219,430.0,2850,4,1995,porsche,300000,False
+porsche 911 carrera 4 996 1998,18,6,207,300.0,3240,5,1998,porsche,30000,False
+porsche 911 turbo 996 2000,15,6,219,420.0,3400,4,2000,porsche,35000,False
+porsche cayman s 2006,20,6,207,295.0,2998,5,2006,porsche,25000,False
+nissan 300zx 1984,19,6,183,160.0,3000,7,1984,nissan,15000,False
+nissan pathfinder 1987,15,6,183,140.0,3900,10,1987,nissan,5000,False
+nissan 240sx 1991,22,4,146,155.0,2700,8,1991,nissan,8000,False
+nissan altima 1998,23,4,146,150.0,2950,9,1998,nissan,4500,False
+nissan xterra 2000,16,6,202,170.0,4100,10,2000,nissan,4300,False
+nissan gt-r 2009,16,6,231,480.0,3829,3,2009,nissan,84000,False
+subaru gl wagon 1985,25,4,110,82.0,2350,13,1985,subaru,2000,False
+subaru brz 2012,25,4,122,200.0,2762,6,2012,subaru,20000,False
+mercedes-benz 190e 1984,22,4,140,130.0,2850,10,1984,mercedes,3500,False
+mercedes-benz 560sl 1989,15,8,341,227.0,3760,7,1989,mercedes,25000,False
+mercedes-benz e320 1994,19,6,195,217.0,3500,7,1994,mercedes,5900,False
+mercedes-benz c230 kompressor 2000,23,4,140,185.0,3120,8,2000,mercedes,4000,False
+mercedes-benz sl55 amg 2003,14,8,332,493.0,4400,4,2003,mercedes,20500,False
+mercedes-benz cls500 2006,17,8,305,302.0,4025,6,2006,mercedes,7500,False
+mercedes-benz s550 2010,15,8,336,382.0,4485,5,2010,mercedes,15000,False
+mercedes-benz 300d 1985,23,5,183,123.0,3450,13,1985,mercedes,7900,False
+mercedes-benz 560sel 1989,14,8,341,238.0,4160,7,1989,mercedes,15500,False
+mercedes-benz e320 cabriolet 1994,20,6,195,217.0,3945,8,1994,mercedes,15000,False
+mercedes-benz s320 1997,19,6,195,228.0,4300,9,1997,mercedes,7900,False
+mercedes-benz slk230 1999,22,4,140,185.0,3020,7,1999,mercedes,6000,False
+mercedes-benz ml320 2001,17,6,195,215.0,4485,8,2001,mercedes,4250,False
+mercedes-benz e55 amg 2003,14,8,332,469.0,4145,4,2003,mercedes,18000,False
+mercedes-benz g55 amg 2006,11,8,332,469.0,5550,5,2006,mercedes,40000,False
+chevrolet monte carlo sport coupe 1970,14,8,350,165.0,3470,8,1970,chevrolet,20000,False
+chevrolet corvette c3 stingray 1970,14,8,350,300.0,3100,7,1970,chevrolet,35000,False
+chevrolet chevelle ss 396 1970,12,8,396,350.0,3500,7,1970,chevrolet,60000,False
+chevrolet camaro z28 1970,12,8,350,360.0,3000,7,1970,chevrolet,40000,False
+chevrolet impala ss 427 1970,12,8,427,385.0,3700,6,1970,chevrolet,38000,False
+chevrolet nova ss 350 1970,13,8,350,300.0,3100,7,1970,chevrolet,22000,False
+buick skylark custom convertible 1970,13,8,350,230.0,3550,9,1970,buick,26000,False
+buick gs stage 1 1970,10,8,455,360.0,3874,6,1970,buick,79000,False
+buick electra 225 custom 1970,11,8,455,370.0,4460,8,1970,buick,9700,False
+buick riviera gs 1970,11,8,455,370.0,4210,8,1970,buick,20000,False
+buick wildcat custom 4-door hardtop 1970,12,8,455,370.0,4120,8,1970,buick,5800,False
+buick lesabre custom coupe 1970,13,8,350,260.0,3750,9,1970,buick,6200,False
+buick sportwagon 400 1970,12,8,400,325.0,4090,8,1970,buick,12000,False
+plymouth barracuda 1970,14,8,383,330.0,3550,12,1970,plymouth,54000,False
+plymouth gtx 1970,15,8,440,375.0,3900,13,1970,plymouth,65000,False
+plymouth road runner 1970,13,8,383,335.0,3600,12,1970,plymouth,42000,False
+plymouth fury iii 1970,14,8,360,290.0,4000,14,1970,plymouth,21000,False
+plymouth valiant 6 1970,19,6,225,105.0,2700,19,1970,plymouth,11500,False
+amc javelin sst 1970,14,8,304,210.0,2900,7,1970,amc,34500,False
+amc javelin amx 1970,13,8,390,325.0,3150,7,1970,amc,30000,False
+amc rebel machine 1970,12,8,390,340.0,3500,6,1970,amc,74000,False
+amc ambassador sst 1970,14,8,360,290.0,3500,8,1970,amc,11500,False
+amc matador 1970,13,8,290,200.0,3200,8,1970,amc,13000,False
+amc rebel 1970,13,8,290,220.0,3000,8,1970,amc,12500,False
+amc hornet sc/360 1970,12,8,360,245.0,2800,7,1970,amc,15000,False
+amc pacer 1970,18,6,232,145.0,2400,10,1970,amc,12000,False
+ford mustang boss 302 1970,14,8,302,290.0,3100,7,1970,ford,91000,False
+ford mustang mach 1 1970,15,8,351,330.0,3500,7,1970,ford,50000,False
+ford torino gt 1970,14,8,302,220.0,3250,8,1970,ford,35000,False
+ford torino cobra 1970,12,8,429,370.0,3750,6,1970,ford,60000,False
+ford falcon futura 1970,18,6,200,120.0,2400,10,1970,ford,7000,False
+ford falcon sports coupe 1970,16,8,302,220.0,2800,8,1970,ford,8000,False
+ford mustang 428 cobra jet 1970,12,8,428,335.0,3500,6,1970,ford,50000,False
+ford mustang grande 1970,14,8,302,210.0,3300,8,1970,ford,15000,False
+ford torino gt 429 1970,13,8,429,360.0,3700,6,1970,ford,40000,False
+pontiac gto judge 1970,10,8,400,370.0,3720,6,1970,pontiac,60000,False
+pontiac firebird trans am 1970,10,8,400,345.0,3780,6,1970,pontiac,49000,False
+pontiac bonneville 1970,9,8,455,370.0,4200,8,1970,pontiac,12000,False
+pontiac lemans sport 1970,10,8,350,255.0,3500,7,1970,pontiac,10500,False
+pontiac grand prix sj 1970,10,8,455,370.0,4140,7,1970,pontiac,13000,False
+pontiac catalina sedan 1970,11,8,400,290.0,4200,8,1970,pontiac,7000,False
+pontiac tempest t-37 1970,14,6,250,155.0,3400,9,1970,pontiac,15000,False
+pontiac ventura ii 1970,15,6,250,155.0,3200,10,1970,pontiac,8000,False
+pontiac executive 1970,9,8,428,360.0,4300,8,1970,pontiac,17000,False
+dodge charger 500 1970,14,8,440,375.0,3500,6,1970,dodge,88500,False
+dodge charger r/t 1970,12,8,426,425.0,3100,6,1970,dodge,42000,False
+dodge dart swinger 340 1970,15,8,340,275.0,2800,7,1970,dodge,33000,False
+dodge coronet super bee 1970,13,8,426,425.0,3200,6,1970,dodge,94900,False
+dodge polara 500 1970,12,8,383,290.0,3500,8,1970,dodge,16000,False
+toyota corolla 1600 1970,28,4,97,90.0,1830,13,1970,toyota,16500,False
+toyota celica 1600 gt 1970,25,4,97,110.0,1870,10,1970,toyota,17000,False
+toyota land cruiser 40 series 1970,17,6,151,130.0,3300,18,1970,toyota,27500,False
+toyota stout 1970,20,4,112,105.0,2500,15,1970,toyota,10000,False
+toyota corona rt43 1970,22,4,112,95.0,2280,14,1970,toyota,10000,False
+toyota carina 1970,24,4,114,90.0,2430,14,1970,toyota,2500,False
+datsun 240z 1970,24,6,147,151.0,2340,8,1970,datsun,13500,False
+datsun 510 1970,30,4,97,96.0,2110,11,1970,datsun,17500,False
+datsun 1600 1970,25,4,97,94.0,2040,12,1970,datsun,21500,False
+datsun 1200 1970,35,4,73,69.0,1790,14,1970,datsun,20000,False
+datsun 510 wagon 1970,28,4,97,96.0,2200,12,1970,datsun,28000,False
+datsun 1200 coupe 1970,32,4,73,69.0,1740,14,1970,datsun,12000,False
+datsun 2000 roadster 1970,24,4,122,135.0,2040,8,1970,datsun,25000,False
+datsun 1600 roadster 1970,27,4,97,96.0,1910,11,1970,datsun,15500,False
+peugeot 404 1970,23,4,108,88.0,2100,15,1970,peugeot,7000,False
+peugeot 504 coupe 1970,24,4,120,97.0,2400,12,1970,peugeot,10000,False
+peugeot 204 break 1970,27,4,113,65.0,2050,17,1970,peugeot,6800,False
+peugeot 204 cabriolet 1970,26,4,113,70.0,2150,15,1970,peugeot,12500,False
+peugeot 403 1970,22,4,146,65.0,2350,18,1970,peugeot,6000,False
+peugeot 203 1970,21,4,129,60.0,2300,19,1970,peugeot,6000,False
+peugeot 404 cabriolet 1970,23,4,108,88.0,2350,14,1970,peugeot,35000,False
+peugeot 504 station wagon 1970,24,4,120,90.0,2500,13,1970,peugeot,11500,False
+peugeot 204 berlina 1970,28,4,113,65.0,2050,17,1970,peugeot,5000,False
+peugeot j7 van 1970,18,4,162,70.0,3400,22,1970,peugeot,5950,False
+audi 100 1970,22,4,104,83.0,2410,12,1970,audi,4000,False
+audi 60 1970,19,4,91,75.0,2360,13,1970,audi,7000,False
+audi 1600 1970,18,4,98,75.0,2220,14,1970,audi,4500,False
+audi 1800 1970,20,4,110,90.0,2450,11,1970,audi,15000,False
+audi 200 1970,18,4,118,100.0,2550,10,1970,audi,10000,False
+audi 100 gl 1970,21,4,110,90.0,2550,11,1970,audi,5000,False
+audi 1500 1970,19,4,91,72.0,2300,13,1970,audi,9500,False
+saab 99 1970,25,4,121,87.0,2420,14,1970,saab,9000,False
+saab 96 v4 1970,22,4,93,65.0,2210,15,1970,saab,7000,False
+saab sonett iii 1970,25,4,170,65.0,1940,13,1970,saab,10000,False
+saab 95 wagon 1970,22,3,91,68.0,2310,16,1970,saab,9900,False
+bmw 2800 1970,17,6,168,170.0,3070,9,1970,bmw,43000,False
+bmw 3.0cs 1970,15,6,183,200.0,3080,8,1970,bmw,59900,False
+bmw 1600 1970,25,4,98,85.0,1950,11,1970,bmw,15500,False
+bmw 1600-2 1970,26,4,98,90.0,2000,11,1970,bmw,24000,False
+bmw 2000cs 1970,20,4,121,120.0,2500,9,1970,bmw,23400,False
+bmw 2800cs 1970,16,6,168,170.0,3100,8,1970,bmw,38000,False
+bmw 3.0csl 1970,14,6,183,200.0,2800,8,1970,bmw,210000,False
+bmw 2002 ti 1970,21,4,121,130.0,2200,8,1970,bmw,29000,False
+bmw 3.0s 1970,16,6,183,160.0,3000,8,1970,bmw,19000,False
+opel gt 1970,25,4,116,102.0,2150,10,1970,opel,16000,False
+opel rekord 1970,20,6,158,115.0,2800,11,1970,opel,7500,False
+opel kadett 1970,22,4,67,60.0,2100,14,1970,opel,12000,False
+opel manta 1970,20,4,116,90.0,2500,11,1970,opel,6000,False
+opel olympia 1970,18,4,92,75.0,2300,12,1970,opel,10000,False
+opel admiral 1970,14,6,170,130.0,3300,10,1970,opel,18000,False
+opel rekord b 1970,19,4,103,80.0,2500,13,1970,opel,13000,False
+opel commodore a 1970,17,6,151,110.0,2700,11,1970,opel,19000,False
+opel kadett c 1970,22,4,61,60.0,2000,14,1970,opel,12000,False
+opel kadett l 1970,20,4,79,75.0,2200,13,1970,opel,10000,False
+opel ascona a 1970,18,4,98,80.0,2300,12,1970,opel,3350,False
+opel diplomat b 1970,14,8,329,160.0,3700,9,1970,opel,8000,False
+opel gt j 1970,23,4,116,90.0,2300,10,1970,opel,18000,False
+fiat 124 sedan 1970,22,4,85,75.0,2010,15,1970,fiat,4000,False
+fiat 850 sport spider 1970,28,4,55,52.0,1620,18,1970,fiat,7000,False
+fiat 128 1970,25,4,67,60.0,1920,15,1970,fiat,4000,False
+fiat 1100d 1970,20,4,67,55.0,2015,20,1970,fiat,1500,False
+fiat 124 spider 1970,21,4,85,90.0,2080,14,1970,fiat,12000,False
+fiat 1300 1970,18,4,79,75.0,2360,15,1970,fiat,5800,False
+fiat 500l 1970,28,2,30,24.0,1500,26,1970,fiat,13500,False
+fiat 850 coupe 1970,25,4,55,52.0,1710,19,1970,fiat,6500,False
+fiat 1100 1970,19,4,67,55.0,2150,20,1970,fiat,4000,False
+fiat 125 1970,19,4,98,90.0,2250,14,1970,fiat,5600,False
