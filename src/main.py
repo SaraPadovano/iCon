@@ -1,9 +1,10 @@
 import pandas as pd
-from auto_prolog import write_creators
+from auto_prolog import write_creators, write_auto_info
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
 fileName_cleaned = "../dataset/Automobile_cleaned.csv"
+file_know_base = "kb.pl"
 
 # pulizia del file da eventuali dati mancanti
 try:
@@ -26,5 +27,6 @@ except Exception as e:
 
 #RAGIONAMENTO LOGICO
 write_creators(fileName_cleaned)
+write_auto_info(fileName_cleaned, file_know_base)
 
 
