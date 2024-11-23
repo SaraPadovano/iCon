@@ -1,5 +1,5 @@
 import pandas as pd
-# from pyswip import Prolog
+from pyswip import Prolog
 
 # Funzione per scrivere fatti riguardanti le case produttrici nella kb.pl dal dataset
 def write_creators(dataset):
