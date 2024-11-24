@@ -50,3 +50,10 @@ def write_auto_info(dataset, kb):
 # tra i vari dati che richiedono la formazione di regole per il sistema. La cosa potrebbe cambiare in bìfase di
 # clustering. Considerando poi soprattutto che il sistema deve imparare automaticamente mettere delle regole
 # che non riguardino eventualmente le nuove macchine sembra forzato.
+
+# Funzione per fare query in Prolog
+def execute_query(query, kb):
+    prolog = Prolog()
+    prolog.consult(kb)
+    result = list(prolog.query(query))
+    return result
