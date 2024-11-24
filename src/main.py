@@ -44,16 +44,17 @@ try:
     normalize_price(df_features)
     normalize_integer(df_features)
     features = [
-                   'model_year', 'recent', 'standardized_mpg', 'cylinders',
-                   'standardized_displacement', 'standardized_horsepower',
-                   'standardized_weight', 'standardized_acceleration'
+                   'model_year', 'recent', 'normalized_mpg', 'cylinders',
+                   'normalized_displacement', 'normalized_horsepower',
+                   'normalized_weight', 'normalized_acceleration'
                ] + creators
     final_df = df_features[features + ['log_price']]
     # Salva il dataset finale in un nuovo file
     final_df.to_csv(fileName_features, index=False)
     # Crea un grafo che mostra la distribuzione dei creators
     creator_distribution = df_features[creators].sum().sort_values()
-    bar_distribution(creator_distribution, 'Creator Distribution', 'creator', 'occurences', '../png/creator_distribution.png')
+    bar_distribution(creator_distribution, 'Creator Distribution', 'creator', 'occurences',
+                     '../png/creator_distribution.png')
 
 
 except FileNotFoundError:
@@ -67,5 +68,3 @@ except Exception as e:
 # RAGIONAMENTO LOGICO
 write_creators(fileName_cleaned)
 write_auto_info(fileName_cleaned, file_know_base)
-
-
