@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-from sklearn.discriminant_analysis import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 
 # Data una feature realizza un grafico che verrà salvato come immagine
@@ -37,13 +36,13 @@ def normalize_price(file):
 
 #Funzione per normalizzare tutti i valori interi in base alla tecnica più appropriata
 def normalize_integer(file):
-    # Standardizzazione per l'mpg, il displacement, l'horsepower, il weight e l'acceleration
-    scaler = StandardScaler()
-    file['standardized_mpg'] = scaler.fit_transform(file[['mpg']])
-    file['standardized_displacement'] = scaler.fit_transform(file[['displacement']])
-    file['standardized_horsepower'] = scaler.fit_transform(file[['horsepower']])
-    file['standardized_weight'] = scaler.fit_transform(file[['weight']])
-    file['standardized_acceleration'] = scaler.fit_transform(file[['acceleration']])
+    # Normalizzazione per l'mpg, il displacement, l'horsepower, il weight e l'acceleration
+    scaler = MinMaxScaler()
+    file['normalized_mpg'] = scaler.fit_transform(file[['mpg']])
+    file['normalized_displacement'] = scaler.fit_transform(file[['displacement']])
+    file['normalized_horsepower'] = scaler.fit_transform(file[['horsepower']])
+    file['normalized_weight'] = scaler.fit_transform(file[['weight']])
+    file['normalized_acceleration'] = scaler.fit_transform(file[['acceleration']])
     # Per cylinders nessuna normalizzazione perchè i valori sono limitati a solitamente 4,6,8 e raramente 2
     # una normalizzazione quindi non aggiungerebbe valore
 
