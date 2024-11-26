@@ -3,7 +3,7 @@ from sklearn.cluster import KMeans
 from kneed import KneeLocator
 import seaborn as sns
 
-# Funzione che calcola il numero di cluster ottimale per il dataset mediante il metodo del gomito
+# Funzione che calcola il numero di cluster ottimale per il dataset mediante la regola del gomito
 def regola_gomito(dataset, file):
     inertia = []
     # Fisso un range di k da 1 a 10

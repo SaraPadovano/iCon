@@ -74,7 +74,7 @@ write_auto_info(fileName_cleaned, file_know_base)
 # APPRENDIMENTO NON SUPERVISIONATO
 df = pd.read_csv(fileName_features, encoding='utf-8-sig')
 features = [
-    'normalized_mpg', 'cylinders', 'normalized_displacement', 'normalized_horsepower',
+    'recent', 'normalized_mpg', 'cylinders', 'normalized_displacement', 'normalized_horsepower',
     'normalized_weight', 'normalized_acceleration', 'chevrolet', 'buick', 'plymouth', 'amc', 'ford', 'pontiac',
     'dodge', 'toyota', 'datsun', 'peugeot', 'audi', 'saab', 'bmw', 'opel', 'fiat', 'volkswagen', 'mercury',
     'oldsmobile', 'chrysler', 'mazda', 'volvo', 'renault', 'honda', 'mercedes', 'subaru', 'nissan', 'porsche',
