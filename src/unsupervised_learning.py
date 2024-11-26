@@ -3,19 +3,6 @@ from sklearn.cluster import KMeans
 from kneed import KneeLocator
 import seaborn as sns
 
-# Funzione ch visualizza il grafico per il miglior k
-def plot_k(maxK, inertia, file, kl):
-    plt.figure(figsize=(8, 6))
-    plt.plot(maxK, inertia, marker='o', linestyle='-', color='b', label='Inertia')
-    plt.scatter(kl.elbow, inertia[kl.elbow - 1], c='red', s=100, label=f'Miglior k: {kl.elbow}')
-    plt.xlabel('Numero di clusters')
-    plt.ylabel('Inertia')
-    plt.title('Metodo del gomito per il k ottimale')
-    plt.legend()
-    plt.grid(False)
-    plt.savefig(file)
-    plt.close()
-
 # Funzione che calcola il numero di cluster ottimale per il dataset mediante il metodo del gomito
 def regola_gomito(dataset, file):
     inertia = []
@@ -27,7 +14,16 @@ def regola_gomito(dataset, file):
         kmeans.fit(dataset)
         inertia.append(kmeans.inertia_)
     kl = KneeLocator(k_range, inertia, curve="convex", direction="decreasing")
-    plot_k(k_range, inertia, file, kl)
+    plt.figure(figsize=(8, 6))
+    plt.plot(k_range, inertia, marker='o', linestyle='-', color='b', label='Inertia')
+    plt.scatter(kl.elbow, inertia[kl.elbow - 1], c='red', s=100, label=f'Miglior k: {kl.elbow}')
+    plt.xlabel('Numero di clusters')
+    plt.ylabel('Inertia')
+    plt.title('Metodo del gomito per il k ottimale')
+    plt.legend()
+    plt.grid(False)
+    plt.savefig(file)
+    plt.close()
     return kl.elbow
 
 # Visualizza un grafico a torta con la distribuzione delle macchine nei clusters
