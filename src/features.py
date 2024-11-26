@@ -21,6 +21,7 @@ def bar_distribution(data, title, xlabel, ylabel, file):
     # Salva l'immagine
     plt.tight_layout()  # Ottimizza il layout
     plt.savefig(file)
+    plt.close()
 
 # Funzione per la creazione della colonna Recent
 def recent(file):
