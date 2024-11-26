@@ -1,11 +1,13 @@
 import pandas as pd
 from auto_prolog import write_creators, write_auto_info
 from features import bar_distribution, recent, convert_true_false, normalize_price, normalize_integer
+from unsupervised_learning import cluster
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
 fileName_cleaned = "../dataset/Automobile_cleaned.csv"
 fileName_features = "../dataset/Automobile_features.csv"
+fileName_clusters = "../dataset/Automobile_clusters.csv"
 file_know_base = "kb.pl"
 
 # pulizia del file da eventuali dati mancanti
@@ -68,3 +70,15 @@ except Exception as e:
 # RAGIONAMENTO LOGICO
 write_creators(fileName_cleaned)
 write_auto_info(fileName_cleaned, file_know_base)
+
+# APPRENDIMENTO NON SUPERVISIONATO
+df = pd.read_csv(fileName_features, encoding='utf-8-sig')
+features = [
+    'normalized_mpg', 'cylinders', 'normalized_displacement', 'normalized_horsepower',
+    'normalized_weight', 'normalized_acceleration', 'chevrolet', 'buick', 'plymouth', 'amc', 'ford', 'pontiac',
+    'dodge', 'toyota', 'datsun', 'peugeot', 'audi', 'saab', 'bmw', 'opel', 'fiat', 'volkswagen', 'mercury',
+    'oldsmobile', 'chrysler', 'mazda', 'volvo', 'renault', 'honda', 'mercedes', 'subaru', 'nissan', 'porsche',
+    'ferrari', 'mitsubishi', 'jeep', 'jaguar', 'lamborghini'
+]
+clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution_cars_in_clusters', fileName_clusters)
+
