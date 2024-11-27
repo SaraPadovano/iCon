@@ -82,3 +82,6 @@ features = [
 ]
 clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution_cars_in_clusters', fileName_clusters)
 
+# APPRENDIMENTO SUPERVISIONATO
+
+
