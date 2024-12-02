@@ -83,5 +83,10 @@ features = [
 clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution_cars_in_clusters', fileName_clusters)
 
 # APPRENDIMENTO SUPERVISIONATO
-
-
+df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
+# Assicura che la colonna target sia di tipo numerico
+targetColumn = 'log_price'
+df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
+df_copy = df.copy()
+X = df_copy.drop(columns=[targetColumn]).to_numpy()
+y = df_copy[targetColumn].to_numpy()
