@@ -2,6 +2,7 @@ import pandas as pd
 from auto_prolog import write_creators, write_auto_info
 from features import bar_distribution, recent, convert_true_false, normalize_price, normalize_integer
 from unsupervised_learning import cluster
+from supervised_learning import train_valuate_model
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -9,6 +10,7 @@ fileName_cleaned = "../dataset/Automobile_cleaned.csv"
 fileName_features = "../dataset/Automobile_features.csv"
 fileName_clusters = "../dataset/Automobile_clusters.csv"
 file_know_base = "kb.pl"
+train_score_file = "../text/train_score.txt"
 
 # pulizia del file da eventuali dati mancanti
 try:
@@ -90,3 +92,4 @@ df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
 df_copy = df.copy()
 X = df_copy.drop(columns=[targetColumn]).to_numpy()
 y = df_copy[targetColumn].to_numpy()
+model = train_valuate_model(X, y, train_score_file)
