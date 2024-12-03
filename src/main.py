@@ -10,7 +10,6 @@ fileName_cleaned = "../dataset/Automobile_cleaned.csv"
 fileName_features = "../dataset/Automobile_features.csv"
 fileName_clusters = "../dataset/Automobile_clusters.csv"
 file_know_base = "kb.pl"
-train_score_file = "../text/train_score.txt"
 
 # pulizia del file da eventuali dati mancanti
 try:
@@ -85,6 +84,7 @@ features = [
 clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution_cars_in_clusters', fileName_clusters)
 
 # APPRENDIMENTO SUPERVISIONATO
+print("Inizio apprendimento supervisionato")
 df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
 # Assicura che la colonna target sia di tipo numerico
 targetColumn = 'log_price'
@@ -92,4 +92,5 @@ df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
 df_copy = df.copy()
 X = df_copy.drop(columns=[targetColumn]).to_numpy()
 y = df_copy[targetColumn].to_numpy()
-model = train_valuate_model(X, y, train_score_file)
+model = train_valuate_model(X, y)
+print("Fine apprendimento supervisionato")
