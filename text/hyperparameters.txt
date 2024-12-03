@@ -1,13 +1,13 @@
 Best DecisionTree parameters found:
-DecisionTree__criterion            squared_error
+DecisionTree__criterion            friedman_mse
 DecisionTree__max_depth            10        
 DecisionTree__min_samples_leaf     20        
 DecisionTree__min_samples_split    2         
 DecisionTree__splitter             best      
 Best RandomForest parameters found:
-RandomForest__criterion            absolute_error
+RandomForest__criterion            squared_error
 RandomForest__max_depth            10        
-RandomForest__n_estimators         50        
+RandomForest__n_estimators         100       
 Best LightGBM parameters found:
 LightGBM__class_weight             balanced  
 LightGBM__learning_rate            0.05      
