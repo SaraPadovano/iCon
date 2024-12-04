@@ -128,7 +128,7 @@ def get_best_hyperparameters(X, y, regression_model_name):
         LGBMHyperparameters = {
             'LightGBM__n_estimators': [10, 20, 50, 100],
             'LightGBM__learning_rate': [0.01, 0.05, 0.1],
-            'LightGBM__max_depth': [None, 5, 10],
+            'LightGBM__max_depth': [5, 10],
             'LightGBM__class_weight': ['balanced'],
             'LightGBM__verbose': [-1],
             'LightGBM__random_state': [42]}
@@ -179,7 +179,7 @@ def train_valuate_model(X, y):
                           random_state=42)
     print("Modelli configurati con i migliori iperparametri.")
 
-    cv = RepeatedKFold(n_splits=5, n_repeats=3)
+    cv = RepeatedKFold(n_splits=5, n_repeats=3, random_state=42)
     print("Valutazioni dei modelli con le varie metriche")
 
     # Metriche per valutare il modello
@@ -192,24 +192,35 @@ def train_valuate_model(X, y):
 
     metric_file = open("../text/metrics.txt", "w")
     metric_file.write(
-        "\n{:<10}{:<10}{:<25}{:<25}{:<25}\n".format("Metric", "Model Name", "Score Mean", "Score Variance", "Score Std"))
+        "\n{:<10}{:<25}{:<25}{:<25}{:<25}\n".format("Metric", "Model Name", "Score Mean", "Score Variance", "Score Std"))
+
+    results = []
 
     # Valuta ciascuna metrica per ogni modello
     for metric_name, metric_scorer in metrics.items():
+        print(f"Inizio elaborazione per metrica: {metric_name}")
+
         # Computa cross-validated score per ogni modello
-        scores_dict = {
-            "DecisionTree": cross_val_score(dtr, X, y, scoring=metric_scorer, cv=cv),
-            "RandomForest": cross_val_score(rfr, X, y, scoring=metric_scorer, cv=cv),
-            "LightGBM": cross_val_score(lgbmr, X, y, scoring=metric_scorer, cv=cv)
-        }
+        scores_dict = {}
+        for model_name, model in [("DecisionTree", dtr), ("RandomForest", rfr), ("LightGBM", lgbmr)]:
+            print(f"  Calcolo per modello: {model_name} con metrica: {metric_name}")
+            scores = cross_val_score(model, X, y, scoring=metric_scorer, cv=cv, n_jobs=-1)
+            print(f"  Completato calcolo per modello: {model_name} con metrica: {metric_name}")
+            scores_dict[model_name] = scores
 
         # Scrive i risultati per ogni modello
         for model_name, scores in scores_dict.items():
             mean = np.mean(scores)
             var = np.var(scores)
             std = np.std(scores)
-            metric_file.write("{:<10}{:<10}{:<25}{:<25}{:<25}\n".format(metric_name, model_name, str(mean), str(var), str(std)))
+            results.append((metric_name, model_name, mean, var, std))
+            print(f"    Risultati per modello: {model_name} -> Mean: {mean}, Variance: {var}, Std: {std}")
+
+    print("Tutti i calcoli sono stati completati. Scrivo i risultati su file.")
+    for metric_name, model_name, mean, var, std in results:
+        metric_file.write("{:<10}{:<25}{:<25}{:<25}{:<25}\n".format(metric_name, model_name, mean, var, std))
     print("Valutazione completata.")
+
     print("Generazione delle curve di apprendimento...")
     # Disegna la curva per ogni modello
     plot_learning_curves(dtr, X, y, 'DecisionTree', '../png/decisionTree_curve')
