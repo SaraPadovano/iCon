@@ -73,6 +73,7 @@ write_creators(fileName_cleaned)
 write_auto_info(fileName_cleaned, file_know_base)
 
 # APPRENDIMENTO NON SUPERVISIONATO
+print("Inizio apprendimento non supervisionato")
 df = pd.read_csv(fileName_features, encoding='utf-8-sig')
 features = [
     'recent', 'normalized_mpg', 'cylinders', 'normalized_displacement', 'normalized_horsepower',
@@ -82,6 +83,7 @@ features = [
     'ferrari', 'mitsubishi', 'jeep', 'jaguar', 'lamborghini'
 ]
 clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution_cars_in_clusters', fileName_clusters)
+print("Fine apprendimento non supervisionato")
 
 # APPRENDIMENTO SUPERVISIONATO
 print("Inizio apprendimento supervisionato")
