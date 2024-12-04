@@ -80,7 +80,8 @@ def get_best_hyperparameters(X, y, regression_model_name):
             'DecisionTree__max_depth': [None, 5, 10],
             'DecisionTree__splitter': ['best'],
             'DecisionTree__min_samples_split': [2, 5, 10, 20],
-            'DecisionTree__min_samples_leaf': [1, 2, 5, 10, 20]}
+            'DecisionTree__min_samples_leaf': [1, 2, 5, 10, 20],
+            'DecisionTree__random_state': [42]}
         gridSearchCV_dtr = GridSearchCV(Pipeline([('DecisionTree', dtr)]), DecisionTreeHyperparameters, cv=5, n_jobs=-1, scoring='neg_mean_squared_error', error_score='raise')
         gridSearchCV_dtr.fit(X, y)
         best_parameters = {
@@ -104,7 +105,8 @@ def get_best_hyperparameters(X, y, regression_model_name):
         RandomForestHyperparameters = {
             'RandomForest__n_estimators': [10, 20, 50, 100],
             'RandomForest__criterion': ['squared_error', 'absolute_error', 'friedman_mse', 'poisson'],
-            'RandomForest__max_depth': [None, 5, 10]}
+            'RandomForest__max_depth': [None, 5, 10],
+            'RandomForest__random_state': [42]}
         gridSearchCV_rfr = GridSearchCV(Pipeline([('RandomForest', rfr)]), RandomForestHyperparameters, cv=5, n_jobs=-1, scoring='neg_mean_squared_error', error_score='raise')
         gridSearchCV_rfr.fit(X, y)
         best_parameters = {
@@ -128,7 +130,8 @@ def get_best_hyperparameters(X, y, regression_model_name):
             'LightGBM__learning_rate': [0.01, 0.05, 0.1],
             'LightGBM__max_depth': [None, 5, 10],
             'LightGBM__class_weight': ['balanced'],
-            'LightGBM__verbose': [-1]}
+            'LightGBM__verbose': [-1],
+            'LightGBM__random_state': [42]}
         gridSearchCV_lgbmr = GridSearchCV(Pipeline([('LightGBM', lgbmr)]), LGBMHyperparameters, cv=5, n_jobs=-1,
                                           scoring='neg_mean_squared_error', error_score='raise')
         gridSearchCV_lgbmr.fit(X, y)
@@ -160,20 +163,24 @@ def train_valuate_model(X, y):
                                  splitter='best',
                                  max_depth=h_dcr['DecisionTree__max_depth'],
                                  min_samples_split=h_dcr['DecisionTree__min_samples_split'],
-                                 min_samples_leaf=h_dcr['DecisionTree__min_samples_leaf'])
+                                 min_samples_leaf=h_dcr['DecisionTree__min_samples_leaf'],
+                                random_state=42)
 
     rfr = RandomForestRegressor(n_estimators=h_rfr['RandomForest__n_estimators'],
                                  max_depth=h_rfr['RandomForest__max_depth'],
-                                criterion=h_rfr['RandomForest__criterion'])
+                                criterion=h_rfr['RandomForest__criterion'],
+                                random_state=42)
 
     lgbmr = LGBMRegressor(n_estimators=h_lgbmr['LightGBM__n_estimators'],
                           learning_rate=h_lgbmr['LightGBM__learning_rate'],
                           max_depth=h_lgbmr['LightGBM__max_depth'],
                           class_weight='balanced',
-                          verbose=-1)
+                          verbose=-1,
+                          random_state=42)
     print("Modelli configurati con i migliori iperparametri.")
 
-    cv = RepeatedKFold(n_splits=5, n_repeats=5)
+    cv = RepeatedKFold(n_splits=5, n_repeats=3)
+    print("Valutazioni dei modelli con le varie metriche")
 
     # Metriche per valutare il modello
     metrics = {
@@ -189,7 +196,7 @@ def train_valuate_model(X, y):
 
     # Valuta ciascuna metrica per ogni modello
     for metric_name, metric_scorer in metrics.items():
-        # Compute cross-validated scores for each model
+        # Computa cross-validated score per ogni modello
         scores_dict = {
             "DecisionTree": cross_val_score(dtr, X, y, scoring=metric_scorer, cv=cv),
             "RandomForest": cross_val_score(rfr, X, y, scoring=metric_scorer, cv=cv),
