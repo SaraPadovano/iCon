@@ -96,3 +96,7 @@ X = df_copy.drop(columns=[targetColumn]).to_numpy()
 y = df_copy[targetColumn].to_numpy()
 model = train_valuate_model(X, y)
 print("Fine apprendimento supervisionato")
+
+# OVERSAMPLING
+print("Inizio oversampling")
+
