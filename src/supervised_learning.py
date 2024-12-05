@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from lightgbm import LGBMRegressor
 from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import RepeatedKFold, learning_curve, train_test_split, cross_val_score
+from sklearn.model_selection import RepeatedKFold, learning_curve, cross_val_score
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.preprocessing import StandardScaler
@@ -53,10 +53,6 @@ def plot_learning_curves(regression_model, X, y, regression_model_name, file_end
     mean_train_errors = np.mean(-train_scores, axis=1)
     mean_test_errors = np.mean(-test_scores, axis=1)
 
-    # Calcola la devizione standard dell'errore
-    train_errors_std = np.std(-train_scores, axis=1)
-    test_errors_std = np.std(-test_scores, axis=1)
-
     # Disegna la curva di apprendimento
     plt.figure(figsize=(12, 8))  # Dimensione del grafico
     plt.plot(train_sizes, mean_train_errors, 'o-', color='#1f77b4', label='Training Error', linewidth=2, markersize=6)
@@ -68,6 +64,7 @@ def plot_learning_curves(regression_model, X, y, regression_model_name, file_end
     plt.savefig(f"{file_end}.png")
     print("Ottenuto grafico")
     plt.close()
+
 
 #Funzione che restituisce i migliori iperparametri per ogni modello
 def get_best_hyperparameters(X, y, regression_model_name):
