@@ -13,13 +13,17 @@ from sklearn.metrics import make_scorer, mean_squared_error, mean_absolute_error
 
 
 # Funzione che crea la curva di apprendimento di un modello di regressione
-def plot_learning_curves(regression_model, X, y, regression_model_name, file_end):
+def plot_learning_curves(regression_model, X, y, regression_model_name, file_end, o):
     print(f"Generazione della curva di apprendimento per il modello: {regression_model_name}")
     # Calcola la curva dato il modello di regressione
     train_sizes, train_scores, test_scores = learning_curve(regression_model, X, y, cv=10, scoring='neg_mean_squared_error')
     print(f"Curva calcolata. Dimensioni dei dati di addestramento: {train_sizes}")
 
-    log_file = open(f"../text/log_{regression_model_name}.txt", "w")
+    if o is False:
+        log_file = open(f"../text/log_{regression_model_name}.txt", "w")
+    elif o is True:
+        log_file = open(f"../text/log_oversampled_{regression_model_name}.txt", "w")
+
     # Scrive i dati della curva in un file apposito del modello
     log_file.write("\n{:<8}{:<25}{:<25}{:<25}{:<25}\n".format(
         "Size",
@@ -67,7 +71,11 @@ def plot_learning_curves(regression_model, X, y, regression_model_name, file_end
 
 
 #Funzione che restituisce i migliori iperparametri per ogni modello
-def get_best_hyperparameters(X, y, regression_model_name):
+def get_best_hyperparameters(X, y, regression_model_name, o):
+    if o is False:
+        file_path = "../text/hyperparameters.txt"
+    elif o is True:
+        file_path = "../text/hyperparameters_oversampled.txt"
     print(f"Inizio la ricerca dei migliori iperparametri per il modello: {regression_model_name}")
     if regression_model_name == 'DecisionTree':
         print("Ricerca iperparametri per DecisionTree...")
@@ -89,7 +97,7 @@ def get_best_hyperparameters(X, y, regression_model_name):
         }
         print(f"Migliori iperparametri trovati per DecisionTree: {best_parameters}")
         # Scrive i risultati nel file
-        with open("../text/hyperparameters.txt", "w") as hyperparameters_file:
+        with open(file_path, "w") as hyperparameters_file:
             hyperparameters_file.write("Best DecisionTree parameters found:\n")
             for param, value in gridSearchCV_dtr.best_params_.items():
                 hyperparameters_file.write("{:<35}{:<10}\n".format(param, str(value)))
@@ -112,7 +120,7 @@ def get_best_hyperparameters(X, y, regression_model_name):
             'RandomForest__criterion': gridSearchCV_rfr.best_params_['RandomForest__criterion']
         }
         print(f"Migliori iperparametri trovati per RandomForest: {best_parameters}")
-        with open("../text/hyperparameters.txt", "a") as hyperparameters_file:
+        with open(file_path, "a") as hyperparameters_file:
             hyperparameters_file.write("Best RandomForest parameters found:\n")
             for param, value in gridSearchCV_rfr.best_params_.items():
                 hyperparameters_file.write("{:<35}{:<10}\n".format(param, str(value)))
@@ -138,7 +146,7 @@ def get_best_hyperparameters(X, y, regression_model_name):
             'LightGBM__max_depth': gridSearchCV_lgbmr.best_params_['LightGBM__max_depth']
         }
         print(f"Migliori iperparametri trovati per LightGBM: {best_parameters}")
-        with open("../text/hyperparameters.txt", "a") as hyperparameters_file:
+        with open(file_path, "a") as hyperparameters_file:
             hyperparameters_file.write("Best LightGBM parameters found:\n")
             for param, value in gridSearchCV_lgbmr.best_params_.items():
                 hyperparameters_file.write("{:<35}{:<10}\n".format(param, str(value)))
@@ -147,14 +155,14 @@ def get_best_hyperparameters(X, y, regression_model_name):
 
 
 # Funzione che addestra il modello
-def train_valuate_model(X, y):
+def train_valuate_model(X, y, o):
     scaler = StandardScaler()
     scaler.fit(X)
     X = scaler.transform(X)
     print("Avvio della ricerca degli iperparametri...")
-    h_dcr = get_best_hyperparameters(X, y, 'DecisionTree')
-    h_rfr = get_best_hyperparameters(X, y, 'RandomForest')
-    h_lgbmr = get_best_hyperparameters(X, y, 'LightGBM')
+    h_dcr = get_best_hyperparameters(X, y, 'DecisionTree', o)
+    h_rfr = get_best_hyperparameters(X, y, 'RandomForest', o)
+    h_lgbmr = get_best_hyperparameters(X, y, 'LightGBM', o)
     print("Iperparametri trovati per tutti i modelli.")
     dtr = DecisionTreeRegressor(criterion=h_dcr['DecisionTree__criterion'],
                                  splitter='best',
@@ -187,9 +195,18 @@ def train_valuate_model(X, y):
         'R2': make_scorer(r2_score)
     }
 
-    metric_file = open("../text/metrics.txt", "w")
-    metric_file.write(
-        "\n{:<10}{:<25}{:<25}{:<25}{:<25}\n".format("Metric", "Model Name", "Score Mean", "Score Variance", "Score Std"))
+    if o is False:
+        metric_file = open("../text/metrics.txt", "w")
+        metric_file.write(
+            "\n{:<10}{:<25}{:<25}{:<25}{:<25}\n".format("Metric", "Model Name", "Score Mean", "Score Variance",
+                                                        "Score Std"))
+    elif o is True:
+        metric_file = open("../text/metrics_oversampling.txt", "w")
+        metric_file.write(
+            "\n{:<10}{:<25}{:<25}{:<25}{:<25}\n".format("Metric", "Model Name", "Score Mean", "Score Variance",
+                                                        "Score Std"))
+
+
 
     results = []
 
@@ -219,10 +236,19 @@ def train_valuate_model(X, y):
     print("Valutazione completata.")
 
     print("Generazione delle curve di apprendimento...")
+
+    if o is False:
+        file_path_dt = '../png/decisionTree_curve'
+        file_path_rf = '../png/randomForest_curve'
+        file_path_lgbm = '../png/lightGBM_curve'
+    elif o is True:
+        file_path_dt = '../png/decisionTree_oversampled_curve'
+        file_path_rf = '../png/randomForest_oversampled_curve'
+        file_path_lgbm = '../png/lightGBM_oversampled_curve'
     # Disegna la curva per ogni modello
-    plot_learning_curves(dtr, X, y, 'DecisionTree', '../png/decisionTree_curve')
-    plot_learning_curves(rfr, X, y, 'RandomForest', '../png/randomForest_curve')
-    plot_learning_curves(lgbmr, X, y, 'LightGBM', '../png/lightGBM')
+    plot_learning_curves(dtr, X, y, 'DecisionTree', file_path_dt, o)
+    plot_learning_curves(rfr, X, y, 'RandomForest', file_path_rf, o)
+    plot_learning_curves(lgbmr, X, y, 'LightGBM', file_path_lgbm, o)
     print("Curva di apprendimento generata per tutti i modelli.")
 
 
