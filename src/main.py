@@ -3,7 +3,7 @@ from auto_prolog import write_creators, write_auto_info
 from features import bar_distribution, recent, convert_true_false, normalize_price, normalize_integer
 from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
-from oversampling import oversampling_smoter
+from oversampling import oversampling
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -95,20 +95,20 @@ print("Fine apprendimento non supervisionato")
 #df_copy = df.copy()
 #X = df_copy.drop(columns=[targetColumn]).to_numpy()
 #y = df_copy[targetColumn].to_numpy()
-#model = train_valuate_model(X, y)
+#model = train_valuate_model(X, y, o=False)
 #print("Fine apprendimento supervisionato")
+
 
 # OVERSAMPLING
 df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
 targetColumn = 'log_price'
 df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
 dfOver = df.copy()
-X_over = dfOver.drop(columns=[targetColumn]).to_numpy()
-y_over = dfOver[targetColumn].to_numpy()
-min_year = dfOver['model_year'].min()
-max_year = dfOver['model_year'].max()
-# Normalizziamo 'model_year' tra 0 e 1
-relevance = (dfOver['model_year'] - min_year) / (max_year - min_year)
+X = dfOver.drop(columns=[targetColumn]).to_numpy()
+y = dfOver[targetColumn].to_numpy()
 print("Inizio oversampling")
-X_resampled, y_resampled = oversampling_smoter(X_over, y_over, targetColumn, relevance)
+X_over, y_over = oversampling(X, y, targetColumn)
 print("Fine oversampling")
+# addestriamo i modelli dopo l'oversampling
+print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
+model_oversampled = train_valuate_model(X_over, y_over, o=True)
