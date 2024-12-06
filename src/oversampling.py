@@ -1,31 +1,23 @@
 import pandas as pd
 import numpy as np
-import resreg
-def oversampling_smoter(X, y, target, relevance):
-    # Controllo che le colonne siano numeriche (per sicurezza)
+from imblearn.over_sampling import ADASYN
+from sklearn.preprocessing import KBinsDiscretizer
+
+def oversampling(X, y, target):
+    # Discretizzo y per poter usare adasyn
+    y = np.array(y).reshape(-1, 1)
+    discretizer = KBinsDiscretizer(n_bins=20, encode='ordinal', strategy='uniform')
+    y_discretized = discretizer.fit_transform(y).flatten()
+
+    # Inizializzo adasyn
+    adasyn = ADASYN(sampling_strategy='minority', n_neighbors=1, random_state=42)
+    # Applicazione di adasyn al dataset
+    X_resampled, y_resampled = adasyn.fit_resample(X, y_discretized)
+    # Scrivo il nuovo dataset ottenuto
     X = pd.DataFrame(X)
-    X = X.apply(pd.to_numeric, errors='coerce')
-    y = pd.to_numeric(y, errors='coerce')
-    relevance = pd.to_numeric(relevance, errors='coerce')
+    dataSet_resampled = pd.DataFrame(X_resampled, columns=X.columns)
+    dataSet_resampled[target] = y_resampled
+    file_path = "../dataset/Automobile_resampled.csv"
+    dataSet_resampled.to_csv(file_path, index=False)
 
-    # Controlla se ci sono valori NaN nel dataset e rimuovili (se necessario)
-    if X.isnull().values.any():
-        X = X.fillna(0)
-
-    # Chiamo la funzione smoter da resreg
-    train_data_resample = resreg.smoter(X, y, relevance=relevance, random_state=42)
-
-    #Estraiamo X e y dal nuovo dataset
-    X = train_data_resample.drop(columns=[target]).to_numpy()
-    y = train_data_resample[target].to_numpy()
-
-    dataset_resampled = pd.DataFrame(X, columns=X.columns)
-    dataset_resampled[target] = y
-
-    # Salvo il dataframe in un file CSV
-    file_path = "../dataset/Auto_resampled.csv"
-    dataset_resampled.to_csv(file_path, index=False)  # Salva senza l'indice nel file CSV
-
-    print(f"File salvato in {file_path}")
-
-    return X, y
+    return X_resampled, y_resampled
