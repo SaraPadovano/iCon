@@ -1,23 +1,22 @@
 import pandas as pd
 import numpy as np
-from imblearn.over_sampling import ADASYN
 from sklearn.preprocessing import KBinsDiscretizer
+import smogn
 
-def oversampling(X, y, target):
-    # Discretizzo y per poter usare adasyn
-    y = np.array(y).reshape(-1, 1)
-    discretizer = KBinsDiscretizer(n_bins=20, encode='ordinal', strategy='uniform')
-    y_discretized = discretizer.fit_transform(y).flatten()
+def oversampling_smogn(X, y, target):
+    X, y = np.asarray(X), np.squeeze(np.asarray(y))
+    train_data = pd.concat([pd.DataFrame(X), pd.Series(y, name=target)], axis=1)
 
-    # Inizializzo adasyn
-    adasyn = ADASYN(sampling_strategy='minority', n_neighbors=1, random_state=42)
-    # Applicazione di adasyn al dataset
-    X_resampled, y_resampled = adasyn.fit_resample(X, y_discretized)
-    # Scrivo il nuovo dataset ottenuto
+    train_data_resampled = smogn.smoter(
+        data=train_data,
+        y=target,
+        samp_method='extreme'
+    )
+    X = train_data_resampled.drop(columns=[target]).to_numpy()
+    y = train_data_resampled[target].to_numpy()
     X = pd.DataFrame(X)
-    dataSet_resampled = pd.DataFrame(X_resampled, columns=X.columns)
-    dataSet_resampled[target] = y_resampled
+    dataSet_resampled = pd.DataFrame(X, columns=X.columns)
+    dataSet_resampled[target] = y
     file_path = "../dataset/Automobile_resampled.csv"
     dataSet_resampled.to_csv(file_path, index=False)
-
-    return X_resampled, y_resampled
+    return X, y
