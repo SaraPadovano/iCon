@@ -3,7 +3,7 @@ from auto_prolog import write_creators, write_auto_info
 from features import bar_distribution, recent, convert_true_false, normalize_price, normalize_integer
 from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
-from oversampling import oversampling
+from oversampling import oversampling_smogn
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -104,10 +104,12 @@ df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
 targetColumn = 'log_price'
 df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
 dfOver = df.copy()
+dfOver = dfOver.replace({True: 1, False: 0}).infer_objects(copy=False)
 X = dfOver.drop(columns=[targetColumn]).to_numpy()
 y = dfOver[targetColumn].to_numpy()
+assert len(X) == len(y)
 print("Inizio oversampling")
-X_over, y_over = oversampling(X, y, targetColumn)
+X_over, y_over = oversampling_smogn(X, y, targetColumn)
 print("Fine oversampling")
 # addestriamo i modelli dopo l'oversampling
 print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
