@@ -10,8 +10,7 @@ def oversampling_smogn(X, y, target):
     X = train_data_resampled.drop(columns=[target]).to_numpy()
     y = train_data_resampled[target].to_numpy()
     X = pd.DataFrame(X)
-    dataSet_resampled = pd.DataFrame(X, columns=X.columns)
-    dataSet_resampled[target] = y
+    dataSet_resampled = train_data_resampled
     file_path = "../dataset/Automobile_resampled.csv"
     dataSet_resampled.to_csv(file_path, index=False)
     return X, y

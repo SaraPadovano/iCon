@@ -10,6 +10,7 @@ fileName = "../dataset/Automobile.csv"
 fileName_cleaned = "../dataset/Automobile_cleaned.csv"
 fileName_features = "../dataset/Automobile_features.csv"
 fileName_clusters = "../dataset/Automobile_clusters.csv"
+fileName_resampled = "../dataset/Automobile_resampled.csv"
 file_know_base = "kb.pl"
 
 # pulizia del file da eventuali dati mancanti
