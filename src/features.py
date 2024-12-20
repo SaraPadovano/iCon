@@ -30,6 +30,7 @@ def recent(file):
 # Funzione che converte True e False in 1 e 0
 def convert_true_false(file):
     file = file.replace({True: 1, False: 0}).infer_objects(copy=False)
+    return file
 
 # Funzione per normalizzare price con il log1 (per gestire eventuali 0)
 def normalize_price(file):
