@@ -45,7 +45,7 @@ try:
         'ferrari', 'mitsubishi', 'jeep', 'jaguar', 'lamborghini'
     ]
     df_features = pd.get_dummies(df_features, columns=['creator'], prefix='', prefix_sep='')
-    convert_true_false(df_features)
+    df_features = convert_true_false(df_features)
     normalize_price(df_features)
     normalize_integer(df_features)
     features = [
@@ -101,17 +101,19 @@ print("Fine apprendimento non supervisionato")
 
 
 # OVERSAMPLING
-df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
-targetColumn = 'log_price'
-df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
-dfOver = df.copy()
-dfOver = dfOver.replace({True: 1, False: 0}).infer_objects(copy=False)
-X = dfOver.drop(columns=[targetColumn]).to_numpy()
-y = dfOver[targetColumn].to_numpy()
-assert len(X) == len(y)
-print("Inizio oversampling")
-X_over, y_over = oversampling_smogn(X, y, targetColumn)
-print("Fine oversampling")
+#df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
+#targetColumn = 'log_price'
+#df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
+#dfOver = df.copy()
+#dfOver = dfOver.replace({True: 1, False: 0}).infer_objects(copy=False)
+#X = dfOver.drop(columns=[targetColumn]).to_numpy()
+#y = dfOver[targetColumn].to_numpy()
+#assert len(X) == len(y)
+#print("Inizio oversampling")
+#X_over, y_over = oversampling_smogn(X, y, targetColumn)
+#print("Fine oversampling")
 # addestriamo i modelli dopo l'oversampling
-print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
-model_oversampled = train_valuate_model(X_over, y_over, o=True)
+#print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
+#model_oversampled = train_valuate_model(X_over, y_over, o=True)
+
+# RAGIONAMENTO PROBABILISTICO
