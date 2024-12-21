@@ -118,7 +118,8 @@ print("Fine apprendimento non supervisionato")
 #print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
 #model_oversampled = train_valuate_model(X_over, y_over, o=True)
 
-# RAGIONAMENTO PROBABILISTICO
+# APPRENDIMENTO PROBABILISTICO
+print("Inizio apprendimento probabilistico")
 df_prob = pd.read_csv('../dataset/Automobile_cleaned.csv', encoding='utf-8-sig')
 # Assicuriamoci che la feature categorica creator sia trattata come tale
 categorical_column = 'creator'
@@ -135,4 +136,5 @@ df_prob['price'] = discretizer.fit_transform(df[['price']])
 df_prob.drop(columns=['name'], axis=1, inplace=True)
 # Creo adesso la mia rete bayesiana
 bn = probabilistic_learning.create_bayesian_network(df_prob)
+print("Fine apprendimento probabilistico")
 
