@@ -4,6 +4,8 @@ from features import bar_distribution, recent, convert_true_false, normalize_pri
 from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
 from oversampling import oversampling_smogn
+from sklearn.preprocessing import KBinsDiscretizer
+from probabilistic_learning import create_bayesian_network
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -117,3 +119,20 @@ print("Fine apprendimento non supervisionato")
 #model_oversampled = train_valuate_model(X_over, y_over, o=True)
 
 # RAGIONAMENTO PROBABILISTICO
+df_prob = pd.read_csv('../dataset/Automobile_cleaned.csv', encoding='utf-8-sig')
+# Assicuriamoci che la feature categorica creator sia trattata come tale
+categorical_column = 'creator'
+df_prob[categorical_column] = df_prob[categorical_column].astype('category')
+# Discretizziamo le variabili continue
+discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='uniform')
+df_prob['mpg'] = discretizer.fit_transform(df[['mpg']])
+df_prob['displacement'] = discretizer.fit_transform(df[['displacement']])
+df_prob['horsepower'] = discretizer.fit_transform(df[['horsepower']])
+df_prob['weight'] = discretizer.fit_transform(df[['weight']])
+df_prob['acceleration'] = discretizer.fit_transform(df[['acceleration']])
+df_prob['price'] = discretizer.fit_transform(df[['price']])
+# Eliminiamo la colonna name che non ci serve
+df_prob.drop(columns=['name'], axis=1, inplace=True)
+# Creo adesso la mia rete bayesiana
+bn = probabilistic_learning.create_bayesian_network(df_prob)
+
