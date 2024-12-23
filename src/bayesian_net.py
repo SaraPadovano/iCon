@@ -24,7 +24,7 @@ def create_bayesian_network(dataset):
     bn = BayesianNetwork(edges)
     bn.fit(dataset, estimator=MaximumLikelihoodEstimator, n_jobs=-1)
     # Salvo la rete bayesiana su file
-    with open('../dataset/bayesian_network.pkl', 'wb') as output:
+    with open('../dataset/Bayesian_network.pkl', 'wb') as output:
         pickle.dump(bn, output)
     return bn
 
@@ -68,3 +68,17 @@ def visualize_bayesian_network(bayesian_network: BayesianNetwork):
     plt.tight_layout()
     plt.savefig('../png/Bayesian_network_graph.png')
     plt.clf()
+
+# Carica la rete bayesiana
+def load_bayesian_network():
+    with open('../dataset/Bayesian_network.pkl', 'rb') as file:
+        model = pickle.load(file)
+    return model
+
+# Calcolo le distribuzione di prababilità condizionata
+def show_cpd(bayesian_network: BayesianNetwork):
+    cpd_list = bayesian_network.get_cpds()
+    with open('../text/bayesian_network_cpd.txt', 'w') as file:
+        for cpd in cpd_list:
+            file.write(f'CPD of {cpd.variable}:\n')
+            file.write(str(cpd) + '\n\n')
