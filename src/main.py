@@ -5,7 +5,7 @@ from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
 from oversampling import oversampling_smogn
 from sklearn.preprocessing import KBinsDiscretizer
-from bayesian_net import create_bayesian_network
+from bayesian_net import create_bayesian_network, visualize_bayesian_network
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -135,6 +135,10 @@ df_prob['price'] = discretizer.fit_transform(df_prob[['price']])
 # Eliminiamo la colonna name che non ci serve
 df_prob.drop(columns=['name'], axis=1, inplace=True)
 # Creo adesso la mia rete bayesiana
+print("Creazione della rete bayesiana")
 bn = create_bayesian_network(df_prob)
+# Visualizzo la rete bayesiana
+print("Visualizzazione della rete")
+visualize_bayesian_network(bn)
 print("Fine apprendimento probabilistico")
 
