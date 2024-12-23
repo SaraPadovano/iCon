@@ -5,7 +5,7 @@ from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
 from oversampling import oversampling_smogn
 from sklearn.preprocessing import KBinsDiscretizer
-from bayesian_net import create_bayesian_network, visualize_bayesian_network
+from bayesian_net import create_bayesian_network, visualize_bayesian_network, show_cpd
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -140,5 +140,7 @@ bn = create_bayesian_network(df_prob)
 # Visualizzo la rete bayesiana
 print("Visualizzazione della rete")
 visualize_bayesian_network(bn)
+print("Calcoliamo il cpd delle variabili")
+show_cpd(bn)
 print("Fine apprendimento probabilistico")
 
