@@ -17,6 +17,11 @@ fileName_clusters = "../dataset/Automobile_clusters.csv"
 fileName_resampled = "../dataset/Automobile_resampled.csv"
 file_know_base = "kb.pl"
 
+# Consentono di visualizzare per intero le stringhe senza troncamenti
+pd.set_option('display.max_columns', None)  # Mostra tutte le colonne
+pd.set_option('display.max_colwidth', None)  # Mostra tutta la lunghezza delle stringhe
+pd.set_option('display.width', None)  # Rimuove la larghezza fissa
+
 # pulizia del file da eventuali dati mancanti
 try:
     df = pd.read_csv(fileName, on_bad_lines='skip')
