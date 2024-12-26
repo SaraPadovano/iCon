@@ -5,7 +5,9 @@ from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
 from oversampling import oversampling_smogn
 from sklearn.preprocessing import KBinsDiscretizer
-from bayesian_net import create_bayesian_network, visualize_bayesian_network, show_cpd
+from bayesian_net import create_bayesian_network, visualize_bayesian_network, show_cpd, generate_random_example
+from pgmpy.inference import VariableElimination
+import numpy as np
 
 # Percorso dei file
 fileName = "../dataset/Automobile.csv"
@@ -142,5 +144,11 @@ print("Visualizzazione della rete")
 visualize_bayesian_network(bn)
 print("Calcoliamo il cpd delle variabili")
 show_cpd(bn)
+print("Generiamo un esempio randomico")
+random_example = generate_random_example(bn)
+print("Example: " + str(random_example))
+inference = VariableElimination(bn)
+result = inference.query(variables=['price'], evidence=random_example.iloc[0].to_dict())
+print(result)
 print("Fine apprendimento probabilistico")
 
