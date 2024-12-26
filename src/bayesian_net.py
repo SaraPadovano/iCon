@@ -82,3 +82,7 @@ def show_cpd(bayesian_network: BayesianNetwork):
         for cpd in cpd_list:
             file.write(f'CPD of {cpd.variable}:\n')
             file.write(str(cpd) + '\n\n')
+
+# Funzione che genera l'esempio randomico
+def generate_random_example(bn: BayesianNetwork):
+    return bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
