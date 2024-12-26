@@ -127,7 +127,7 @@ df_prob = pd.read_csv('../dataset/Automobile_cleaned.csv', encoding='utf-8-sig')
 categorical_column = 'creator'
 df_prob[categorical_column] = df_prob[categorical_column].astype('category')
 # Discretizziamo le variabili continue
-discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='uniform')
+discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='quantile')
 df_prob['mpg'] = discretizer.fit_transform(df_prob[['mpg']])
 df_prob['displacement'] = discretizer.fit_transform(df_prob[['displacement']])
 df_prob['horsepower'] = discretizer.fit_transform(df_prob[['horsepower']])
