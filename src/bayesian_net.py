@@ -1,8 +1,10 @@
 from pgmpy.models import BayesianNetwork
-from pgmpy.estimators import MaximumLikelihoodEstimator, HillClimbSearch, K2Score
+from pgmpy.estimators import MaximumLikelihoodEstimator
 import pickle
 import networkx as nx
 from matplotlib import pyplot as plt
+from sklearn.preprocessing import KBinsDiscretizer
+import pandas as pd
 
 # Funzione che crea la rete bayesiana
 def create_bayesian_network(dataset):
@@ -85,4 +87,132 @@ def show_cpd(bayesian_network: BayesianNetwork):
 
 # Funzione che genera l'esempio randomico
 def generate_random_example(bn: BayesianNetwork):
-    return bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
+    sample = bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
+    return sample
+
+# Funzione per controllare che i valori inseriti siano numeri int o float
+def is_number(val):
+    try:
+        float(val)  # Prova a convertire in float
+        return True
+    except ValueError:
+        return False
+
+# Funzione per la lettura da tastiera dei valori dell'esempio
+def user_example_generate(bn: BayesianNetwork):
+    try:
+        mpg = input("Inserire l'mpg (valore minimo 5 e massimo 200):")
+        mpg = float(mpg)
+        while mpg<5.0 or mpg>200.0 or is_number(mpg) is False:
+            mpg = input("Inserire un valore valido:")
+        if mpg.is_integer():
+            mpg = int(mpg)
+    except ValueError:
+        print("Valore errato dell'mpg!")
+
+    try:
+        cylinders = int(input("Inserire il numero di cilindri (valori possibili: 2, 3, 4, 6, 8, 10, 12):"))
+        valid_cylinders = {2, 3, 4, 6, 8, 10, 12}
+        while cylinders not in valid_cylinders:
+            cylinders = int(input("Inserire un valore valido:"))
+    except ValueError:
+        print("Valore errato di cylinders!")
+
+    try:
+        displacement = input("Inserire la cilindrata (valore minimo 70 e massimo 500):")
+        displacement = float(displacement)
+        while displacement<70.0 or displacement>500.0 or is_number(displacement) is False:
+            displacement = input("Inserire un valore valido:")
+        if displacement.is_integer():
+            displacement = int(displacement)
+    except ValueError:
+        print("Valore errato di displacement!")
+
+    try:
+        horsepower = input("Inserire la potenza (valore minimo 50 e massimo 400):")
+        horsepower = float(horsepower)
+        while horsepower<50.0 or horsepower>400.0 or is_number(horsepower) is False:
+            horsepower = input("Inserire un valore valido:")
+        if horsepower.is_integer():
+            horsepower = int(horsepower)
+    except ValueError:
+        print("Valore errato di horsepower!")
+
+    try:
+        weight = int(input("Inserire il peso (valore minimo 1000 e massimo 5000):"))
+        while weight<1000 or weight>5000 or is_number(weight) is False:
+            weight = int(input("Inserire un valore valido:"))
+    except ValueError:
+        print("Valore errato di weight!")
+
+    try:
+        acceleration = input("Inserire l'accelerazione (valore minimo 2 e massimo 25):")
+        acceleration = float(acceleration)
+        while acceleration<2.0 or acceleration>25.0 or is_number(acceleration) is False:
+            acceleration = input("Inserire un valore valido:")
+        if acceleration.is_integer():
+            acceleration = int(acceleration)
+    except ValueError:
+        print("Valore errato di accelerazione!")
+
+    try:
+        model_year = int(input("Inserire l'anno del modello (valore minimo 1970 e massimo 2020):"))
+        while model_year<1970 or model_year>2020 or is_number(model_year) is False:
+            model_year = int(input("Inserire un valore valido:"))
+    except ValueError:
+        print("Valore errato dell'anno del modello!")
+
+    try:
+        creator = input("Inserire la caso automobilista di produzione del modello\n Scrivere una delle seguenti opzioni:\n"
+                        "-chevrolet\n -buick\n -plymouth\n -amc\n -ford\n -pontiac\n "
+                        "-dodge\n, -toyota\n -datsun\n -peugeot\n -audi\n -saab\n -bmw\n -opel\n -fiat\n -volkswagen\n "
+                        "-mercury\n -oldsmobile\n -chrysler\n -mazda\n -volvo\n -renault\n -honda\n -mercedes\n -subaru\n "
+                        "-nissan\n -porsche\n -ferrari\n -mitsubishi\n -jeep\n -jaguar\n -lamborghini\n")
+        valid_creators = {'chevrolet', 'buick', 'plymouth', 'amc', 'ford', 'pontiac',
+    'dodge', 'toyota', 'datsun', 'peugeot', 'audi', 'saab', 'bmw', 'opel', 'fiat', 'volkswagen', 'mercury',
+    'oldsmobile', 'chrysler', 'mazda', 'volvo', 'renault', 'honda', 'mercedes', 'subaru', 'nissan', 'porsche',
+    'ferrari', 'mitsubishi', 'jeep', 'jaguar', 'lamborghini'}
+        while creator not in valid_creators or creator.isnumeric() is True:
+            creator = input("Inserire un valore valido:")
+    except ValueError:
+        print("Valore errato della casa automobilistica!")
+
+    discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='quantile')
+    df_user = pd.DataFrame({
+        'mpg': [mpg],
+        'cylinders': [cylinders],
+        'displacement': [displacement],
+        'horsepower': [horsepower],
+        'weight': [weight],
+        'acceleration': [acceleration],
+        'model_year': [model_year],
+        'creator': [creator]
+    })
+    print(df_user)
+    df_user['mpg'] = discretizer.fit_transform(df_user[['mpg']])
+    df_user['displacement'] = discretizer.fit_transform(df_user[['displacement']])
+    df_user['horsepower'] = discretizer.fit_transform(df_user[['horsepower']])
+    df_user['weight'] = discretizer.fit_transform(df_user[['weight']])
+    df_user['acceleration'] = discretizer.fit_transform(df_user[['acceleration']])
+
+    user_input_discretized = {
+        'mpg': df_user['mpg'],
+        'cylinders': df_user['cylinders'],
+        'displacement': df_user['displacement'],
+        'horsepower': df_user['horsepower'],
+        'weight': df_user['weight'],
+        'acceleration': df_user['acceleration'],
+        'model_year': df_user['model_year'],
+        'creator': df_user['creator']
+    }
+
+    sample = bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
+
+    # Sovrascriviamo i valori nel sample con i valori dell'utente
+    for key, value in user_input_discretized.items():
+        sample[key] = value
+
+    # Propaga le modifiche per aggiornare le altre variabili
+    evidence = {key: sample[key] for key in user_input_discretized.keys()}
+    updated_sample = bn.predict_proba(evidence=evidence)
+    return updated_sample
