@@ -5,7 +5,7 @@ from unsupervised_learning import cluster
 from supervised_learning import train_valuate_model
 from oversampling import oversampling_smogn
 from sklearn.preprocessing import KBinsDiscretizer
-from bayesian_net import create_bayesian_network, visualize_bayesian_network, show_cpd, generate_random_example
+from bayesian_net import create_bayesian_network, visualize_bayesian_network, show_cpd, generate_random_example, user_example_generate
 from pgmpy.inference import VariableElimination
 import numpy as np
 
@@ -149,11 +149,31 @@ print("Visualizzazione della rete")
 visualize_bayesian_network(bn)
 print("Calcoliamo il cpd delle variabili")
 show_cpd(bn)
+# Generiamo l'esempio randomico con la predizione
 print("Generiamo un esempio randomico")
 random_example = generate_random_example(bn)
 print("Example: " + str(random_example))
 inference = VariableElimination(bn)
 result = inference.query(variables=['price'], evidence=random_example.iloc[0].to_dict())
 print(result)
+# Prendiamo i valori di input delle features dall'utente e diamo una predizione
+val = input("Vuole inserire i valori dell'auto per predire il prezzo della sua macchina? S/n")
+val = val.lower()
+readbable = True
+while readbable:
+    if val in {'si', 's', 'yes'}:
+        user_example = user_example_generate(bn)
+        readbable = False
+    elif val in {'n', 'no'}:
+        print("Si è deciso di non generare l'esempio.")
+        readbable = False
+    else:
+        val = input("La sua richiesta non è stata capita. Inserisca 'si' per l'esempio e 'no' per andare avanti.")
+        readbable = True
+user_example = user_example_generate(bn)
+print("Example User: " + str(user_example))
+inference_user = VariableElimination(bn)
+result_user = inference_user.query(variables=['price'], evidence=user_example.iloc[0].to_dict())
+print(result_user)
 print("Fine apprendimento probabilistico")
 
