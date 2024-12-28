@@ -141,6 +141,7 @@ df_prob['acceleration'] = discretizer.fit_transform(df_prob[['acceleration']])
 df_prob['price'] = discretizer.fit_transform(df_prob[['price']])
 # Eliminiamo la colonna name che non ci serve
 df_prob.drop(columns=['name'], axis=1, inplace=True)
+discretizer_user = discretizer.fit(df_prob[['mpg', 'horsepower', 'weight', 'acceleration', 'displacement']])
 # Creo adesso la mia rete bayesiana
 print("Creazione della rete bayesiana")
 bn = create_bayesian_network(df_prob)
@@ -162,7 +163,7 @@ val = val.lower()
 readbable = True
 while readbable:
     if val in {'si', 's', 'yes'}:
-        user_example = user_example_generate(bn)
+        user_example = user_example_generate(bn, discretizer_user)
         inference_user = VariableElimination(bn)
         result_user = inference_user.query(variables=['price'], evidence=user_example.iloc[0].to_dict())
         print(result_user)
