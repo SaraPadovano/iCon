@@ -163,6 +163,9 @@ readbable = True
 while readbable:
     if val in {'si', 's', 'yes'}:
         user_example = user_example_generate(bn)
+        inference_user = VariableElimination(bn)
+        result_user = inference_user.query(variables=['price'], evidence=user_example.iloc[0].to_dict())
+        print(result_user)
         readbable = False
     elif val in {'n', 'no'}:
         print("Si è deciso di non generare l'esempio.")
@@ -170,10 +173,5 @@ while readbable:
     else:
         val = input("La sua richiesta non è stata capita. Inserisca 'si' per l'esempio e 'no' per andare avanti.")
         readbable = True
-user_example = user_example_generate(bn)
-print("Example User: " + str(user_example))
-inference_user = VariableElimination(bn)
-result_user = inference_user.query(variables=['price'], evidence=user_example.iloc[0].to_dict())
-print(result_user)
 print("Fine apprendimento probabilistico")
 
