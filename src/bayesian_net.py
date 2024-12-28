@@ -105,6 +105,7 @@ def user_example_generate(bn: BayesianNetwork):
         mpg = float(mpg)
         while mpg<5.0 or mpg>200.0 or is_number(mpg) is False:
             mpg = input("Inserire un valore valido:")
+            mpg = float(mpg)
         if mpg.is_integer():
             mpg = int(mpg)
     except ValueError:
@@ -123,6 +124,7 @@ def user_example_generate(bn: BayesianNetwork):
         displacement = float(displacement)
         while displacement<70.0 or displacement>500.0 or is_number(displacement) is False:
             displacement = input("Inserire un valore valido:")
+            displacement = float(displacement)
         if displacement.is_integer():
             displacement = int(displacement)
     except ValueError:
@@ -133,6 +135,7 @@ def user_example_generate(bn: BayesianNetwork):
         horsepower = float(horsepower)
         while horsepower<50.0 or horsepower>400.0 or is_number(horsepower) is False:
             horsepower = input("Inserire un valore valido:")
+            horsepower = float(horsepower)
         if horsepower.is_integer():
             horsepower = int(horsepower)
     except ValueError:
@@ -150,6 +153,7 @@ def user_example_generate(bn: BayesianNetwork):
         acceleration = float(acceleration)
         while acceleration<2.0 or acceleration>25.0 or is_number(acceleration) is False:
             acceleration = input("Inserire un valore valido:")
+            acceleration = float(acceleration)
         if acceleration.is_integer():
             acceleration = int(acceleration)
     except ValueError:
@@ -196,14 +200,14 @@ def user_example_generate(bn: BayesianNetwork):
     df_user['acceleration'] = discretizer.fit_transform(df_user[['acceleration']])
 
     user_input_discretized = {
-        'mpg': df_user['mpg'],
-        'cylinders': df_user['cylinders'],
-        'displacement': df_user['displacement'],
-        'horsepower': df_user['horsepower'],
-        'weight': df_user['weight'],
-        'acceleration': df_user['acceleration'],
-        'model_year': df_user['model_year'],
-        'creator': df_user['creator']
+        'mpg': df_user['mpg'][0],
+        'cylinders': df_user['cylinders'][0],
+        'displacement': df_user['displacement'][0],
+        'horsepower': df_user['horsepower'][0],
+        'weight': df_user['weight'][0],
+        'acceleration': df_user['acceleration'][0],
+        'model_year': df_user['model_year'][0],
+        'creator': df_user['creator'][0]
     }
 
     sample = bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
@@ -212,7 +216,4 @@ def user_example_generate(bn: BayesianNetwork):
     for key, value in user_input_discretized.items():
         sample[key] = value
 
-    # Propaga le modifiche per aggiornare le altre variabili
-    evidence = {key: sample[key] for key in user_input_discretized.keys()}
-    updated_sample = bn.predict_proba(evidence=evidence)
-    return updated_sample
+    return sample
