@@ -99,7 +99,7 @@ def is_number(val):
         return False
 
 # Funzione per la lettura da tastiera dei valori dell'esempio
-def user_example_generate(bn: BayesianNetwork):
+def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         mpg = input("Inserire l'mpg (valore minimo 5 e massimo 200):")
         mpg = float(mpg)
@@ -181,7 +181,6 @@ def user_example_generate(bn: BayesianNetwork):
     except ValueError:
         print("Valore errato della casa automobilistica!")
 
-    discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='quantile')
     df_user = pd.DataFrame({
         'mpg': [mpg],
         'cylinders': [cylinders],
@@ -193,27 +192,33 @@ def user_example_generate(bn: BayesianNetwork):
         'creator': [creator]
     })
     print(df_user)
-    df_user['mpg'] = discretizer.fit_transform(df_user[['mpg']])
-    df_user['displacement'] = discretizer.fit_transform(df_user[['displacement']])
-    df_user['horsepower'] = discretizer.fit_transform(df_user[['horsepower']])
-    df_user['weight'] = discretizer.fit_transform(df_user[['weight']])
-    df_user['acceleration'] = discretizer.fit_transform(df_user[['acceleration']])
+    df_user_discretized = pd.DataFrame({
+        'mpg': [mpg],
+        'horsepower': [horsepower],
+        'weight': [weight],
+        'acceleration': [acceleration],
+        'displacement': [displacement]
+    })
+    df_user_discretized = discretizer_user.transform(df_user_discretized)
+    df_user_discretized = pd.DataFrame(df_user_discretized,
+                                       columns=['mpg', 'displacement', 'horsepower', 'weight', 'acceleration'])
 
     user_input_discretized = {
-        'mpg': df_user['mpg'][0],
+        'mpg': df_user_discretized['mpg'].iloc[0],
         'cylinders': df_user['cylinders'][0],
-        'displacement': df_user['displacement'][0],
-        'horsepower': df_user['horsepower'][0],
-        'weight': df_user['weight'][0],
-        'acceleration': df_user['acceleration'][0],
+        'displacement': df_user_discretized['displacement'].iloc[0],
+        'horsepower': df_user_discretized['horsepower'].iloc[0],
+        'weight': df_user_discretized['weight'].iloc[0],
+        'acceleration': df_user_discretized['acceleration'].iloc[0],
         'model_year': df_user['model_year'][0],
         'creator': df_user['creator'][0]
     }
+    print(user_input_discretized)
 
     sample = bn.simulate(n_samples=1).drop(columns=['price'], axis=1)
 
     # Sovrascriviamo i valori nel sample con i valori dell'utente
     for key, value in user_input_discretized.items():
         sample[key] = value
-
+    print(sample)
     return sample
