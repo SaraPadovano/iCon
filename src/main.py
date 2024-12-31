@@ -128,20 +128,16 @@ print("Fine apprendimento non supervisionato")
 # APPRENDIMENTO PROBABILISTICO
 print("Inizio apprendimento probabilistico")
 df_prob = pd.read_csv('../dataset/Automobile_cleaned.csv', encoding='utf-8-sig')
+df_user = df_prob
 # Assicuriamoci che la feature categorica creator sia trattata come tale
 categorical_column = 'creator'
 df_prob[categorical_column] = df_prob[categorical_column].astype('category')
 # Discretizziamo le variabili continue
+columns_to_transform = ['mpg', 'displacement', 'horsepower', 'weight', 'acceleration', 'price']
 discretizer = KBinsDiscretizer(n_bins=10, encode='ordinal', strategy='quantile')
-df_prob['mpg'] = discretizer.fit_transform(df_prob[['mpg']])
-df_prob['displacement'] = discretizer.fit_transform(df_prob[['displacement']])
-df_prob['horsepower'] = discretizer.fit_transform(df_prob[['horsepower']])
-df_prob['weight'] = discretizer.fit_transform(df_prob[['weight']])
-df_prob['acceleration'] = discretizer.fit_transform(df_prob[['acceleration']])
-df_prob['price'] = discretizer.fit_transform(df_prob[['price']])
+df_prob[columns_to_transform] = discretizer.fit_transform(df_prob[columns_to_transform])
 # Eliminiamo la colonna name che non ci serve
 df_prob.drop(columns=['name'], axis=1, inplace=True)
-discretizer_user = discretizer.fit(df_prob[['mpg', 'horsepower', 'weight', 'acceleration', 'displacement']])
 # Creo adesso la mia rete bayesiana
 print("Creazione della rete bayesiana")
 bn = create_bayesian_network(df_prob)
@@ -163,7 +159,7 @@ val = val.lower()
 readbable = True
 while readbable:
     if val in {'si', 's', 'yes'}:
-        user_example = user_example_generate(bn, discretizer_user)
+        user_example = user_example_generate(bn, discretizer)
         inference_user = VariableElimination(bn)
         result_user = inference_user.query(variables=['price'], evidence=user_example.iloc[0].to_dict())
         print(result_user)
