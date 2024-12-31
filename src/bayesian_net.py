@@ -103,7 +103,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         mpg = input("Inserire l'mpg (valore minimo 5 e massimo 200):")
         mpg = float(mpg)
-        while mpg<5.0 or mpg>200.0 or is_number(mpg) is False:
+        while mpg<5.0 or mpg>200.0 or is_number(mpg) is False or mpg == "":
             mpg = input("Inserire un valore valido:")
             mpg = float(mpg)
         if mpg.is_integer():
@@ -114,7 +114,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         cylinders = int(input("Inserire il numero di cilindri (valori possibili: 2, 3, 4, 6, 8, 10, 12):"))
         valid_cylinders = {2, 3, 4, 6, 8, 10, 12}
-        while cylinders not in valid_cylinders:
+        while cylinders not in valid_cylinders or cylinders == "":
             cylinders = int(input("Inserire un valore valido:"))
     except ValueError:
         print("Valore errato di cylinders!")
@@ -122,7 +122,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         displacement = input("Inserire la cilindrata (valore minimo 70 e massimo 500):")
         displacement = float(displacement)
-        while displacement<70.0 or displacement>500.0 or is_number(displacement) is False:
+        while displacement<70.0 or displacement>500.0 or is_number(displacement) is False or displacement == "":
             displacement = input("Inserire un valore valido:")
             displacement = float(displacement)
         if displacement.is_integer():
@@ -133,7 +133,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         horsepower = input("Inserire la potenza (valore minimo 50 e massimo 400):")
         horsepower = float(horsepower)
-        while horsepower<50.0 or horsepower>400.0 or is_number(horsepower) is False:
+        while horsepower<50.0 or horsepower>400.0 or is_number(horsepower) is False or horsepower == "":
             horsepower = input("Inserire un valore valido:")
             horsepower = float(horsepower)
         if horsepower.is_integer():
@@ -143,7 +143,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
 
     try:
         weight = int(input("Inserire il peso (valore minimo 1000 e massimo 5000):"))
-        while weight<1000 or weight>5000 or is_number(weight) is False:
+        while weight<1000 or weight>5000 or is_number(weight) is False or weight == "":
             weight = int(input("Inserire un valore valido:"))
     except ValueError:
         print("Valore errato di weight!")
@@ -151,7 +151,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     try:
         acceleration = input("Inserire l'accelerazione (valore minimo 2 e massimo 25):")
         acceleration = float(acceleration)
-        while acceleration<2.0 or acceleration>25.0 or is_number(acceleration) is False:
+        while acceleration<2.0 or acceleration>25.0 or is_number(acceleration) is False or acceleration == "":
             acceleration = input("Inserire un valore valido:")
             acceleration = float(acceleration)
         if acceleration.is_integer():
@@ -161,7 +161,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
 
     try:
         model_year = int(input("Inserire l'anno del modello (valore minimo 1970 e massimo 2020):"))
-        while model_year<1970 or model_year>2020 or is_number(model_year) is False:
+        while model_year<1970 or model_year>2020 or is_number(model_year) is False or model_year == "":
             model_year = int(input("Inserire un valore valido:"))
     except ValueError:
         print("Valore errato dell'anno del modello!")
@@ -176,7 +176,7 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
     'dodge', 'toyota', 'datsun', 'peugeot', 'audi', 'saab', 'bmw', 'opel', 'fiat', 'volkswagen', 'mercury',
     'oldsmobile', 'chrysler', 'mazda', 'volvo', 'renault', 'honda', 'mercedes', 'subaru', 'nissan', 'porsche',
     'ferrari', 'mitsubishi', 'jeep', 'jaguar', 'lamborghini'}
-        while creator not in valid_creators or creator.isnumeric() is True:
+        while creator not in valid_creators or creator.isnumeric() is True or creator == "":
             creator = input("Inserire un valore valido:")
     except ValueError:
         print("Valore errato della casa automobilistica!")
@@ -189,19 +189,21 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
         'weight': [weight],
         'acceleration': [acceleration],
         'model_year': [model_year],
-        'creator': [creator]
+        'creator': [creator],
     })
     print(df_user)
+    price = 0
     df_user_discretized = pd.DataFrame({
         'mpg': [mpg],
+        'displacement': [displacement],
         'horsepower': [horsepower],
         'weight': [weight],
         'acceleration': [acceleration],
-        'displacement': [displacement]
+        'price': [price]
     })
     df_user_discretized = discretizer_user.transform(df_user_discretized)
     df_user_discretized = pd.DataFrame(df_user_discretized,
-                                       columns=['mpg', 'displacement', 'horsepower', 'weight', 'acceleration'])
+                                       columns=['mpg', 'displacement', 'horsepower', 'weight', 'acceleration', 'price'])
 
     user_input_discretized = {
         'mpg': df_user_discretized['mpg'].iloc[0],
