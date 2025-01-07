@@ -160,8 +160,8 @@ def user_example_generate(bn: BayesianNetwork, discretizer_user):
         print("Valore errato di accelerazione!")
 
     try:
-        model_year = int(input("Inserire l'anno del modello (valore minimo 1970 e massimo 2020):"))
-        while model_year<1970 or model_year>2020 or is_number(model_year) is False or model_year == "":
+        model_year = int(input("Inserire l'anno del modello (valore minimo 1970 e massimo 2021):"))
+        while model_year<1970 or model_year>2021 or is_number(model_year) is False or model_year == "":
             model_year = int(input("Inserire un valore valido:"))
     except ValueError:
         print("Valore errato dell'anno del modello!")
