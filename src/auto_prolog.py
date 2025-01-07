@@ -47,9 +47,7 @@ def write_auto_info(dataset, kb):
             write_fact_to_file(prolog_clause, kb)
 
 # Al momento non sono presenti delle specifiche regole legate alla kb poichè non vi sono relazioni esplicite
-# tra i vari dati che richiedono la formazione di regole per il sistema. La cosa potrebbe cambiare in bìfase di
-# clustering. Considerando poi soprattutto che il sistema deve imparare automaticamente mettere delle regole
-# che non riguardino eventualmente le nuove macchine sembra forzato.
+# tra i vari dati che richiedono la formazione di regole per il sistema. 
 
 # Funzione per fare query in Prolog
 def execute_query(query, kb):
