@@ -97,33 +97,33 @@ clusters, centroids = cluster(df, features,'../png/best_k', '../png/distribution
 print("Fine apprendimento non supervisionato")
 
 # APPRENDIMENTO SUPERVISIONATO
-#print("Inizio apprendimento supervisionato")
-#df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
+print("Inizio apprendimento supervisionato")
+df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
 # Assicura che la colonna target sia di tipo numerico
-#targetColumn = 'log_price'
-#df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
-#df_copy = df.copy()
-#X = df_copy.drop(columns=[targetColumn]).to_numpy()
-#y = df_copy[targetColumn].to_numpy()
-#model = train_valuate_model(X, y, o=False)
-#print("Fine apprendimento supervisionato")
+targetColumn = 'log_price'
+df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
+df_copy = df.copy()
+X = df_copy.drop(columns=[targetColumn]).to_numpy()
+y = df_copy[targetColumn].to_numpy()
+model = train_valuate_model(X, y, o=False)
+print("Fine apprendimento supervisionato")
 
 
 # OVERSAMPLING
-#df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
-#targetColumn = 'log_price'
-#df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
-#dfOver = df.copy()
-#dfOver = dfOver.replace({True: 1, False: 0}).infer_objects(copy=False)
-#X = dfOver.drop(columns=[targetColumn]).to_numpy()
-#y = dfOver[targetColumn].to_numpy()
-#assert len(X) == len(y)
-#print("Inizio oversampling")
-#X_over, y_over = oversampling_smogn(X, y, targetColumn)
-#print("Fine oversampling")
+df = pd.read_csv(fileName_clusters, encoding='utf-8-sig')
+targetColumn = 'log_price'
+df[targetColumn] = pd.to_numeric(df[targetColumn], errors='coerce')
+dfOver = df.copy()
+dfOver = dfOver.replace({True: 1, False: 0}).infer_objects(copy=False)
+X = dfOver.drop(columns=[targetColumn]).to_numpy()
+y = dfOver[targetColumn].to_numpy()
+assert len(X) == len(y)
+print("Inizio oversampling")
+X_over, y_over = oversampling_smogn(X, y, targetColumn)
+print("Fine oversampling")
 # addestriamo i modelli dopo l'oversampling
-#print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
-#model_oversampled = train_valuate_model(X_over, y_over, o=True)
+print("Addestriamo i modelli dell'apprendimento supervisionato dopo l'oversampling")
+model_oversampled = train_valuate_model(X_over, y_over, o=True)
 
 # APPRENDIMENTO PROBABILISTICO
 print("Inizio apprendimento probabilistico")
