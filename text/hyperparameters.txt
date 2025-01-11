@@ -1,5 +1,5 @@
 Best DecisionTree parameters found:
-DecisionTree__criterion            squared_error
+DecisionTree__criterion            friedman_mse
 DecisionTree__max_depth            10        
 DecisionTree__min_samples_leaf     20        
 DecisionTree__min_samples_split    2         
